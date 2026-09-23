@@ -1,6 +1,6 @@
 # 电池文献周刊
 
-[打开网站](https://yunkaixuchon-del.github.io/battery-paper-weekly-site/)
+[打开网站](https://yunkaixuchon-del.github.io/battery-weekly/)
 
 近期保留 100 篇最相关文献，每周精选 50–100 篇；不足时不凑数。关注电池、水系、电化学储能、寿命预测与健康评估。入选文章中，正刊和重点子刊优先显示。
 
