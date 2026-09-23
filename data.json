@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T14:11:21+08:00",
+  "updated_at": "2026-09-23T15:07:53+08:00",
   "timezone": "Asia/Shanghai",
   "topics": [
     {
@@ -1296,6 +1296,68 @@
       "summary_message": "中文简介已完成。"
     },
     {
+      "doi": "10.1038/s41467-026-77100-3",
+      "title": "Liquefaction electrochemistry evolving liquid-gas conversion to liquid-liquid modes of zinc||chlorine batteries",
+      "journal": "Nature Communications",
+      "published": "2026-08-24",
+      "abstract_kind": "abstract",
+      "url": "https://doi.org/10.1038/s41467-026-77100-3",
+      "topics": [
+        "aqueous",
+        "interface",
+        "storage"
+      ],
+      "score": 17,
+      "authors": [
+        "Wenyu Xu",
+        "Zelin Chang",
+        "Hongwei Wang",
+        "Hongbo Ding",
+        "Chunyi Zhi",
+        "Xinliang Li"
+      ],
+      "sources": [
+        "Crossref"
+      ],
+      "first_seen": "2026-09-23",
+      "metadata_verified": true,
+      "abstract_url": "https://www.nature.com/articles/s41467-026-77100-3",
+      "abstract_source": "Nature Communications official Abstract",
+      "abstract_verified_at": "2026-09-23T15:01:02+08:00",
+      "published_source": "publisher_online_date",
+      "published_url": "https://www.nature.com/articles/s41467-026-77100-3",
+      "analysis": {
+        "title_zh": "液化电化学将液-气转化演变为液-液模式的锌||氯电池",
+        "takeaway": "离子液体介导的配位锁定液化电化学，实现无氯气生成的液-液锌||氯电池，10.0 A g–1下10000次循环容量衰减仅0.0017%/次。",
+        "summary_zh": "锌||氯电池虽具有高容量和电压前景，但室温下有毒氯气析出严重损害转化可逆性、循环稳定性并腐蚀关键组件。本文提出由离子液体介导的配位锁定液化电化学，构建基于液-液模式的能量型水系锌||氯电池。两亲性离子液体纳米团簇优化了卤素转化机制、锌氧化还原和电解质稳定性。所得电池在10.0 A g–1下10000次循环容量衰减仅0.0017%/次，1.0 A g–1下容量达541.9 mAh g–1Cl，放电电压平台为1.78 V。活化的一步液-液转化模式消除了气体生成、腐蚀及对非标准组件的需求。多种光谱表征与计算模拟协同揭示了卤素氧化还原机制及质荷传递过程。该氧化还原电化学的普适性在锌||碘和锌||溴电池中得到验证，涵盖传统双电子和前沿四电子转移机制。",
+        "relevance": "直接研究对象为水系锌||氯电池的液化电化学，通过液-液转化模式消除氯气析出，提升循环稳定性与容量，并拓展至锌||碘和锌||溴电池。",
+        "diagram": [
+          {
+            "label": "研究对象",
+            "text": "水系锌||氯电池",
+            "evidence": "constructing energetic aqueous zinc||chlorine batteries based on liquid-liquid"
+          },
+          {
+            "label": "研究方法",
+            "text": "离子液体介导配位锁定液化电化学",
+            "evidence": "coordination-locked liquefaction electrochemistry mediated by ionic liquid"
+          },
+          {
+            "label": "主要发现",
+            "text": "液-液转化消除氯气并提升循环稳定性",
+            "evidence": "one-step liquid-liquid conversion modes eliminate gas formation, corrosion,"
+          }
+        ],
+        "limitations": "摘要未披露离子液体具体组成、电极材料、电解液浓度、温度条件及锌负极可逆性等关键细节。",
+        "model": "deepseek-flash",
+        "generated_at": "2026-09-23T15:01:19+08:00",
+        "evidence_hash": "784c8573a2c9f1828c194b98a3a38c4c9a7184d9d8d3dc404853dbf778cfef69"
+      },
+      "basis": "基于摘要",
+      "summary_status": "ready",
+      "summary_message": "中文简介已完成。"
+    },
+    {
       "doi": "10.1126/sciadv.aej0175",
       "title": "Dipole–dipole interaction facilitates anion-rich solvation structures in polymer electrolytes for solid-state lithium metal batteries",
       "journal": "Science Advances",
@@ -1386,9 +1448,41 @@
       ],
       "first_seen": "2026-09-23",
       "metadata_verified": true,
-      "basis": "题录",
-      "summary_status": "missing_abstract",
-      "summary_message": "尚未取得足够摘要，仅收录题录。可点击原文查看。"
+      "abstract_url": "https://www.nature.com/articles/s41467-026-77589-8",
+      "abstract_source": "Nature Communications official Abstract",
+      "abstract_verified_at": "2026-09-23T15:01:02+08:00",
+      "published_source": "publisher_online_date",
+      "published_url": "https://www.nature.com/articles/s41467-026-77589-8",
+      "analysis": {
+        "title_zh": "面向高比能锂金属电池的隔离溶剂化纳米团簇安全电解液设计",
+        "takeaway": "通过调控电解液组分间混溶性形成隔离溶剂化纳米团簇，可同时提升锂金属电池安全性与循环寿命。",
+        "summary_zh": "高比能锂金属电池受制于严重安全隐患与有限循环寿命，进而增加环境影响和成本。作者提出调控电解液组分间被忽视的混溶性这一思路：引入非配位、不可燃的环状氟化稀释剂，削弱稀释剂与离子对之间的分子间作用力，从而形成隔离溶剂化纳米团簇。该微观结构可促进Li+传输以抑制枝晶生长，并促成富无机物界面相，提升界面电化学与热稳定性。采用该电解液的50 μm Li||2.5 mAh cm−2 LiNi0.8Mn0.1Co0.1O2电池在800次循环后容量保持80%，8个月日历老化后容量保持95%以上；Ah级软包电池基于软包总质量实现超过500 Wh kg−1的比能量，并耐受满充钉刺与200%过充而不起火、不鼓胀。",
+        "relevance": "直接对象为锂金属电池电解液，通过隔离溶剂化纳米团簇同时改善安全性、循环寿命与比能量，服务于高比能安全电池设计。",
+        "diagram": [
+          {
+            "label": "研究对象",
+            "text": "高比能锂金属电池电解液",
+            "evidence": "The pursuit of high-energy-density lithium metal batteries is"
+          },
+          {
+            "label": "研究方法",
+            "text": "引入非配位不可燃氟化稀释剂",
+            "evidence": "By introducing a non-coordinating, non-flammable cyclic fluorinated diluent,"
+          },
+          {
+            "label": "主要发现",
+            "text": "形成隔离溶剂化纳米团簇并稳定界面",
+            "evidence": "enabling the formation of isolated solvation nanoclusters. The"
+          }
+        ],
+        "limitations": "摘要未披露电解液具体组成比例、纳米团簇的表征方法与尺寸、温度等测试条件，也未说明日历老化与钉刺、过充测试的具体规程。",
+        "model": "deepseek-flash",
+        "generated_at": "2026-09-23T15:01:24+08:00",
+        "evidence_hash": "21c58196783033d583bad1f3a58f8a87579b66f6ad3e8c115bc5afc9dafa2022"
+      },
+      "basis": "基于摘要",
+      "summary_status": "ready",
+      "summary_message": "中文简介已完成。"
     },
     {
       "doi": "10.1038/s41467-026-76513-4",
@@ -1421,38 +1515,41 @@
       ],
       "first_seen": "2026-09-23",
       "metadata_verified": true,
-      "basis": "题录",
-      "summary_status": "missing_abstract",
-      "summary_message": "尚未取得足够摘要，仅收录题录。可点击原文查看。"
-    },
-    {
-      "doi": "10.1038/s41467-026-77100-3",
-      "title": "Liquefaction electrochemistry evolving liquid-gas conversion to liquid-liquid modes of zinc||chlorine batteries",
-      "journal": "Nature Communications",
-      "published": "2026-08-24",
-      "abstract_kind": "abstract",
-      "url": "https://doi.org/10.1038/s41467-026-77100-3",
-      "topics": [
-        "interface",
-        "storage"
-      ],
-      "score": 10,
-      "authors": [
-        "Wenyu Xu",
-        "Zelin Chang",
-        "Hongwei Wang",
-        "Hongbo Ding",
-        "Chunyi Zhi",
-        "Xinliang Li"
-      ],
-      "sources": [
-        "Crossref"
-      ],
-      "first_seen": "2026-09-23",
-      "metadata_verified": true,
-      "basis": "题录",
-      "summary_status": "missing_abstract",
-      "summary_message": "尚未取得足够摘要，仅收录题录。可点击原文查看。"
+      "abstract_url": "https://www.nature.com/articles/s41467-026-76513-4",
+      "abstract_source": "Nature Communications official Abstract",
+      "abstract_verified_at": "2026-09-23T15:01:02+08:00",
+      "published_source": "publisher_online_date",
+      "published_url": "https://www.nature.com/articles/s41467-026-76513-4",
+      "analysis": {
+        "title_zh": "CFx电极与界面的双相工程实现低温Li||CFx电池",
+        "takeaway": "多孔碳包覆CFx正极结合富硫无机界面层，使Li||CFx电池在−50 °C和−70 °C下仍具高比容量。",
+        "summary_zh": "低温Li||CFx电池因CFx绝缘及Li+动力学缓慢而性能下降。本文提出双改性策略：一方面用等离子体增强化学气相沉积构建介孔CFx并包覆共形碳层，另一方面通过电解液在CFx表面原位形成富硫无机界面层。多孔骨架提供Li+扩散通道，界面层改善Li+传输与去溶剂化动力学，碳包覆提升电子电导并抑制LiF堆积。优化后的Li||CFx体系在−50 °C、2 A g−1下容量为428.4 mAh g−1，在−70 °C、0.1 A g−1下为333.4 mAh g−1；5 Ah软包电池在−50和−70 °C、0.01 A g−1下比能量分别为470和332 Wh kg−1。",
+        "relevance": "直接研究Li||CFx一次电池的低温性能，通过CFx正极结构与电极-电解质界面双相设计提升低温容量与比能量。",
+        "diagram": [
+          {
+            "label": "研究对象",
+            "text": "低温Li||CFx电池",
+            "evidence": "Low-temperature Li||CFx batteries undergo performance degradation"
+          },
+          {
+            "label": "研究方法",
+            "text": "多孔CFx碳包覆与富硫界面层",
+            "evidence": "plasma-enhanced chemical vapor deposition-constructed mesoporous CFx with conformal"
+          },
+          {
+            "label": "主要发现",
+            "text": "低温下高比容量与比能量",
+            "evidence": "delivers capacities of 428.4 mAh g−1 at −50"
+          }
+        ],
+        "limitations": "摘要未披露电解液具体组成与用量、界面层硫物种的化学形态、碳包覆厚度及含量、循环或放电倍率测试细节，也未说明电池是否含锂金属负极保护措施。",
+        "model": "deepseek-flash",
+        "generated_at": "2026-09-23T15:01:25+08:00",
+        "evidence_hash": "d14376b0523246b6cf478e5e4d232f8f9d2310f20f8356c745ca05d9992b4d0e"
+      },
+      "basis": "基于摘要",
+      "summary_status": "ready",
+      "summary_message": "中文简介已完成。"
     },
     {
       "doi": "10.1126/sciadv.aei4749",
@@ -2007,6 +2104,65 @@
       "summary_message": "中文简介已完成。"
     },
     {
+      "doi": "10.1016/j.jpowsour.2026.241574",
+      "title": "Anthraquinone Derivatives and Hydroquinone Redox Couples in Aqueous Redox Flow Battery",
+      "journal": "Journal of Power Sources",
+      "published": "2026-09-22",
+      "abstract_kind": "abstract",
+      "url": "https://doi.org/10.1016/j.jpowsour.2026.241574",
+      "topics": [
+        "aqueous",
+        "interface",
+        "storage"
+      ],
+      "score": 17,
+      "authors": [
+        "Jun-Hee Jeong",
+        "Yongchai Kwon",
+        "Byeong Wan Kwon"
+      ],
+      "sources": [
+        "Crossref"
+      ],
+      "first_seen": "2026-09-23",
+      "metadata_verified": true,
+      "abstract_url": "https://www.sciencedirect.com/science/article/abs/pii/S0378775326023244",
+      "abstract_source": "Elsevier ScienceDirect official Abstract",
+      "abstract_verified_at": "2026-09-23T15:01:02+08:00",
+      "published_source": "publisher_online_date",
+      "published_url": "https://www.sciencedirect.com/science/article/abs/pii/S0378775326023244",
+      "analysis": {
+        "title_zh": "水性氧化还原液流电池中蒽醌衍生物与对苯二酚氧化还原电对的研究",
+        "takeaway": "DHAQDS动力学活性更优但容量衰减更快，降解源自其与HQ(1,4)S的双侧失稳。",
+        "summary_zh": "本研究比较两种水性有机氧化还原液流电池体系，负极电解液分别为1,8-二羟基蒽醌-2,7-二磺酸（DHAQDS）和蒽醌-2,7-二磺酸（AQDS(2,7)），正极电解液均为2,5-二羟基苯-1,4-二磺酸（HQ(1,4)S）。电化学分析表明，DHAQDS/HQ(1,4)S电对动力学反应性更优，因而电池电压与初始充放电容量高于AQDS(2,7)/HQ(1,4)S体系。但DHAQDS/HQ(1,4)S体系在100次循环内容量衰减5.86 Ah/L，大于AQDS(2,7)/HQ(1,4)S体系的4.11 Ah/L。循环伏安与紫外-可见光谱显示，前者稳定性差源于DHAQDS负极电解液与HQ(1,4)S正极电解液同时发生化学降解及氧化还原反应性下降；后者的容量衰减主要归因于HQ(1,4)S正极电解液分解，而AQDS(2,7)负极电解液保持结构与化学稳定。",
+        "relevance": "直接研究水性有机氧化还原液流电池中蒽醌类负极电解液与对苯二酚类正极电解液电对的电化学行为与单电池性能，为提升AORFB提供依据。",
+        "diagram": [
+          {
+            "label": "研究对象",
+            "text": "水性有机液流电池蒽醌/对苯二酚电对",
+            "evidence": "two comparable aqueous organic redox flow battery systems"
+          },
+          {
+            "label": "研究方法",
+            "text": "电化学分析与单电池循环测试",
+            "evidence": "electrochemical behavior and single-cell performance"
+          },
+          {
+            "label": "主要发现",
+            "text": "DHAQDS体系动力学更优但容量衰减更大",
+            "evidence": "the DHAQDS/HQ(1,4)S system showed a capacity fade of"
+          }
+        ],
+        "limitations": "摘要未披露电解液浓度、电流密度、膜与电极材料、温度及具体测试装置等关键条件。",
+        "model": "deepseek-flash",
+        "generated_at": "2026-09-23T15:01:22+08:00",
+        "evidence_hash": "45735ef35a784750e858e4ef86df290f79fa40bc8fd4c2ba30320b8b11f8f802"
+      },
+      "basis": "基于摘要",
+      "summary_status": "ready",
+      "summary_message": "中文简介已完成。"
+    },
+    {
       "doi": "10.1002/aenm.71616",
       "title": "Electrolyte Microenvironment and Alloy Interface Synergy Enables Wide‐Temperature Aqueous Aluminum‐Ion Batteries From −30 to 50°C",
       "journal": "Advanced Energy Materials",
@@ -2066,6 +2222,136 @@
         "model": "deepseek-flash",
         "generated_at": "2026-09-23T10:53:17+08:00",
         "evidence_hash": "2209d96b2ae1df3bcd3e98c4156de2786bf0149a772476c0b1c1313b0ac2d784"
+      },
+      "basis": "基于摘要",
+      "summary_status": "ready",
+      "summary_message": "中文简介已完成。"
+    },
+    {
+      "doi": "10.1016/j.ensm.2026.105547",
+      "title": "Pore Engineering in Bipyridyl-Based Covalent Organic Frameworks for High Performance Aqueous Zinc-Iodine Batteries",
+      "journal": "Energy Storage Materials",
+      "published": "2026-09-21",
+      "abstract_kind": "abstract",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105547",
+      "topics": [
+        "aqueous",
+        "interface",
+        "storage"
+      ],
+      "score": 17,
+      "authors": [
+        "Chao Liu",
+        "Xianghao Ru",
+        "Xinghan Qu",
+        "Yucheng Jin",
+        "Zhixuan Wang",
+        "Yuanyuan Wang",
+        "Lei Ma",
+        "Zhaoxi Shen",
+        "Ning Zhang"
+      ],
+      "sources": [
+        "Crossref"
+      ],
+      "first_seen": "2026-09-23",
+      "metadata_verified": true,
+      "abstract_url": "https://www.sciencedirect.com/science/article/abs/pii/S2405829726006793",
+      "abstract_source": "Elsevier ScienceDirect official Abstract",
+      "abstract_verified_at": "2026-09-23T15:01:02+08:00",
+      "published_source": "publisher_online_date",
+      "published_url": "https://www.sciencedirect.com/science/article/abs/pii/S2405829726006793",
+      "analysis": {
+        "title_zh": "联吡啶基共价有机框架的孔工程用于高性能水系锌碘电池",
+        "takeaway": "调控联吡啶COF孔径增强多碘化物吸附；载碘HBUCOF-3@1/2正极在0.1 A g−1下实现185 mAh g−1。",
+        "summary_zh": "水系锌碘电池因安全性和能量密度受到关注，但可溶性多碘化物的穿梭效应限制其性能。本文设计了一种基于联吡啶连接的共价有机框架的孔工程策略，制备了不同孔径的COF材料（如HBUCOF-3，孔径2.5∼2.9 nm），利用丰富的氮原子有效吸附多碘化物，抑制其穿梭，作为碘宿主。HBUCOF-3在正极活性材料中表现出最强的碘吸附亲和力。HBUCOF-3@1/2正极（碘与HBUCOF-3质量比2:1）在0.1 A g−1下比容量达185 mAh g−1，0.2 A g−1下循环超过2800 h，2700次循环后容量保持率90.7%。通过原位/非原位实验和理论计算揭示了HBUCOF-3与多碘化物的强相互作用及快速I−/多碘化物转化机制。",
+        "relevance": "直接研究对象为联吡啶基共价有机框架的孔工程及其在水系锌碘电池正极中的应用，旨在抑制多碘化物穿梭并提升循环性能。",
+        "diagram": [
+          {
+            "label": "研究对象",
+            "text": "联吡啶基共价有机框架孔工程",
+            "evidence": "a pore engineering strategy was designed based on"
+          },
+          {
+            "label": "研究方法",
+            "text": "制备不同孔径COF并测试",
+            "evidence": "COFs species with different pore diameters, such as"
+          },
+          {
+            "label": "主要发现",
+            "text": "HBUCOF-3强吸附多碘化物，提升循环",
+            "evidence": "HBUCOF-3 exhibits the strongest iodine adsorption affinity when"
+          }
+        ],
+        "limitations": "摘要未披露温度、电解液组成、锌负极条件及具体理论计算方法等关键条件。",
+        "model": "deepseek-flash",
+        "generated_at": "2026-09-23T15:01:22+08:00",
+        "evidence_hash": "c56f97db34a235e614a5e1125466520704ec06273a39e9ed027bf14da101c71e"
+      },
+      "basis": "基于摘要",
+      "summary_status": "ready",
+      "summary_message": "中文简介已完成。"
+    },
+    {
+      "doi": "10.1016/j.ensm.2026.105548",
+      "title": "Chaotic Anion-Driven Rapid Proton Diffusion and Freezing Point Depression for Acid-free Electrolyte Toward Superior Aqueous Proton Battery",
+      "journal": "Energy Storage Materials",
+      "published": "2026-09-20",
+      "abstract_kind": "abstract",
+      "url": "https://doi.org/10.1016/j.ensm.2026.105548",
+      "topics": [
+        "aqueous",
+        "interface",
+        "storage"
+      ],
+      "score": 17,
+      "authors": [
+        "Tianjiang Sun",
+        "Weijia Zhang",
+        "Yutong Chen",
+        "Mengyao Shi",
+        "Qiong Sun",
+        "Min Cheng",
+        "Huaisheng Ao",
+        "Chenglin Yan",
+        "Zhanliang Tao"
+      ],
+      "sources": [
+        "Crossref"
+      ],
+      "first_seen": "2026-09-23",
+      "metadata_verified": true,
+      "abstract_url": "https://www.sciencedirect.com/science/article/abs/pii/S240582972600680X",
+      "abstract_source": "Elsevier ScienceDirect official Abstract",
+      "abstract_verified_at": "2026-09-23T15:01:02+08:00",
+      "published_source": "publisher_online_date",
+      "published_url": "https://www.sciencedirect.com/science/article/abs/pii/S240582972600680X",
+      "analysis": {
+        "title_zh": "混沌阴离子驱动的快速质子扩散与冰点降低用于无酸电解质实现高性能水系质子电池",
+        "takeaway": "无额外加酸的3.5 mol L−1 Mn(ClO4)2电解质通过混沌ClO4−阴离子与4S6Q界面协同促进Grotthuss质子传导，抑制HER并提升库仑效率。",
+        "summary_zh": "水系质子电池因酸性电解质腐蚀和析氢反应（HER）严重而受限。本研究提出一种无酸添加的水系质子电池，采用3.5 mol L−1 Mn(ClO4)2电解质，对4S6Q负极实现质子主导的离子存储。在电解质本体中，高度混沌的ClO4−阴离子增加H2O分布的无序性，构建连续的H2O介导质子传导路径；在负极界面，4S6Q分子丰富的亲质子位点诱导H2O聚集，形成富H2O的质子传导界面。两者共同促进质子经“Grotthuss”机制从电解质相扩散至电极界面，且H3O+的低去溶剂化能垒与结合能进一步保障负极质子存储。与酸性电解质（2 M H2SO4 + 2 M MnSO4）相比，该电池显著抑制HER，库仑效率从82.2%提升至97.4%（0.5 A g−1）。电池可在−60°C下稳定循环2000次，保持放电容量140.7 mAh g−1。",
+        "relevance": "直接研究对象为无酸添加的水系质子电池及其电解质-界面质子传导调控，意义在于减轻酸性电解质的腐蚀与HER问题。",
+        "diagram": [
+          {
+            "label": "研究对象",
+            "text": "无酸添加的水系质子电池",
+            "evidence": "we report a no-acid-added aqueous proton battery using"
+          },
+          {
+            "label": "研究方法",
+            "text": "3.5 mol L−1 Mn(ClO4)2电解质与4S6Q负极",
+            "evidence": "using a 3.5 mol L−1 Mn(ClO4)2 electrolyte, in"
+          },
+          {
+            "label": "主要发现",
+            "text": "抑制HER并提升库仑效率至97.4%",
+            "evidence": "the battery shows significantly suppressed HER and improved"
+          }
+        ],
+        "limitations": "摘要未披露电池的具体构型与对电极、4S6Q负极的制备方法、−60°C循环的电流密度与容量保持率细节，以及长期循环后的界面或结构表征。",
+        "model": "deepseek-flash",
+        "generated_at": "2026-09-23T15:01:22+08:00",
+        "evidence_hash": "d273970ea7dfebf783c08706322a81aae60ba57b0dbebd5921d2f1448bc33fb7"
       },
       "basis": "基于摘要",
       "summary_status": "ready",
@@ -3818,6 +4104,377 @@
       "summary_message": "中文简介已完成。"
     },
     {
+      "doi": "10.1016/j.jpowsour.2026.240513",
+      "title": "Morphology modulation of V10O24•nH2O for high capacity aqueous zinc ion batteries",
+      "journal": "Journal of Power Sources",
+      "published": "2026-05-30",
+      "abstract_kind": "abstract",
+      "url": "https://doi.org/10.1016/j.jpowsour.2026.240513",
+      "topics": [
+        "aqueous",
+        "interface",
+        "storage"
+      ],
+      "score": 17,
+      "authors": [
+        "Sijia Zou",
+        "Tengfei Zhou",
+        "You Zhou",
+        "Tian Zhang",
+        "Yafei Hou",
+        "Longhan Zhang",
+        "An Xiao",
+        "Jing Cuan",
+        "Qixiong Zhang",
+        "Chaofeng Zhang",
+        "Yuejin Zhu",
+        "Weiping Li"
+      ],
+      "sources": [
+        "Crossref"
+      ],
+      "first_seen": "2026-09-23",
+      "metadata_verified": true,
+      "abstract_url": "https://www.sciencedirect.com/science/article/abs/pii/S0378775326012632",
+      "abstract_source": "Elsevier ScienceDirect official Abstract",
+      "abstract_verified_at": "2026-09-23T15:01:02+08:00",
+      "published_source": "publisher_online_date",
+      "published_url": "https://www.sciencedirect.com/science/article/abs/pii/S0378775326012632",
+      "analysis": {
+        "title_zh": "V10O24·nH2O的形貌调控用于高容量水系锌离子电池",
+        "takeaway": "通过溶剂极性调控V10O24·nH2O形貌，超薄纳米片在5 A/g下循环5000次后仍具有较高容量保持率。",
+        "summary_zh": "钒基正极材料因高理论容量和多样结构在水系锌离子电池中具有潜力，但面临电化学动力学迟缓、电荷转移能力低和低能晶位少等问题。本研究在水热过程中改变溶剂极性，合成了不同形貌和表面化学性质的V10O24·nH2O，并系统比较形貌与性能的关系。最优材料呈现超薄纳米片形貌，具有更丰富的晶位和更优的电池化学与结构，显著改善了电荷转移过程和反应动力学。非原位分析表明，V10O24·nH2O(C3H8O)正极涉及高可逆性的锌嵌入机制，暗示其纳米片晶格能增强。该正极在5 A/g高电流密度下循环5000次后仍保持高容量保持率。",
+        "relevance": "直接研究水系锌离子电池钒基氧化物正极的形貌调控与电化学性能关系，为高容量AZIBs正极设计提供依据。",
+        "diagram": [
+          {
+            "label": "研究对象",
+            "text": "不同形貌的V10O24·nH2O钒氧化物",
+            "evidence": "several vanadium oxides (V10O24•nH2O) with different morphology and"
+          },
+          {
+            "label": "研究方法",
+            "text": "改变溶剂极性进行水热合成",
+            "evidence": "by changing solvent polarity during hydrothermal process and"
+          },
+          {
+            "label": "主要发现",
+            "text": "超薄纳米片提升电荷转移与循环稳定性",
+            "evidence": "The optimal vanadium oxide cathode presents ultra-thin nanosheet"
+          }
+        ],
+        "limitations": "摘要未披露具体容量数值、容量保持率百分比、电流密度以外的测试条件及非原位分析细节。",
+        "model": "deepseek-flash",
+        "generated_at": "2026-09-23T15:01:23+08:00",
+        "evidence_hash": "0c509de8f81fd3d2c98c35b530fb311dad850b83240072778566a921441acc19"
+      },
+      "basis": "基于摘要",
+      "summary_status": "ready",
+      "summary_message": "中文简介已完成。"
+    },
+    {
+      "doi": "10.1016/j.jpowsour.2026.240538",
+      "title": "State of health estimation of lithium-ion batteries via multi-domain feature fusion and a physics-informed decoupled network",
+      "journal": "Journal of Power Sources",
+      "published": "2026-05-29",
+      "abstract_kind": "abstract",
+      "url": "https://doi.org/10.1016/j.jpowsour.2026.240538",
+      "topics": [
+        "interface",
+        "storage",
+        "lifetime"
+      ],
+      "score": 17,
+      "authors": [
+        "Jing Sun",
+        "Shengchao Su",
+        "GuoHua Wang"
+      ],
+      "sources": [
+        "Crossref"
+      ],
+      "first_seen": "2026-09-23",
+      "metadata_verified": true,
+      "abstract_url": "https://www.sciencedirect.com/science/article/abs/pii/S0378775326012887",
+      "abstract_source": "ScienceDirect 官方公开 Abstract",
+      "abstract_verified_at": "2026-09-23T15:01:02+08:00",
+      "published_source": "publisher_online_date",
+      "published_url": "https://www.sciencedirect.com/science/article/abs/pii/S0378775326012887",
+      "analysis": {
+        "title_zh": "基于多域特征融合与物理信息解耦网络的锂离子电池健康状态估计",
+        "takeaway": "融合增量容量、差分热伏安与恒流充电时间的DSPINN，在跨电池与小样本场景下实现物理一致的锂离子电池SOH估计。",
+        "summary_zh": "针对依赖单一特征或纯数据驱动的锂离子电池健康状态（SOH）估计方法难以捕捉复杂退化机制、缺乏物理一致性、泛化性与精度受限的问题，作者提出动态协同物理信息神经网络（DSPINN）。该方法首先融合增量容量（IC）、差分热伏安（DTV）与恒流充电时间（CCCT），构建覆盖电化学、热力学与动力学方面的综合状态表征；随后设计解耦的“预测-校正”架构，级联前馈神经网络（FNN）与门控循环单元（GRU），分别建模静态宏观趋势与动态时间残差以降低复杂度；最后将退化物理先验以结构约束形式融入复合损失函数，使数据驱动学习与物理规律深度结合。在Oxford与NASA数据集上的验证确认了DSPINN的SOH估计性能。",
+        "relevance": "直接面向锂离子电池健康状态估计，通过多域特征融合与物理约束提升跨电池、小样本条件下的估计精度与物理一致性。",
+        "diagram": [
+          {
+            "label": "研究对象",
+            "text": "锂离子电池健康状态",
+            "evidence": "Current state of health (SOH) estimation methods for"
+          },
+          {
+            "label": "研究方法",
+            "text": "多域特征融合与物理信息解耦网络",
+            "evidence": "we fuse incremental capacity (IC), differential thermal voltammetry"
+          },
+          {
+            "label": "主要发现",
+            "text": "跨电池与小样本下估计性能良好",
+            "evidence": "Validations on the Oxford and NASA datasets confirm"
+          }
+        ],
+        "limitations": "摘要未披露电池类型与材料体系、数据集规模、SOH定义与区间、精度指标数值、跨电池迁移的具体设置、物理先验的具体形式及计算开销。",
+        "model": "deepseek-flash",
+        "generated_at": "2026-09-23T15:01:16+08:00",
+        "evidence_hash": "3aabd010b9a4e21142941e7f5ee371b68eaf7b0182ed73729845c27c52b2f94b"
+      },
+      "basis": "基于摘要",
+      "summary_status": "ready",
+      "summary_message": "中文简介已完成。"
+    },
+    {
+      "doi": "10.1016/j.jpowsour.2026.240456",
+      "title": "A semi-interpenetrating network hydrogel electrolytes doped with nanoparticles for highly stable zinc-ion batteries",
+      "journal": "Journal of Power Sources",
+      "published": "2026-05-27",
+      "abstract_kind": "abstract",
+      "url": "https://doi.org/10.1016/j.jpowsour.2026.240456",
+      "topics": [
+        "aqueous",
+        "interface",
+        "storage"
+      ],
+      "score": 17,
+      "authors": [
+        "Taisen Yan",
+        "Mingwei Liang",
+        "Shunsheng Yang",
+        "Li-zhi Zhang"
+      ],
+      "sources": [
+        "Crossref"
+      ],
+      "first_seen": "2026-09-23",
+      "metadata_verified": true,
+      "abstract_url": "https://www.sciencedirect.com/science/article/abs/pii/S0378775326012061",
+      "abstract_source": "Elsevier ScienceDirect official Abstract",
+      "abstract_verified_at": "2026-09-23T15:01:02+08:00",
+      "published_source": "publisher_online_date",
+      "published_url": "https://www.sciencedirect.com/science/article/abs/pii/S0378775326012061",
+      "analysis": {
+        "title_zh": "掺杂纳米粒子的半互穿网络水凝胶电解质用于高稳定性锌离子电池",
+        "takeaway": "半互穿网络水凝胶电解质通过CMC与TiO2协同作用提升离子电导率并抑制锌枝晶，实现稳定循环。",
+        "summary_zh": "水系锌离子电池因锌枝晶导致稳定性差，水凝胶电解质被视为替代ZnSO4水溶液的可行方案，但需改善离子传输并调控枝晶生长。本研究采用丙烯酰胺、羧甲基纤维素、二氧化钛与ZnSO4水溶液，通过一锅法自由基聚合制备了掺杂纳米粒子的半互穿聚合物网络水凝胶电解质。CMC与TiO2的协同引入增强了Zn2+与聚合物链的相互作用，使离子电导率达到40.98 mS cm−1；高弹性模量与优异离子传输能力缓解了尖端效应，在1 mA cm−2下实现超过1000小时的均匀锌沉积/剥离。组装为Zn||PCT||MnO2@CNT全电池后，在0.2 A g−1下比容量为174 mAh g−1，500次循环容量保持率74.7%。",
+        "relevance": "直接研究对象为掺杂TiO2的半互穿网络水凝胶电解质，用于水系锌离子电池中抑制锌枝晶并提升循环稳定性。",
+        "diagram": [
+          {
+            "label": "研究对象",
+            "text": "掺杂纳米粒子的半互穿网络水凝胶电解质",
+            "evidence": "semi-interpenetrating polymer network hydrogel electrolyte doped with nanoparticles"
+          },
+          {
+            "label": "研究方法",
+            "text": "一锅法自由基聚合",
+            "evidence": "via one-pot free polymerization method using acrylamide (AM),"
+          },
+          {
+            "label": "主要发现",
+            "text": "离子电导率40.98 mS cm−1，锌沉积/剥离超1000小时",
+            "evidence": "enhances the ionic conductivity to 40.98 mS cm−1"
+          }
+        ],
+        "limitations": "摘要未披露水凝胶电解质的厚度、机械性能定量数据、全电池测试温度及Zn||PCT||MnO2@CNT中各组分的具体比例。",
+        "model": "deepseek-flash",
+        "generated_at": "2026-09-23T15:01:24+08:00",
+        "evidence_hash": "c656288e55b8a2b0dbb3d3b5db23bc40390e4c0c4857e4e1d4032bc33c589ab1"
+      },
+      "basis": "基于摘要",
+      "summary_status": "ready",
+      "summary_message": "中文简介已完成。"
+    },
+    {
+      "doi": "10.1016/j.apenergy.2026.128078",
+      "title": "A unified lifetime electrochemical-aging framework for lithium-ion batteries: Capturing degradation across expanded voltage boundaries",
+      "journal": "Applied Energy",
+      "published": "2026-05-22",
+      "abstract_kind": "abstract",
+      "url": "https://doi.org/10.1016/j.apenergy.2026.128078",
+      "topics": [
+        "interface",
+        "storage",
+        "lifetime"
+      ],
+      "score": 17,
+      "authors": [
+        "Yansong Wang",
+        "Guodong Fan",
+        "Boru Zhou",
+        "Siyi Ye",
+        "Tengwei Pang",
+        "Shun Chen",
+        "Xi Zhang"
+      ],
+      "sources": [
+        "Crossref"
+      ],
+      "first_seen": "2026-09-23",
+      "metadata_verified": true,
+      "abstract_url": "https://www.sciencedirect.com/science/article/abs/pii/S0306261926007300",
+      "abstract_source": "ScienceDirect 官方公开 Abstract",
+      "abstract_verified_at": "2026-09-23T15:01:02+08:00",
+      "published_source": "publisher_online_date",
+      "published_url": "https://www.sciencedirect.com/science/article/abs/pii/S0306261926007300",
+      "analysis": {
+        "title_zh": "锂离子电池统一电化学老化框架：捕获扩展电压边界下的退化",
+        "takeaway": "提高充电截止上限或降低放电截止下限，分别加剧正极与负极退化；统一框架可重建全寿命状态。",
+        "summary_zh": "研究旨在理解上下截止电压如何共同调控锂离子电池退化，以实现边界感知的寿命优化与健康估计。采用商用NCA/石墨18650电池，在2.25–4.4 V范围内进行七种电压协议的循环测试，并通过容量跟踪、差分电压分析（DVA）、电化学阻抗谱（EIS）/直流内阻（DCIR）以及事后扫描电子显微镜（SEM）/能谱（EDS）分析进行系统诊断。结果揭示了一种不对称的机制转换退化调控：提高上截止电压通过高压寄生反应和正极结构/界面不稳定性加速正极驱动退化；降低放电截止电压则通过SEI反复破裂-重组加剧负极机械/界面损伤，增加负极失活和锂库存损失。高压操作下酸性物质生成增强并穿越到负极，腐蚀负极Cu集流体并诱导负极侧Cu沉积，放大阻抗增长。基于此，开发了统一电化学-老化框架，耦合边界激活路径，在所有协议下实现2.25–4.4 V范围内全寿命重建（SOH RMSE <1%，全寿命电压RMSE <55 mV）。",
+        "relevance": "直接研究锂离子电池电压边界与退化机制的关系，为扩展电压窗口下的寿命优化和健康估计提供机理模型。",
+        "diagram": [
+          {
+            "label": "研究对象",
+            "text": "商用NCA/石墨18650电池",
+            "evidence": "commercial NCA/graphite 18,650 cells are cycled under a"
+          },
+          {
+            "label": "研究方法",
+            "text": "七协议电压矩阵循环与多模态诊断",
+            "evidence": "cycled under a seven-protocol voltage matrix spanning 2.25–4.4"
+          },
+          {
+            "label": "主要发现",
+            "text": "不对称机制转换退化与统一老化框架",
+            "evidence": "We reveal an asymmetric mechanism-shifting degradation governance: raising"
+          }
+        ],
+        "limitations": "摘要未披露循环温度、充放电倍率、循环次数及具体测试条件。",
+        "model": "deepseek-flash",
+        "generated_at": "2026-09-23T15:01:16+08:00",
+        "evidence_hash": "cac0833cbdbe6b9779cfb61f3d9f6bb8904e3d9b6470f8ea959cfeab6efa5638"
+      },
+      "basis": "基于摘要",
+      "summary_status": "ready",
+      "summary_message": "中文简介已完成。"
+    },
+    {
+      "doi": "10.1016/j.apenergy.2026.128878",
+      "title": "Conditional remaining useful life prediction of lithium-ion batteries under specified future working conditions",
+      "journal": "Applied Energy",
+      "published": "2026-09-22",
+      "abstract_kind": "abstract",
+      "url": "https://doi.org/10.1016/j.apenergy.2026.128878",
+      "topics": [
+        "storage",
+        "lifetime"
+      ],
+      "score": 15,
+      "authors": [
+        "Junyi Xia",
+        "Junmin Wang"
+      ],
+      "sources": [
+        "Crossref"
+      ],
+      "first_seen": "2026-09-23",
+      "metadata_verified": true,
+      "abstract_url": "https://www.sciencedirect.com/science/article/abs/pii/S0306261926015345",
+      "abstract_source": "ScienceDirect 官方公开 Abstract",
+      "abstract_verified_at": "2026-09-23T15:01:02+08:00",
+      "published_source": "publisher_online_date",
+      "published_url": "https://www.sciencedirect.com/science/article/abs/pii/S0306261926015345",
+      "analysis": {
+        "title_zh": "指定未来工况下锂离子电池的条件剩余使用寿命预测",
+        "takeaway": "提出条件剩余寿命C-RUL，在同一老化状态下，根据指定未来工况给出不同的寿命预测。",
+        "summary_zh": "现有锂离子电池剩余使用寿命估计大多依赖单体历史数据，并假定当前循环与未来工况间存在固定耦合，因此只能给出当前循环下的单一RUL预测。本文提出条件剩余使用寿命（C-RUL）概念，将其定义为电池单体在当前老化状态下、于指定未来工况下的剩余寿命，从而显式表明RUL以工况为条件，同一老化状态下不同工况可对应多个RUL值，放松了当前与未来工况间的固定耦合。在基于ISU-ILCC数据集生成的测试样本上，RMSE为247.54次循环，R²为0.8975；在另一基准数据集上R²为0.94。文中还探讨了目标优化下的工况控制、未来放电行为部分不确定时的安全充电策略设计以及基于C-RUL的异质老化电池单体均衡等应用场景。",
+        "relevance": "面向锂离子电池的剩余寿命预测，将未来工况纳入预测条件，为长期运行与维护决策提供依据。",
+        "diagram": [
+          {
+            "label": "研究对象",
+            "text": "锂离子电池条件剩余使用寿命",
+            "evidence": "this paper proposes a novel concept termed Conditional"
+          },
+          {
+            "label": "研究方法",
+            "text": "解耦数据与未来工况的条件化预测框架",
+            "evidence": "enable a more flexible and complete decoupling between"
+          },
+          {
+            "label": "主要发现",
+            "text": "在生成测试样本及另一数据集上验证",
+            "evidence": "achieves accurate prediction performance, with a root mean"
+          }
+        ],
+        "limitations": "摘要未披露所提框架的具体模型结构、训练细节、未来工况的给定方式，以及测试集构成与划分条件。",
+        "model": "deepseek-flash",
+        "generated_at": "2026-09-23T15:01:16+08:00",
+        "evidence_hash": "21421fc0c798537a486d5593014acc7c501dd39129c64900fdf6e852a6c50c66"
+      },
+      "basis": "基于摘要",
+      "summary_status": "ready",
+      "summary_message": "中文简介已完成。"
+    },
+    {
+      "doi": "10.1016/j.jpowsour.2026.241560",
+      "title": "A Physics-Informed Joint Estimation Framework for State of Health and Remaining Useful Life of Lithium-Ion Batteries via the Remaining Dischargeable Budget",
+      "journal": "Journal of Power Sources",
+      "published": "2026-09-22",
+      "abstract_kind": "abstract",
+      "url": "https://doi.org/10.1016/j.jpowsour.2026.241560",
+      "topics": [
+        "storage",
+        "lifetime"
+      ],
+      "score": 15,
+      "authors": [
+        "Cai Zeyang",
+        "Gao Zichao",
+        "Duan Bin",
+        "Wang Xiao",
+        "Liu Shiqiang",
+        "Chen Changlong",
+        "Yan Xiaoyu",
+        "Sida Zhou",
+        "Yang Shichun"
+      ],
+      "sources": [
+        "Crossref"
+      ],
+      "first_seen": "2026-09-23",
+      "metadata_verified": true,
+      "abstract_url": "https://www.sciencedirect.com/science/article/abs/pii/S0378775326023104",
+      "abstract_source": "ScienceDirect 官方公开 Abstract",
+      "abstract_verified_at": "2026-09-23T15:01:02+08:00",
+      "published_source": "publisher_online_date",
+      "published_url": "https://www.sciencedirect.com/science/article/abs/pii/S0378775326023104",
+      "analysis": {
+        "title_zh": "基于剩余可放电预算的锂离子电池健康状态与剩余使用寿命物理信息联合估计框架",
+        "takeaway": "以剩余可放电预算统一健康状态与剩余寿命估计，显著降低全寿命尺度漂移。",
+        "summary_zh": "现有方法将电池健康状态（SOH）与剩余使用寿命（RUL）作为相互独立的回归目标，忽略了物理上连接两者的全局容量预算，导致全寿命尺度漂移与长时程预测不可靠。本文提出物理信息框架，首次通过单一可物理观测且可递归计算的量——剩余可放电预算（RDB）——统一SOH与RUL。SOH由轻量级特征标记化Transformer与深度隐物理模型结合估计，其可学习动力学算子施加微分一致性而非硬编码老化方程；RUL被重构为条件失效概率递推；RDB作为显式容量预算约束耦合两者，并配合解耦两阶段训练与基于RDB的闭环校准器抑制在线预测的累积漂移。在覆盖三种化学体系的四个公开电池老化数据集上，取得最佳SOH平均绝对百分比误差0.67%、RUL平均绝对误差低于一个循环。",
+        "relevance": "直接研究对象为锂离子电池的SOH与RUL联合估计，意义在于用物理容量预算约束提升全寿命预测准确性与在线可用性。",
+        "diagram": [
+          {
+            "label": "研究对象",
+            "text": "锂离子电池SOH与RUL联合估计",
+            "evidence": "A Physics-Informed Joint Estimation Framework for State of"
+          },
+          {
+            "label": "研究方法",
+            "text": "剩余可放电预算统一物理信息框架",
+            "evidence": "unifies SOH and RUL through a single physically"
+          },
+          {
+            "label": "主要发现",
+            "text": "最佳SOH MAPE为0.67%；RUL MAE低于1次循环",
+            "evidence": "attains a best SOH mean absolute percentage error"
+          }
+        ],
+        "limitations": "摘要未披露电池化学体系的详细信息、测试工况、温度条件、数据集规模及在线计算资源消耗等具体条件。",
+        "model": "deepseek-flash",
+        "generated_at": "2026-09-23T15:01:16+08:00",
+        "evidence_hash": "8dcf5fd0a022afad261248c0adc10e73375e3e32f7bb0e78a73f9038fa95ace1"
+      },
+      "basis": "基于摘要",
+      "summary_status": "ready",
+      "summary_message": "中文简介已完成。"
+    },
+    {
       "doi": "10.1002/adma.74309",
       "title": "Robust Biomass Hydrogel Electrolyte via Cytoplasm Reconstruction for Ah‐Level Aqueous Batteries",
       "journal": "Advanced Materials",
@@ -4268,155 +4925,66 @@
       "summary_message": "中文简介已完成。"
     },
     {
-      "doi": "10.1016/j.apenergy.2026.128096",
-      "title": "Advanced state-of-health estimation integrating partial capacity-based initialization and resistance-informed covariance correction in adaptive extended Kalman filter for lithium iron phosphate batteries",
-      "journal": "Applied Energy",
-      "published": null,
-      "abstract_kind": "abstract",
-      "url": "https://doi.org/10.1016/j.apenergy.2026.128096",
-      "topics": [
-        "storage",
-        "lifetime"
-      ],
-      "score": 15,
-      "authors": [
-        "Eunjin Kang",
-        "Seunghyun Lee",
-        "Minwoo Song",
-        "Jaea Lee",
-        "Juhyun Song",
-        "Jonghoon Kim"
-      ],
-      "sources": [
-        "Crossref"
-      ],
-      "first_seen": "2026-09-23",
-      "metadata_verified": true,
-      "basis": "题录",
-      "summary_status": "missing_abstract",
-      "summary_message": "尚未取得足够摘要，仅收录题录。可点击原文查看。"
-    },
-    {
-      "doi": "10.1016/j.apenergy.2026.128878",
-      "title": "Conditional remaining useful life prediction of lithium-ion batteries under specified future working conditions",
-      "journal": "Applied Energy",
-      "published": null,
-      "abstract_kind": "abstract",
-      "url": "https://doi.org/10.1016/j.apenergy.2026.128878",
-      "topics": [
-        "storage",
-        "lifetime"
-      ],
-      "score": 15,
-      "authors": [
-        "Junyi Xia",
-        "Junmin Wang"
-      ],
-      "sources": [
-        "Crossref"
-      ],
-      "first_seen": "2026-09-23",
-      "metadata_verified": true,
-      "basis": "题录",
-      "summary_status": "missing_abstract",
-      "summary_message": "尚未取得足够摘要，仅收录题录。可点击原文查看。"
-    },
-    {
-      "doi": "10.1016/j.ensm.2026.105547",
-      "title": "Pore Engineering in Bipyridyl-Based Covalent Organic Frameworks for High Performance Aqueous Zinc-Iodine Batteries",
-      "journal": "Energy Storage Materials",
-      "published": null,
-      "abstract_kind": "abstract",
-      "url": "https://doi.org/10.1016/j.ensm.2026.105547",
-      "topics": [
-        "aqueous",
-        "storage"
-      ],
-      "score": 15,
-      "authors": [
-        "Chao Liu",
-        "Xianghao Ru",
-        "Xinghan Qu",
-        "Yucheng Jin",
-        "Zhixuan Wang",
-        "Yuanyuan Wang",
-        "Lei Ma",
-        "Zhaoxi Shen",
-        "Ning Zhang"
-      ],
-      "sources": [
-        "Crossref"
-      ],
-      "first_seen": "2026-09-23",
-      "metadata_verified": true,
-      "basis": "题录",
-      "summary_status": "missing_abstract",
-      "summary_message": "尚未取得足够摘要，仅收录题录。可点击原文查看。"
-    },
-    {
-      "doi": "10.1016/j.ensm.2026.105548",
-      "title": "Chaotic Anion-Driven Rapid Proton Diffusion and Freezing Point Depression for Acid-free Electrolyte Toward Superior Aqueous Proton Battery",
-      "journal": "Energy Storage Materials",
-      "published": null,
-      "abstract_kind": "abstract",
-      "url": "https://doi.org/10.1016/j.ensm.2026.105548",
-      "topics": [
-        "aqueous",
-        "storage"
-      ],
-      "score": 15,
-      "authors": [
-        "Tianjiang Sun",
-        "Weijia Zhang",
-        "Yutong Chen",
-        "Mengyao Shi",
-        "Qiong Sun",
-        "Min Cheng",
-        "Huaisheng Ao",
-        "Chenglin Yan",
-        "Zhanliang Tao"
-      ],
-      "sources": [
-        "Crossref"
-      ],
-      "first_seen": "2026-09-23",
-      "metadata_verified": true,
-      "basis": "题录",
-      "summary_status": "missing_abstract",
-      "summary_message": "尚未取得足够摘要，仅收录题录。可点击原文查看。"
-    },
-    {
-      "doi": "10.1016/j.jpowsour.2026.240456",
-      "title": "A semi-interpenetrating network hydrogel electrolytes doped with nanoparticles for highly stable zinc-ion batteries",
+      "doi": "10.1016/j.jpowsour.2026.240545",
+      "title": "Mutual information-guided voltage segment selection and lightweight modeling for state of health estimation of batteries with incomplete charging curves",
       "journal": "Journal of Power Sources",
-      "published": null,
+      "published": "2026-06-04",
       "abstract_kind": "abstract",
-      "url": "https://doi.org/10.1016/j.jpowsour.2026.240456",
+      "url": "https://doi.org/10.1016/j.jpowsour.2026.240545",
       "topics": [
-        "aqueous",
-        "storage"
+        "storage",
+        "lifetime"
       ],
       "score": 15,
       "authors": [
-        "Taisen Yan",
-        "Mingwei Liang",
-        "Shunsheng Yang",
-        "Li-zhi Zhang"
+        "Ren Ren",
+        "Jinqing Linghu",
+        "Xishan Wang",
+        "Jiayu Dai",
+        "Yongjia Tan",
+        "Chen Chen"
       ],
       "sources": [
         "Crossref"
       ],
       "first_seen": "2026-09-23",
       "metadata_verified": true,
-      "basis": "题录",
-      "summary_status": "missing_abstract",
-      "summary_message": "尚未取得足够摘要，仅收录题录。可点击原文查看。"
+      "abstract_url": "https://www.sciencedirect.com/science/article/abs/pii/S0378775326012954",
+      "abstract_source": "ScienceDirect 官方公开 Abstract",
+      "abstract_verified_at": "2026-09-23T15:01:02+08:00",
+      "published_source": "publisher_online_date",
+      "published_url": "https://www.sciencedirect.com/science/article/abs/pii/S0378775326012954",
+      "analysis": {
+        "title_zh": "基于互信息引导的电压片段选择与轻量建模：面向不完整充电曲线的电池健康状态估计",
+        "takeaway": "以互信息筛选高信息电压区间并结合SVR，可在仅0.05 V窄充电片段下实现平均RMSE约1.3%的SOH估计。",
+        "summary_zh": "锂离子电池健康状态（SOH）的准确快速估计对电池管理至关重要，但实际BMS通常只观测到起止点随机的部分恒流（CC）充电片段，而非完整循环。本文提出一种面向此类部分CC数据的轻量级流水线特征工程框架：将容量曲线和平滑增量容量（IC）曲线映射到均匀电压网格，生成定长、位置一致的双通道序列；引入互信息（MI）定量评估各电压位置对SOH的贡献，从而自动选择高信息工作片段；再用时间窗重组多循环特征序列，由支持向量回归（SVR）完成估计。在一个实验室数据集和三个公开数据集（涵盖三种不同材料体系）上的实验表明，即使在0.05 V的窄工作电压片段下，平均SOH估计均方根误差（RMSE）约为1.3%。该框架训练与推理成本明显低于深度学习模型，并具有高可解释性和易部署性，适用于资源受限BMS的在线SOH估计。",
+        "relevance": "直接研究锂离子电池SOH估计，针对实际BMS仅能获取随机起止的部分恒流充电片段这一约束，提出轻量可解释方案。",
+        "diagram": [
+          {
+            "label": "研究方法",
+            "text": "互信息选段加支持向量回归",
+            "evidence": "Mutual information (MI) is introduced to quantitatively evaluate"
+          },
+          {
+            "label": "主要发现",
+            "text": "窄电压片段下平均RMSE约1.3%",
+            "evidence": "achieves an average SOH estimation root mean square"
+          }
+        ],
+        "limitations": "摘要未说明电池具体材料体系、实验室与公开数据集的具体构成、电压网格间距、MI计算细节、SVR超参数及时间窗设置；未披露温度、倍率等测试条件。",
+        "model": "deepseek-flash",
+        "generated_at": "2026-09-23T15:01:19+08:00",
+        "evidence_hash": "18c3b2a22376b3b899c8183293102ca118f6eaa1e74d23012cf47cbd9795f5c4"
+      },
+      "basis": "基于摘要",
+      "summary_status": "ready",
+      "summary_message": "中文简介已完成。"
     },
     {
       "doi": "10.1016/j.jpowsour.2026.240499",
       "title": "Entropy-engineered molybdate/CNT supercapacitors with machine-learning-assisted lifetime prediction and device optimization",
       "journal": "Journal of Power Sources",
-      "published": null,
+      "published": "2026-05-27",
       "abstract_kind": "abstract",
       "url": "https://doi.org/10.1016/j.jpowsour.2026.240499",
       "topics": [
@@ -4440,157 +5008,102 @@
       ],
       "first_seen": "2026-09-23",
       "metadata_verified": true,
-      "basis": "题录",
-      "summary_status": "missing_abstract",
-      "summary_message": "尚未取得足够摘要，仅收录题录。可点击原文查看。"
+      "abstract_url": "https://www.sciencedirect.com/science/article/abs/pii/S0378775326012498",
+      "abstract_source": "ScienceDirect 官方公开 Abstract",
+      "abstract_verified_at": "2026-09-23T15:01:02+08:00",
+      "published_source": "publisher_online_date",
+      "published_url": "https://www.sciencedirect.com/science/article/abs/pii/S0378775326012498",
+      "analysis": {
+        "title_zh": "熵工程钼酸盐/CNT超级电容器：机器学习辅助寿命预测与器件优化",
+        "takeaway": "中熵(Co,Mn,Ni,Zn)MoO4与CNT复合电极在碱性电解液中实现高比电容与循环稳定性，机器学习可早期预测长期稳定性。",
+        "summary_zh": "本研究将中熵钼酸盐(Co,Mn,Ni,Zn)MoO4与碳纳米管复合，设计高性能超级电容器电极。多阳离子A位构型扩展了可及氧化还原化学，MoO₄²⁻骨架在碱性电解液中维持结构稳定，CNT网络提供连续导电通路并提升无序位点利用率。在三电极体系中，复合材料在2 A g-1下比电容为880 F g-1，10 A g-1下保持580 F g-1，10,000次循环后电容保持率为83%。对称器件在6 M KOH中1.2 V电压下，功率密度1200 W kg-1时能量密度为23.2 Wh kg-1，长循环中电容保持率达89%，库仑效率98%。动力学分析表明电荷存储以表面控制过程为主、扩散辅助赝电容为辅。基于电压、电流密度和循环次数的机器学习模型可实现长期稳定性的早期预测。",
+        "relevance": "直接研究对象为中熵钼酸盐/CNT复合电极及其对称超级电容器器件，意义在于将熵工程氧化物设计与数据驱动寿命优化结合，提升器件耐久性。",
+        "diagram": [
+          {
+            "label": "研究对象",
+            "text": "中熵钼酸盐/CNT复合电极",
+            "evidence": "a medium-entropy molybdate, (Co,Mn,Ni,Zn)MoO4, is integrated with carbon"
+          },
+          {
+            "label": "研究方法",
+            "text": "三电极测试与对称器件评估",
+            "evidence": "The optimized composite delivers 880 F g-1 at"
+          },
+          {
+            "label": "主要发现",
+            "text": "高比电容与循环稳定性",
+            "evidence": "with 83% capacitance retention after 10,000 cycles. A"
+          }
+        ],
+        "limitations": "摘要未披露机器学习模型的具体类型、训练数据规模、预测精度及寿命预测的时间尺度；未说明电压窗口选择依据及长期循环的具体条件。",
+        "model": "deepseek-flash",
+        "generated_at": "2026-09-23T15:01:20+08:00",
+        "evidence_hash": "6383b8e3ac3322cd8b27e2b7ac37f26bbed9bdd5a25ec8c4159bae9e2650f2d6"
+      },
+      "basis": "基于摘要",
+      "summary_status": "ready",
+      "summary_message": "中文简介已完成。"
     },
     {
-      "doi": "10.1016/j.jpowsour.2026.240513",
-      "title": "Morphology modulation of V10O24•nH2O for high capacity aqueous zinc ion batteries",
-      "journal": "Journal of Power Sources",
-      "published": null,
+      "doi": "10.1016/j.apenergy.2026.128096",
+      "title": "Advanced state-of-health estimation integrating partial capacity-based initialization and resistance-informed covariance correction in adaptive extended Kalman filter for lithium iron phosphate batteries",
+      "journal": "Applied Energy",
+      "published": "2026-05-26",
       "abstract_kind": "abstract",
-      "url": "https://doi.org/10.1016/j.jpowsour.2026.240513",
-      "topics": [
-        "aqueous",
-        "storage"
-      ],
-      "score": 15,
-      "authors": [
-        "Sijia Zou",
-        "Tengfei Zhou",
-        "You Zhou",
-        "Tian Zhang",
-        "Yafei Hou",
-        "Longhan Zhang",
-        "An Xiao",
-        "Jing Cuan",
-        "Qixiong Zhang",
-        "Chaofeng Zhang",
-        "Yuejin Zhu",
-        "Weiping Li"
-      ],
-      "sources": [
-        "Crossref"
-      ],
-      "first_seen": "2026-09-23",
-      "metadata_verified": true,
-      "basis": "题录",
-      "summary_status": "missing_abstract",
-      "summary_message": "尚未取得足够摘要，仅收录题录。可点击原文查看。"
-    },
-    {
-      "doi": "10.1016/j.jpowsour.2026.240538",
-      "title": "State of health estimation of lithium-ion batteries via multi-domain feature fusion and a physics-informed decoupled network",
-      "journal": "Journal of Power Sources",
-      "published": null,
-      "abstract_kind": "abstract",
-      "url": "https://doi.org/10.1016/j.jpowsour.2026.240538",
+      "url": "https://doi.org/10.1016/j.apenergy.2026.128096",
       "topics": [
         "storage",
         "lifetime"
       ],
       "score": 15,
       "authors": [
-        "Jing Sun",
-        "Shengchao Su",
-        "GuoHua Wang"
+        "Eunjin Kang",
+        "Seunghyun Lee",
+        "Minwoo Song",
+        "Jaea Lee",
+        "Juhyun Song",
+        "Jonghoon Kim"
       ],
       "sources": [
         "Crossref"
       ],
       "first_seen": "2026-09-23",
       "metadata_verified": true,
-      "basis": "题录",
-      "summary_status": "missing_abstract",
-      "summary_message": "尚未取得足够摘要，仅收录题录。可点击原文查看。"
-    },
-    {
-      "doi": "10.1016/j.jpowsour.2026.240545",
-      "title": "Mutual information-guided voltage segment selection and lightweight modeling for state of health estimation of batteries with incomplete charging curves",
-      "journal": "Journal of Power Sources",
-      "published": null,
-      "abstract_kind": "abstract",
-      "url": "https://doi.org/10.1016/j.jpowsour.2026.240545",
-      "topics": [
-        "storage",
-        "lifetime"
-      ],
-      "score": 15,
-      "authors": [
-        "Ren Ren",
-        "Jinqing Linghu",
-        "Xishan Wang",
-        "Jiayu Dai",
-        "Yongjia Tan",
-        "Chen Chen"
-      ],
-      "sources": [
-        "Crossref"
-      ],
-      "first_seen": "2026-09-23",
-      "metadata_verified": true,
-      "basis": "题录",
-      "summary_status": "missing_abstract",
-      "summary_message": "尚未取得足够摘要，仅收录题录。可点击原文查看。"
-    },
-    {
-      "doi": "10.1016/j.jpowsour.2026.241560",
-      "title": "A Physics-Informed Joint Estimation Framework for State of Health and Remaining Useful Life of Lithium-Ion Batteries via the Remaining Dischargeable Budget",
-      "journal": "Journal of Power Sources",
-      "published": null,
-      "abstract_kind": "abstract",
-      "url": "https://doi.org/10.1016/j.jpowsour.2026.241560",
-      "topics": [
-        "storage",
-        "lifetime"
-      ],
-      "score": 15,
-      "authors": [
-        "Cai Zeyang",
-        "Gao Zichao",
-        "Duan Bin",
-        "Wang Xiao",
-        "Liu Shiqiang",
-        "Chen Changlong",
-        "Yan Xiaoyu",
-        "Sida Zhou",
-        "Yang Shichun"
-      ],
-      "sources": [
-        "Crossref"
-      ],
-      "first_seen": "2026-09-23",
-      "metadata_verified": true,
-      "basis": "题录",
-      "summary_status": "missing_abstract",
-      "summary_message": "尚未取得足够摘要，仅收录题录。可点击原文查看。"
-    },
-    {
-      "doi": "10.1016/j.jpowsour.2026.241574",
-      "title": "Anthraquinone Derivatives and Hydroquinone Redox Couples in Aqueous Redox Flow Battery",
-      "journal": "Journal of Power Sources",
-      "published": null,
-      "abstract_kind": "abstract",
-      "url": "https://doi.org/10.1016/j.jpowsour.2026.241574",
-      "topics": [
-        "aqueous",
-        "storage"
-      ],
-      "score": 15,
-      "authors": [
-        "Jun-Hee Jeong",
-        "Yongchai Kwon",
-        "Byeong Wan Kwon"
-      ],
-      "sources": [
-        "Crossref"
-      ],
-      "first_seen": "2026-09-23",
-      "metadata_verified": true,
-      "basis": "题录",
-      "summary_status": "missing_abstract",
-      "summary_message": "尚未取得足够摘要，仅收录题录。可点击原文查看。"
+      "abstract_url": "https://www.sciencedirect.com/science/article/abs/pii/S0306261926007488",
+      "abstract_source": "ScienceDirect 官方公开 Abstract",
+      "abstract_verified_at": "2026-09-23T15:01:02+08:00",
+      "published_source": "publisher_online_date",
+      "published_url": "https://www.sciencedirect.com/science/article/abs/pii/S0306261926007488",
+      "analysis": {
+        "title_zh": "面向磷酸铁锂电池的自适应扩展卡尔曼滤波健康状态估计：部分容量初始化与电阻信息协方差校正",
+        "takeaway": "融合部分容量初始化与电阻信息协方差校正的AEKF框架，将116.5 Ah磷酸铁锂软包电池SOH的MAE较固定协方差DEKF基线降低逾20%。",
+        "summary_zh": "磷酸铁锂电池开路电压平台平坦，且卡尔曼滤波类估计器对初始状态与误差协方差设置敏感，使健康状态估计困难。本文提出以自适应扩展卡尔曼滤波为核心的框架，耦合三个部分：利用3.56–3.58 V高灵敏电压区间的部分容量SOH初始化、依据RLS与DEKF内阻估计偏差对初始误差协方差矩阵进行电阻信息动态校正，以及通过多重自适应遗忘因子递推最小二乘在线辨识等效电路模型参数并持续输入AEKF。在116.5 Ah磷酸铁锂软包电池多种退化程度、温度和行驶工况下验证，SOH平均绝对误差较固定协方差DEKF基线降低超过20%，并加快早期循环收敛、对初始化误差保持稳健。",
+        "relevance": "直接研究磷酸铁锂电池的SOH估计，针对其平坦OCV平台与AEKF初始化敏感问题，服务于电池管理系统。",
+        "diagram": [
+          {
+            "label": "研究对象",
+            "text": "116.5 Ah磷酸铁锂软包电池",
+            "evidence": "Validation on 116.5 Ah LFP pouch cells under"
+          },
+          {
+            "label": "研究方法",
+            "text": "AEKF耦合部分容量初始化与协方差校正",
+            "evidence": "couples three mutually reinforcing components with an adaptive"
+          },
+          {
+            "label": "主要发现",
+            "text": "SOH平均绝对误差降低逾20%",
+            "evidence": "reduces the SOH mean absolute error (MAE) by"
+          }
+        ],
+        "limitations": "摘要未披露等效电路模型的具体阶数与结构、测试温度点、具体行驶工况、老化数据集来源及长期循环寿命验证条件。",
+        "model": "deepseek-flash",
+        "generated_at": "2026-09-23T15:01:19+08:00",
+        "evidence_hash": "6cb7eee944fa707bec88d551da79fc6cb6ed600e081220a7e815d4c119ccfc40"
+      },
+      "basis": "基于摘要",
+      "summary_status": "ready",
+      "summary_message": "中文简介已完成。"
     },
     {
       "doi": "10.1002/adma.75095",
@@ -5599,36 +6112,6 @@
       "basis": "基于摘要",
       "summary_status": "ready",
       "summary_message": "中文简介已完成。"
-    },
-    {
-      "doi": "10.1016/j.apenergy.2026.128078",
-      "title": "A unified lifetime electrochemical-aging framework for lithium-ion batteries: Capturing degradation across expanded voltage boundaries",
-      "journal": "Applied Energy",
-      "published": null,
-      "abstract_kind": "abstract",
-      "url": "https://doi.org/10.1016/j.apenergy.2026.128078",
-      "topics": [
-        "interface",
-        "storage"
-      ],
-      "score": 10,
-      "authors": [
-        "Yansong Wang",
-        "Guodong Fan",
-        "Boru Zhou",
-        "Siyi Ye",
-        "Tengwei Pang",
-        "Shun Chen",
-        "Xi Zhang"
-      ],
-      "sources": [
-        "Crossref"
-      ],
-      "first_seen": "2026-09-23",
-      "metadata_verified": true,
-      "basis": "题录",
-      "summary_status": "missing_abstract",
-      "summary_message": "尚未取得足够摘要，仅收录题录。可点击原文查看。"
     }
   ],
   "archived_papers": [],
@@ -5660,10 +6143,10 @@
         "10.1016/j.chempr.2026.103206",
         "10.1016/j.joule.2026.102470",
         "10.1016/j.matt.2026.103007",
+        "10.1038/s41467-026-77100-3",
         "10.1126/sciadv.aej0175",
         "10.1038/s41467-026-77589-8",
         "10.1038/s41467-026-76513-4",
-        "10.1038/s41467-026-77100-3",
         "10.1126/sciadv.aei4749",
         "10.1002/adma.75052",
         "10.1002/adma.75021",
@@ -5673,7 +6156,10 @@
         "10.1021/acsenergylett.6c02074",
         "10.1021/jacs.6c11153",
         "10.1002/aenm.71472",
+        "10.1016/j.jpowsour.2026.241574",
         "10.1002/aenm.71616",
+        "10.1016/j.ensm.2026.105547",
+        "10.1016/j.ensm.2026.105548",
         "10.1002/anie.2735155",
         "10.1021/acs.nanolett.6c03231",
         "10.1002/adfm.78480",
@@ -5703,6 +6189,12 @@
         "10.1002/adfm.78035",
         "10.1002/aenm.71485",
         "10.1002/aenm.71338",
+        "10.1016/j.jpowsour.2026.240513",
+        "10.1016/j.jpowsour.2026.240538",
+        "10.1016/j.jpowsour.2026.240456",
+        "10.1016/j.apenergy.2026.128078",
+        "10.1016/j.apenergy.2026.128878",
+        "10.1016/j.jpowsour.2026.241560",
         "10.1002/adma.74309",
         "10.1002/adfm.78495",
         "10.1002/adfm.78422",
@@ -5711,17 +6203,9 @@
         "10.1002/anie.7649417",
         "10.1002/aenm.71454",
         "10.1002/adfm.77896",
-        "10.1016/j.apenergy.2026.128096",
-        "10.1016/j.apenergy.2026.128878",
-        "10.1016/j.ensm.2026.105547",
-        "10.1016/j.ensm.2026.105548",
-        "10.1016/j.jpowsour.2026.240456",
-        "10.1016/j.jpowsour.2026.240499",
-        "10.1016/j.jpowsour.2026.240513",
-        "10.1016/j.jpowsour.2026.240538",
         "10.1016/j.jpowsour.2026.240545",
-        "10.1016/j.jpowsour.2026.241560",
-        "10.1016/j.jpowsour.2026.241574",
+        "10.1016/j.jpowsour.2026.240499",
+        "10.1016/j.apenergy.2026.128096",
         "10.1002/adma.75095",
         "10.1002/adma.75086",
         "10.1002/aenm.71492",
@@ -5738,8 +6222,7 @@
         "10.1002/aenm.71567",
         "10.1002/anie.5243975",
         "10.1002/aenm.71483",
-        "10.1002/adfm.77921",
-        "10.1016/j.apenergy.2026.128078"
+        "10.1002/adfm.77921"
       ]
     }
   ],
