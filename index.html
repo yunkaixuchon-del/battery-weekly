@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="电池、水系、电化学、储能与寿命预测的每周文献精选。中文简介、研究示意图和原文出处。">
+  <title>电池文献周刊</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='5' y='7' width='21' height='18' rx='2' fill='none' stroke='%23171717' stroke-width='2'/%3E%3Cpath d='M27 12h2v8h-2M10 12v8M15 12v8M20 12v8' stroke='%23171717' stroke-width='2'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <div class="shell">
+    <header class="masthead"><a class="brand" href="./">电池文献周刊<span>BATTERY PAPERS</span></a><div class="mast-meta"><span id="issue-date">文献索引</span><span>每周一更新</span></div></header>
+    <nav class="nav" aria-label="文献浏览"><button class="active" data-view="issue" aria-current="page">本期精选</button><button data-view="all">近期精选</button><button data-view="archive">历史周报</button><a href="#sources">期刊来源</a></nav>
+    <main id="main">
+      <section class="issue-heading"><div><p id="eyebrow" class="eyebrow">本期</p><h1 id="view-title">电池与储能研究</h1><p id="view-description" class="muted">正在读取文献。</p></div><div class="issue-number" aria-hidden="true"><span>VOL.</span><strong id="volume">01</strong></div></section>
+      <section class="tools" aria-label="筛选文献"><div id="topics" class="topic-tabs"><button class="selected" data-topic="all" aria-pressed="true">全部方向</button></div><div class="search-row"><label class="search"><span>搜索</span><input id="search" type="search" placeholder="标题、材料、关键词" autocomplete="off"></label><label class="journal-label"><span class="sr-only">筛选期刊</span><select id="journal"><option value="all">全部期刊</option></select></label></div></section>
+      <div class="list-heading"><span id="result-count" role="status" aria-live="polite">载入中</span><span>研究内容 / 期刊 / 发表日期</span></div>
+      <section id="papers" aria-label="文献列表"></section>
+      <section id="archives" class="hidden" aria-label="历史周报"></section>
+      <section id="sources" class="sources"><h2 id="source-heading">期刊来源</h2><div id="source-list"></div><p>近期保留约 100 篇，每周精选 50–100 篇。按电池、水系、电化学、储能与寿命预测筛选，不收录电催化、光催化及介电／铁电电容储能研究。中文简介依据可获取的摘要或出版方简介整理，图示为对应内容的解释图，实验细节以原文为准。</p><p id="last-updated"></p></section>
+    </main>
+    <footer><span>电池 · 水系 · 电化学 · 储能 · 寿命预测</span><a href="https://github.com/zrbyte/paper-firehose" target="_blank" rel="noopener noreferrer">基于 Paper Firehose</a></footer>
+  </div>
+  <dialog id="detail" aria-labelledby="detail-title"><div class="dialog-top"><span>文献阅读</span><button id="close-detail" aria-label="关闭文献详情">关闭 ×</button></div><div id="detail-content"></div></dialog>
+</body>
+</html>
