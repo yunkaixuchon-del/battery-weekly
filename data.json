@@ -12358,7 +12358,7 @@
   ],
   "selection": {
     "catalog_limit": 100,
-    "weekly_min": 50,
+    "weekly_min": 60,
     "weekly_max": 100
   },
   "source_status": [

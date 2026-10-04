@@ -29,7 +29,7 @@ function render() {
   document.querySelector(".tools").classList.toggle("hidden", state.view === "archive");
   $("eyebrow").textContent = state.view === "issue" ? issue?.label || "本期" : state.view === "all" ? "文献索引" : "按周归档";
   $("view-title").textContent = state.view === "archive" ? "历史周报" : state.view === "all" ? "近期精选" : "电池与储能研究";
-  $("view-description").textContent = state.view === "archive" ? "每期保留文献、简介和原文出处。" : state.view === "all" ? "保留约 100 篇最相关文献，每周精选 50–100 篇；不足时不凑数。" : issue ? `${issue.from} — ${issue.to} · ${issue.papers.length} 篇精选` : "首期正在整理。";
+  $("view-description").textContent = state.view === "archive" ? "每期保留文献、简介和原文出处。" : state.view === "all" ? "近期最多保留 100 篇。每周按相关性精选 60–100 篇，不固定收满；合适的不足时不凑数。" : issue ? `${issue.from} — ${issue.to} · ${issue.papers.length} 篇精选` : "首期正在整理。";
   if (state.view !== "archive" && data.sort_description) $("view-description").textContent += ` ${data.sort_description}`;
   if (state.view === "archive") {
     $("result-count").textContent = `${data.issues.length} 期周报`;
