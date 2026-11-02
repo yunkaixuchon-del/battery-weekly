@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T11:39:14+08:00",
+  "updated_at": "2026-11-02T12:32:45+08:00",
   "timezone": "Asia/Shanghai",
   "topics": [
     {
@@ -34806,7 +34806,7 @@
   ],
   "selection": {
     "catalog_limit": 100,
-    "weekly_min": 60,
+    "weekly_min": 0,
     "weekly_max": 100
   },
   "source_status": [
