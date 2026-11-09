@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T09:34:28+08:00",
+  "updated_at": "2026-11-09T09:49:00+08:00",
   "timezone": "Asia/Shanghai",
   "topics": [
     {
@@ -132,80 +132,6 @@
       "summary_message": "中文简介已完成。"
     },
     {
-      "doi": "10.1038/s41557-026-02291-7",
-      "title": "Facet-dependent molecular adsorption modulates zinc anode work function for the favourable orientation of zinc electrocrystallization",
-      "journal": "Nature Chemistry",
-      "published": "2026-11-04",
-      "abstract_kind": "abstract",
-      "url": "https://doi.org/10.1038/s41557-026-02291-7",
-      "topics": [
-        "interface",
-        "storage"
-      ],
-      "score": 20,
-      "authors": [
-        "Sijun Wang",
-        "Le Yu",
-        "Jing Huang",
-        "Ziyan Cai",
-        "Lu Chen",
-        "Ziyang Lu",
-        "Won-Yeong Kim",
-        "Yongming Sun",
-        "Sang-Young Lee",
-        "Chaoji Chen"
-      ],
-      "sources": [
-        "Crossref",
-        "期刊 RSS"
-      ],
-      "first_seen": "2026-11-09",
-      "metadata_verified": true,
-      "published_source": "publisher_online_date",
-      "abstract_url": "https://www.nature.com/articles/s41557-026-02291-7",
-      "abstract_source": "Nature official Abstract",
-      "published_url": "https://www.nature.com/articles/s41557-026-02291-7",
-      "abstract_verified_at": "2026-11-09T09:08:17+08:00",
-      "analysis": {
-        "title_zh": "晶面选择性分子吸附通过调节功函数控制锌负极电结晶取向",
-        "takeaway": "29种添加剂的比较表明，吸附引起的功函数变化比单纯吸附强弱更能解释锌取向。",
-        "summary_zh": "研究结合逐一实验与计算，比较29种添加剂在不同锌晶面上的作用，提出以吸附后的功函数变化判断电结晶取向，报告预测准确率93.1%。电化学验证显示，优选(100)取向的锌在最高20 mA cm⁻²及超过85%放电深度条件下仍具有良好循环表现，提示不能简单把(002)取向当作所有工况的最优解。",
-        "relevance": "与水系锌研究中的添加剂筛选、晶面取向和负极可逆性高度相关。",
-        "diagram": [
-          {
-            "label": "研究对象",
-            "text": "添加剂调控锌负极晶面",
-            "evidence": "Facet-dependent molecular adsorption modulates zinc anode work function"
-          },
-          {
-            "label": "研究方法",
-            "text": "比较吸附后的功函数变化",
-            "evidence": "variation of work function upon facet-dependent additive adsorption"
-          },
-          {
-            "label": "主要发现",
-            "text": "取向判断准确率93.1%",
-            "evidence": "prediction accuracy of 93.1%. This finding suggests a"
-          }
-        ],
-        "limitations": "93.1%来自所研究的29种添加剂；摘要未提供外部独立测试集与具体循环时长。",
-        "model": "gpt-6-astra",
-        "generated_at": "2026-11-09T09:32:45+08:00",
-        "evidence_hash": "ddace895f4143af57cf0fd9e70cdad043ba4776b36eb3eb6d72c4dfa0c47cd22"
-      },
-      "title_translation": {
-        "title_zh": "晶面选择性分子吸附通过调节功函数控制锌负极电结晶取向",
-        "source_title_hash": "42c6fc3d8a71707a72a29d3ba8c088dc4fb72c1498155d84c4356423943e0704",
-        "model": "gpt-6-astra",
-        "generated_at": "2026-11-09T09:32:45+08:00"
-      },
-      "reviewed_direct_evidence": "正式摘要比较29种添加剂作用下的锌负极电结晶取向，并在最高20 mA cm−2与超过85%放电深度条件下验证循环；直接研究电池锌负极，不能因正式摘要未出现battery一词而剔除。",
-      "evidence_url": "https://www.nature.com/articles/s41557-026-02291-7",
-      "basis": "基于摘要",
-      "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
-    },
-    {
       "doi": "10.1016/j.matt.2026.102951",
       "title": "Fascia-like organohydrogel electrolyte enables coupled suppression of dendrites and passivation in zinc-air batteries",
       "journal": "Matter",
@@ -239,116 +165,40 @@
       "abstract_source": "Elsevier ScienceDirect official Summary",
       "published_source": "publisher_online_date",
       "published_url": "https://www.sciencedirect.com/science/article/abs/pii/S2590238526003140",
-      "abstract_verified_at": "2026-11-09T09:04:28+08:00",
+      "abstract_verified_at": "2026-11-09T09:04:22+08:00",
       "analysis": {
         "title_zh": "筋膜式有机水凝胶电解质协同抑制锌空气电池的枝晶与钝化",
-        "takeaway": "把离子传输通道与局部隔水结构分开，有助于同时减轻锌枝晶和ZnO钝化。",
-        "summary_zh": "研究以丙烯酸亲水相形成连续传输通道，以共价固定的丙烯酸2-甲氧基乙酯微区限制界面水接触，并用DMSO调节锌酸根水合。电解质电导率为240.27 mS cm⁻¹，锌物种迁移数为0.76。柔性锌空气电池在2 mA cm⁻²下循环107小时，另报告−40 ℃下运行500小时。多尺度模拟与表征将改善归于水可及性、水合及电流分布的协同调节。",
-        "relevance": "直接研究水系锌空气电池电解质与锌负极保护。",
+        "takeaway": "用连续亲水通道传导锌物种，以疏水微区限制界面水接触，兼顾输运和保护。",
+        "summary_zh": "研究将丙烯酸亲水相与共价锚定的丙烯酸-2-甲氧基乙酯微区整合到同一凝胶网络，借助溶剂交换形成分相结构，并用DMSO调节锌酸根相关水合环境。优化电解质的离子电导率为240.27 mS/cm，锌物种迁移数为0.76。柔性锌空气电池在2 mA/cm²下循环107 h，另在−40°C运行500 h。实验和多尺度模拟将稳定性改善关联到水可达性、水合结构及电流分布的共同调节。",
+        "relevance": "直接研究水系锌电池凝胶电解质及负极保护，不以空气正极催化为核心。",
         "diagram": [
           {
             "label": "研究对象",
             "text": "锌空气电池有机水凝胶",
-            "evidence": "Fascia-like organohydrogel electrolyte enables coupled suppression of dendrites"
+            "evidence": "fascia-like organohydrogel electrolyte"
           },
           {
-            "label": "研究方法",
-            "text": "亲水通道与隔水微区分工",
-            "evidence": "continuous ion-conducting pathways, while covalently anchored 2-methoxyethyl acrylate"
+            "label": "结构设计",
+            "text": "亲水输运相与局部限水微区",
+            "evidence": "locally limit water accessibility"
           },
           {
             "label": "主要发现",
-            "text": "抑制枝晶与ZnO钝化",
-            "evidence": "coupled growth of dendrites and passivating ZnO. Here,"
+            "text": "共同调节水合与界面电流",
+            "evidence": "coordinated control of water accessibility"
           }
         ],
-        "limitations": "低温500小时与室温电流密度不是同一组测试条件；需查全文比较。",
+        "limitations": "摘要未给出−40°C测试的电流密度；不能将其与107 h测试条件合并。",
         "model": "gpt-6-astra",
-        "generated_at": "2026-11-09T09:32:45+08:00",
+        "generated_at": "2026-11-09T09:37:16+08:00",
         "evidence_hash": "1b7af61c092fed29683c6c81ab4d37dca8b6e961c04a221ffa8f4dbc1f87687a"
       },
       "title_translation": {
         "title_zh": "筋膜式有机水凝胶电解质协同抑制锌空气电池的枝晶与钝化",
         "source_title_hash": "d4c0a2440d8a092de137aa9b9c5c0ef6e0f90a0fa337c2a830eaaa95e90b8430",
         "model": "gpt-6-astra",
-        "generated_at": "2026-11-09T09:32:45+08:00"
+        "generated_at": "2026-11-09T09:37:16+08:00"
       },
-      "basis": "基于摘要",
-      "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
-    },
-    {
-      "doi": "10.1016/j.chempr.2026.103329",
-      "title": "Predicting battery stability from electron-ion transport mismatch",
-      "journal": "Chem",
-      "published": "2026-11-04",
-      "abstract_kind": "abstract",
-      "url": "https://doi.org/10.1016/j.chempr.2026.103329",
-      "topics": [
-        "lifetime",
-        "interface",
-        "storage"
-      ],
-      "score": 18,
-      "authors": [
-        "Jinghao Li",
-        "Yuhang Dai",
-        "Yuzhe Zhang",
-        "Zhuo Chen",
-        "Wenwei Zhang",
-        "Lin Wang",
-        "Chenxu Dong",
-        "Lianmeng Cui",
-        "Jie Huang",
-        "Youwei Jiang",
-        "Yuyang Cai",
-        "Yaoguang Rong"
-      ],
-      "sources": [
-        "Crossref",
-        "期刊 RSS"
-      ],
-      "first_seen": "2026-11-09",
-      "metadata_verified": true,
-      "abstract_url": "https://www.sciencedirect.com/science/article/abs/pii/S2451929426003955",
-      "abstract_source": "Elsevier ScienceDirect official Summary",
-      "published_source": "publisher_online_date",
-      "published_url": "https://www.sciencedirect.com/science/article/abs/pii/S2451929426003955",
-      "abstract_verified_at": "2026-11-09T09:08:21+08:00",
-      "analysis": {
-        "title_zh": "由电极电子与离子传输失配快速判断电池稳定性",
-        "takeaway": "电子与离子的传输匹配程度可作为电池稳定性的快速评价线索。",
-        "summary_zh": "研究构建并测试具有不同电子、离子传输特性的电极，分析传输匹配程度与电池稳定性的定量关系。所观察到的规律是两种传输速率越接近，电池越稳定，并据此提出无需完整长循环测试的快速预测方法。它将评价重点放在电极内部的传输协调，而非仅比较单项电导率。",
-        "relevance": "直接涉及电池稳定性评价与缩短寿命筛选周期。",
-        "diagram": [
-          {
-            "label": "研究对象",
-            "text": "电池电极传输与稳定性",
-            "evidence": "Predicting battery stability from electron-ion transport mismatch"
-          },
-          {
-            "label": "研究方法",
-            "text": "调节电子和离子传输性质",
-            "evidence": "tailored electron and ion transport properties, we reveal"
-          },
-          {
-            "label": "主要发现",
-            "text": "传输匹配用于快速预测",
-            "evidence": "estimated from the electron-ion transport mismatch, with no"
-          }
-        ],
-        "limitations": "摘要未给出预测误差、独立验证集或适用化学体系边界，不能视为已验证的通用寿命模型。",
-        "model": "gpt-6-astra",
-        "generated_at": "2026-11-09T09:32:45+08:00",
-        "evidence_hash": "3aa3ddefeced26afd8d2332401074ededb9e0e07271f33d9fb134c5b260590b6"
-      },
-      "title_translation": {
-        "title_zh": "由电极电子与离子传输失配快速判断电池稳定性",
-        "source_title_hash": "b230972aad362d57a02b057f8dcad50870f6e56b529da862df38c54eae8cbcc4",
-        "model": "gpt-6-astra",
-        "generated_at": "2026-11-09T09:32:45+08:00"
-      },
-      "reason": "根据电极电子-离子传输失配建立稳定性快速预测，直接涉及电池寿命评价。",
       "basis": "基于摘要",
       "summary_status": "ready",
       "summary_message": "中文简介已完成。"
@@ -409,6 +259,82 @@
         "evidence_hash": "c35d4b123184ddfb706843403c77fef7779625b00298395845fe73695c591861"
       },
       "basis": "基于出版方简介",
+      "summary_status": "ready",
+      "summary_message": "中文简介已完成。"
+    },
+    {
+      "doi": "10.1038/s41557-026-02291-7",
+      "title": "Facet-dependent molecular adsorption modulates zinc anode work function for the favourable orientation of zinc electrocrystallization",
+      "journal": "Nature Chemistry",
+      "published": "2026-11-04",
+      "abstract_kind": "abstract",
+      "url": "https://doi.org/10.1038/s41557-026-02291-7",
+      "topics": [
+        "aqueous",
+        "interface",
+        "storage"
+      ],
+      "score": 15,
+      "authors": [
+        "Sijun Wang",
+        "Le Yu",
+        "Jing Huang",
+        "Ziyan Cai",
+        "Lu Chen",
+        "Ziyang Lu",
+        "Won-Yeong Kim",
+        "Yongming Sun",
+        "Sang-Young Lee",
+        "Chaoji Chen"
+      ],
+      "sources": [
+        "Crossref",
+        "期刊 RSS"
+      ],
+      "first_seen": "2026-11-09",
+      "metadata_verified": true,
+      "published_source": "publisher_online_date",
+      "abstract_url": "https://www.nature.com/articles/s41557-026-02291-7",
+      "abstract_source": "Nature official Abstract",
+      "published_url": "https://www.nature.com/articles/s41557-026-02291-7",
+      "abstract_verified_at": "2026-11-09T09:07:07+08:00",
+      "analysis": {
+        "title_zh": "晶面选择性分子吸附通过调节功函数控制锌负极电结晶取向",
+        "takeaway": "29种添加剂的比较表明，吸附引起的功函数变化比单纯吸附强弱更能解释锌取向。",
+        "summary_zh": "研究结合逐一实验与计算，比较29种添加剂在不同锌晶面上的作用，提出以吸附后的功函数变化判断电结晶取向，报告预测准确率93.1%。电化学验证显示，优选(100)取向的锌在最高20 mA cm⁻²及超过85%放电深度条件下仍具有良好循环表现，提示不能简单把(002)取向当作所有工况的最优解。",
+        "relevance": "与水系锌研究中的添加剂筛选、晶面取向和负极可逆性高度相关。",
+        "diagram": [
+          {
+            "label": "研究对象",
+            "text": "添加剂调控锌负极晶面",
+            "evidence": "Facet-dependent molecular adsorption modulates zinc anode work function"
+          },
+          {
+            "label": "研究方法",
+            "text": "比较吸附后的功函数变化",
+            "evidence": "variation of work function upon facet-dependent additive adsorption"
+          },
+          {
+            "label": "主要发现",
+            "text": "取向判断准确率93.1%",
+            "evidence": "prediction accuracy of 93.1%. This finding suggests a"
+          }
+        ],
+        "limitations": "93.1%来自所研究的29种添加剂；摘要未提供外部独立测试集与具体循环时长。",
+        "model": "gpt-6-astra",
+        "generated_at": "2026-11-09T09:32:45+08:00",
+        "evidence_hash": "ddace895f4143af57cf0fd9e70cdad043ba4776b36eb3eb6d72c4dfa0c47cd22"
+      },
+      "title_translation": {
+        "title_zh": "晶面选择性分子吸附通过调节功函数控制锌负极电结晶取向",
+        "source_title_hash": "42c6fc3d8a71707a72a29d3ba8c088dc4fb72c1498155d84c4356423943e0704",
+        "model": "gpt-6-astra",
+        "generated_at": "2026-11-09T09:32:45+08:00"
+      },
+      "research_scope_evidence_hash": "ddace895f4143af57cf0fd9e70cdad043ba4776b36eb3eb6d72c4dfa0c47cd22",
+      "reason": "逐篇核实为锌金属负极添加剂筛选：29种添加剂、取向预测，以及20 mA/cm²和>85%放电深度的电极循环证据。正式摘要虽未出现battery词，仍直接属于目标负极界面研究。",
+      "evidence_url": "https://www.nature.com/articles/s41557-026-02291-7",
+      "basis": "基于摘要",
       "summary_status": "ready",
       "summary_message": "中文简介已完成。"
     },
@@ -630,6 +556,7 @@
         "Kang Yuan"
       ],
       "sources": [
+        "Crossref",
         "期刊 RSS"
       ],
       "first_seen": "2026-11-09",
@@ -638,7 +565,7 @@
       "abstract_source": "Elsevier ScienceDirect official Summary",
       "published_source": "publisher_online_date",
       "published_url": "https://www.sciencedirect.com/science/article/pii/S2542435126004022",
-      "abstract_verified_at": "2026-11-09T09:08:04+08:00",
+      "abstract_verified_at": "2026-11-09T09:06:56+08:00",
       "analysis": {
         "title_zh": "构筑富硼酸盐界面以稳定全固态钠电池",
         "takeaway": "NaDFOB优先分解形成富硼酸盐SEI，同时改善离子传输与电子阻隔。",
@@ -712,7 +639,7 @@
       "abstract_url": "https://www.nature.com/articles/s41560-026-02154-y",
       "abstract_source": "Nature official Abstract",
       "published_url": "https://www.nature.com/articles/s41560-026-02154-y",
-      "abstract_verified_at": "2026-11-09T09:08:09+08:00",
+      "abstract_verified_at": "2026-11-09T09:07:02+08:00",
       "analysis": {
         "title_zh": "受控环醚低聚化延长无负极钠电池寿命",
         "takeaway": "1,3-二氧六环兼顾弱配位和受控低聚化，减少钠损失与电解液持续分解。",
@@ -780,37 +707,110 @@
       "abstract_source": "Elsevier ScienceDirect official Summary",
       "published_source": "publisher_online_date",
       "published_url": "https://www.sciencedirect.com/science/article/abs/pii/S2590238526003292",
-      "abstract_verified_at": "2026-11-09T09:04:35+08:00",
+      "abstract_verified_at": "2026-11-09T09:04:26+08:00",
       "analysis": {
-        "title_zh": "两性离子乙烯基连接COF构筑选择性阳离子通道用于宽温固态锂电池",
-        "takeaway": "COF中的两性离子通道兼顾锂盐解离、Li⁺输运与阴离子迁移限制。",
-        "summary_zh": "研究以带吡啶鎓内盐基团的乙烯基连接COF构建PSTT固态电解质，利用有序阳离子通道减少浓差并促进Li⁺迁移。电化学窗口为4.88 V，Li⁺电导率为1.98×10⁻⁴ S cm⁻¹；与层状氧化物和聚阴离子正极均有兼容性验证。贫锂金属电池在300次循环后保持85.5%的容量。",
-        "relevance": "涉及固态电解质的离子选择性传输与贫锂电池验证。",
+        "title_zh": "两性离子亚乙烯连接共价有机框架构建选择性阳离子通道",
+        "takeaway": "在COF中结合两性离子基团与乙烯连接结构，促进锂盐解离并限制阴离子迁移。",
+        "summary_zh": "研究制备含吡啶鎓内盐的亚乙烯连接COF（PSTT），将其作为固态电解质，通过有序孔道和两性离子位点促进Li⁺解离与迁移，同时抑制阴离子运动及浓度梯度。该电解质的电化学窗口为4.88 V，锂离子电导率为1.98×10⁻⁴ S/cm，并与层状氧化物和聚阴离子正极兼容。采用有限锂负极的电池循环300次后容量保持85.5%；摘要还报告了高低温适用性，但未列出具体温区。",
+        "relevance": "直接研究固态电解质的选择性离子输运及有限锂条件下的界面稳定。",
         "diagram": [
           {
             "label": "研究对象",
-            "text": "COF固态锂电解质",
-            "evidence": "Zwitterionic-vinylene-linked covalent organic framework with selective cationic nanochannels"
+            "text": "含两性离子基团的COF电解质",
+            "evidence": "zwitterionic pyridinium inner salt"
           },
           {
             "label": "研究方法",
-            "text": "两性离子选择性传输通道",
-            "evidence": "selective cation channels, synergistically promoting Li⁺ dissociation/transport while"
+            "text": "构筑选择性阳离子通道",
+            "evidence": "selective cation channels"
           },
           {
             "label": "主要发现",
-            "text": "贫锂电池300次后保持85.5%",
-            "evidence": "capacity retention of 85.5% after 300 stable cycles."
+            "text": "有限锂电池300次后保持85.5%",
+            "evidence": "capacity retention of 85.5%"
           }
         ],
-        "limitations": "摘要未披露电导率测量温度、贫锂量及300次循环倍率。",
+        "limitations": "摘要未提供电导率测试温度、有限锂负极厚度和对应循环倍率。",
         "model": "gpt-6-astra",
-        "generated_at": "2026-11-09T09:32:45+08:00",
+        "generated_at": "2026-11-09T09:37:16+08:00",
         "evidence_hash": "1b37ebab6e5257522ac2664c23b41b29ef4087d9ef867e89604bfbf4c015c02d"
       },
       "title_translation": {
-        "title_zh": "两性离子乙烯基连接COF构筑选择性阳离子通道用于宽温固态锂电池",
+        "title_zh": "两性离子亚乙烯连接共价有机框架构建选择性阳离子通道",
         "source_title_hash": "0dc2de50f72f6a212b572f307558346f247ed28cd8a7bf8fd2757e7644cf9270",
+        "model": "gpt-6-astra",
+        "generated_at": "2026-11-09T09:37:16+08:00"
+      },
+      "basis": "基于摘要",
+      "summary_status": "ready",
+      "summary_message": "中文简介已完成。"
+    },
+    {
+      "doi": "10.1016/j.chempr.2026.103329",
+      "title": "Predicting battery stability from electron-ion transport mismatch",
+      "journal": "Chem",
+      "published": "2026-11-04",
+      "abstract_kind": "abstract",
+      "url": "https://doi.org/10.1016/j.chempr.2026.103329",
+      "topics": [
+        "storage"
+      ],
+      "score": 5,
+      "authors": [
+        "Jinghao Li",
+        "Yuhang Dai",
+        "Yuzhe Zhang",
+        "Zhuo Chen",
+        "Wenwei Zhang",
+        "Lin Wang",
+        "Chenxu Dong",
+        "Lianmeng Cui",
+        "Jie Huang",
+        "Youwei Jiang",
+        "Yuyang Cai",
+        "Yaoguang Rong"
+      ],
+      "sources": [
+        "Crossref",
+        "期刊 RSS"
+      ],
+      "first_seen": "2026-11-09",
+      "metadata_verified": true,
+      "abstract_url": "https://www.sciencedirect.com/science/article/abs/pii/S2451929426003955",
+      "abstract_source": "Elsevier ScienceDirect official Summary",
+      "published_source": "publisher_online_date",
+      "published_url": "https://www.sciencedirect.com/science/article/abs/pii/S2451929426003955",
+      "abstract_verified_at": "2026-11-09T09:07:21+08:00",
+      "analysis": {
+        "title_zh": "由电极电子与离子传输失配快速判断电池稳定性",
+        "takeaway": "电子与离子的传输匹配程度可作为电池稳定性的快速评价线索。",
+        "summary_zh": "研究构建并测试具有不同电子、离子传输特性的电极，分析传输匹配程度与电池稳定性的定量关系。所观察到的规律是两种传输速率越接近，电池越稳定，并据此提出无需完整长循环测试的快速预测方法。它将评价重点放在电极内部的传输协调，而非仅比较单项电导率。",
+        "relevance": "直接涉及电池稳定性评价与缩短寿命筛选周期。",
+        "diagram": [
+          {
+            "label": "研究对象",
+            "text": "电池电极传输与稳定性",
+            "evidence": "Predicting battery stability from electron-ion transport mismatch"
+          },
+          {
+            "label": "研究方法",
+            "text": "调节电子和离子传输性质",
+            "evidence": "tailored electron and ion transport properties, we reveal"
+          },
+          {
+            "label": "主要发现",
+            "text": "传输匹配用于快速预测",
+            "evidence": "estimated from the electron-ion transport mismatch, with no"
+          }
+        ],
+        "limitations": "摘要未给出预测误差、独立验证集或适用化学体系边界，不能视为已验证的通用寿命模型。",
+        "model": "gpt-6-astra",
+        "generated_at": "2026-11-09T09:32:45+08:00",
+        "evidence_hash": "3aa3ddefeced26afd8d2332401074ededb9e0e07271f33d9fb134c5b260590b6"
+      },
+      "title_translation": {
+        "title_zh": "由电极电子与离子传输失配快速判断电池稳定性",
+        "source_title_hash": "b230972aad362d57a02b057f8dcad50870f6e56b529da862df38c54eae8cbcc4",
         "model": "gpt-6-astra",
         "generated_at": "2026-11-09T09:32:45+08:00"
       },
@@ -850,9 +850,10 @@
       "abstract_source": "Elsevier ScienceDirect official Summary",
       "published_source": "publisher_online_date",
       "published_url": "https://www.sciencedirect.com/science/article/abs/pii/S2451929426003906",
-      "abstract_verified_at": "2026-11-09T09:08:29+08:00",
+      "abstract_verified_at": "2026-11-09T09:07:24+08:00",
       "content_type": "perspective",
       "content_type_label": "观点",
+      "evidence_url": "https://www.sciencedirect.com/science/article/abs/pii/S2451929426003906",
       "analysis": {
         "title_zh": "重新审视无机固态电解质的锂含量",
         "takeaway": "这篇观点文章提出用锂传输实现指数评价锂资源投入与离子电导率的关系。",
@@ -1195,7 +1196,7 @@
       "abstract_url": "https://www.nature.com/articles/s41467-026-79393-w",
       "abstract_source": "Nature official Abstract",
       "published_url": "https://www.nature.com/articles/s41467-026-79393-w",
-      "abstract_verified_at": "2026-11-09T09:08:36+08:00",
+      "abstract_verified_at": "2026-11-09T09:07:29+08:00",
       "analysis": {
         "title_zh": "电解质增强与应力松弛协同实现低压全固态锂电池",
         "takeaway": "电解质抗锂蠕变与多孔集流体局部应力松弛需要同时设计。",
@@ -1228,6 +1229,70 @@
         "source_title_hash": "f9fdedc35f3845d943b62c672962f9bcc3689525fc8a3a14f9c809d7fb41962f",
         "model": "gpt-6-astra",
         "generated_at": "2026-11-09T09:32:45+08:00"
+      },
+      "basis": "基于摘要",
+      "summary_status": "ready",
+      "summary_message": "中文简介已完成。"
+    },
+    {
+      "doi": "10.1126/sciadv.aeh8668",
+      "title": "Alleviating the stability-energy density dilemma via electron-donor-mediated orbital symmetry regulation in sodium phosphate cathodes",
+      "journal": "Science Advances",
+      "published": "2026-10-30",
+      "abstract_kind": "abstract",
+      "url": "https://doi.org/10.1126/sciadv.aeh8668",
+      "topics": [
+        "storage"
+      ],
+      "score": 5,
+      "authors": [
+        "Heng Zhang",
+        "Zhen-Yi Gu",
+        "Xiao-Tong Wang",
+        "Yong-Li Heng",
+        "Yan Liu",
+        "Xin-Ru Zhang",
+        "Rong-Jie Zhe",
+        "Xing-Long Wu"
+      ],
+      "sources": [
+        "Crossref"
+      ],
+      "first_seen": "2026-11-09",
+      "metadata_verified": true,
+      "abstract_source": "Crossref",
+      "analysis": {
+        "title_zh": "电子给体调节轨道对称性，兼顾钠磷酸盐正极能量与稳定性",
+        "takeaway": "Fe/V掺入促使Mn³⁺电子部分离域，在保持高自旋活性的同时缓解八面体畸变。",
+        "summary_zh": "研究针对富锰NASICON正极中Mn³⁺的非对称轨道占据问题，引入Fe³⁺和V³⁺电子给体，使Mn的3d电子部分离域，并通过金属—氧网络增强邻位轨道作用，推动eg占据更对称。改性正极在0.1 C下提供178.8 mAh/g，10 C循环2000次后保持80.2%，报告正极材料能量492.06 Wh/kg。论文发表于10月30日，本周首次收录。",
+        "relevance": "直接连接钠正极电子结构、晶格畸变和长循环，为高锰材料设计提供机制依据。",
+        "diagram": [
+          {
+            "label": "研究对象",
+            "text": "富锰NASICON钠正极",
+            "evidence": "sodium super ionic conductor-type cathode materials"
+          },
+          {
+            "label": "电子调节",
+            "text": "Fe/V给体促进Mn电子离域",
+            "evidence": "partial delocalization"
+          },
+          {
+            "label": "主要发现",
+            "text": "抑制八面体畸变并保留活性",
+            "evidence": "suppressing octahedral distortion"
+          }
+        ],
+        "limitations": "能量密度按正极材料计，摘要未说明完整电池能量或Fe/V含量最优区间。",
+        "model": "gpt-6-astra",
+        "generated_at": "2026-11-09T09:37:16+08:00",
+        "evidence_hash": "d8d41e76856cdb1173d2f125b17db89a32a25ba885f94230b2a7695c85539cef"
+      },
+      "title_translation": {
+        "title_zh": "电子给体调节轨道对称性，兼顾钠磷酸盐正极能量与稳定性",
+        "source_title_hash": "9c5fd901df506fbb222e9cbf3275095f258a74ca8b4b35bb3fa4b183a7bbef18",
+        "model": "gpt-6-astra",
+        "generated_at": "2026-11-09T09:37:16+08:00"
       },
       "basis": "基于摘要",
       "summary_status": "ready",
@@ -1301,75 +1366,6 @@
         "model": "gpt-6-astra",
         "generated_at": "2026-11-09T09:32:45+08:00"
       },
-      "basis": "基于摘要",
-      "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
-    },
-    {
-      "doi": "10.1002/adfm.79415",
-      "title": "Electrolyte‐Enabled Suppression of Static Corrosion for Long‐Cycle Calendar Life in Lithium Metal Batteries",
-      "journal": "Advanced Functional Materials",
-      "published": "2026-11-05",
-      "abstract_kind": "abstract",
-      "url": "https://doi.org/10.1002/adfm.79415",
-      "topics": [
-        "lifetime",
-        "interface",
-        "storage"
-      ],
-      "score": 18,
-      "authors": [
-        "Zengwu Wei",
-        "Haichao Li",
-        "Yixiao Kong",
-        "Li Liu",
-        "Danning Yu",
-        "Min Zhou",
-        "Mingjiong Zhou",
-        "Xing Xin",
-        "Yongyao Xia"
-      ],
-      "sources": [
-        "Crossref",
-        "期刊 RSS"
-      ],
-      "first_seen": "2026-11-09",
-      "metadata_verified": true,
-      "published_source": "Crossref published-online",
-      "analysis": {
-        "title_zh": "静态腐蚀模型揭示锂金属电池日历老化",
-        "takeaway": "将开路腐蚀与循环衰退分开，有助于评价锂电池储存寿命。",
-        "summary_zh": "研究通过非外电路驱动的开路腐蚀过程分析锂电池日历老化，用拟合衰减参数λ描述容量损失，并考察LiNO₃、15C5及CsBr相关界面调控。文中100% SOC下2.7倍、0% SOC下3.4倍的寿命改善来自模型外推，不是电池已经实际运行完这些寿命的证明。",
-        "relevance": "直接研究锂金属日历寿命、静置界面腐蚀与预测。",
-        "diagram": [
-          {
-            "label": "研究对象",
-            "text": "锂金属电池日历老化",
-            "evidence": "Electrolyte‐Enabled Suppression of Static Corrosion for Long‐Cycle Calendar"
-          },
-          {
-            "label": "研究方法",
-            "text": "开路腐蚀测量与衰减模型",
-            "evidence": "corrosion under open‐circuit conditions, defining a distinct degradation"
-          },
-          {
-            "label": "主要发现",
-            "text": "寿命倍数属于模型预测",
-            "evidence": "2.7‐fold extension in storage lifetime at 100% SOC"
-          }
-        ],
-        "limitations": "模型外推需核对温度、拟合区间和失效阈值；不能与循环寿命倍率混用。",
-        "model": "gpt-6-astra",
-        "generated_at": "2026-11-09T09:32:45+08:00",
-        "evidence_hash": "002e8a2e147e0ab58a368eb75fa8151ed20da0da33b7488fd29e752904fe397c"
-      },
-      "title_translation": {
-        "title_zh": "静态腐蚀模型揭示锂金属电池日历老化",
-        "source_title_hash": "06ba6377e8ba08ff96b6246647ed67f231fbbff985dbb9e6ff228c75f3cf8129",
-        "model": "gpt-6-astra",
-        "generated_at": "2026-11-09T09:32:45+08:00"
-      },
-      "reason": "拟合开路腐蚀衰减并外推不同SOC下的日历寿命，直接属于寿命模型研究。",
       "basis": "基于摘要",
       "summary_status": "ready",
       "summary_message": "中文简介已完成。"
@@ -1946,7 +1942,7 @@
       "abstract_source": "Elsevier ScienceDirect official Abstract",
       "published_source": "publisher_online_date",
       "published_url": "https://www.sciencedirect.com/science/article/abs/pii/S2405829726007634",
-      "abstract_verified_at": "2026-11-09T09:05:03+08:00",
+      "abstract_verified_at": "2026-11-09T09:05:01+08:00",
       "analysis": {
         "title_zh": "持续富Zn²⁺双电层改善四电子锌碘电池",
         "takeaway": "在正负极界面建立局部离子储库，以加快电荷补偿和均匀沉积。",
@@ -2089,7 +2085,7 @@
       "abstract_source": "Elsevier ScienceDirect official Abstract",
       "published_source": "publisher_online_date",
       "published_url": "https://www.sciencedirect.com/science/article/abs/pii/S2405829726007488",
-      "abstract_verified_at": "2026-11-09T09:04:49+08:00",
+      "abstract_verified_at": "2026-11-09T09:04:47+08:00",
       "analysis": {
         "title_zh": "体相溶剂化与胆碱氯化物界面调控提升锌溴液流电池耐热性",
         "takeaway": "ChCl同时改变水氢键网络和锌界面，改善60 ℃下液流电池循环。",
@@ -2741,61 +2737,65 @@
       "summary_message": "中文简介已完成。"
     },
     {
-      "doi": "10.1016/j.jpowsour.2026.241124",
-      "title": "Joint estimation of battery state of health and remaining useful life via degradation encoding and implicit physics-informed neural networks",
-      "journal": "Journal of Power Sources",
-      "published": "2026-07-31",
+      "doi": "10.1002/adfm.79519",
+      "title": "Grape Cluster Inspired Biomimetic Composite Solid Electrolyte for High‐Voltage and Long‐Life Solid‐State Lithium Metal Batteries",
+      "journal": "Advanced Functional Materials",
+      "published": "2026-11-07",
       "abstract_kind": "abstract",
-      "url": "https://doi.org/10.1016/j.jpowsour.2026.241124",
+      "url": "https://doi.org/10.1002/adfm.79519",
       "topics": [
+        "interface",
         "storage",
         "lifetime"
       ],
-      "score": 15,
+      "score": 14,
       "authors": [
-        "Zheng Liu",
-        "Linfeng Yao",
-        "Wenjing Huang",
-        "Yanjun Jiang",
-        "Siyuan Qiu",
-        "Xiaofeng Tang"
+        "Wanqing Fan",
+        "Xuetao Shi",
+        "Ying Huang",
+        "Kaihang She",
+        "Shumeng Wang",
+        "Zheng Zhang"
       ],
       "sources": [
-        "Crossref"
+        "Crossref",
+        "期刊 RSS"
       ],
-      "first_seen": "2026-11-02",
+      "first_seen": "2026-11-09",
       "metadata_verified": true,
-      "abstract_url": "https://www.sciencedirect.com/science/article/abs/pii/S0378775326018744",
-      "abstract_source": "Elsevier ScienceDirect official Abstract",
-      "published_source": "publisher_online_date",
-      "published_url": "https://www.sciencedirect.com/science/article/abs/pii/S0378775326018744",
-      "abstract_verified_at": "2026-11-02T11:29:34+08:00",
+      "published_source": "Crossref published-online",
       "analysis": {
-        "title_zh": "通过退化编码与隐式物理信息神经网络联合估计电池健康状态与剩余使用寿命",
-        "takeaway": "DELE-Net以可学习基函数退化编码、隐式物理规律演化网络和梯度隔离级联实现SOH与RUL联合估计。",
-        "summary_zh": "针对含噪数据特征提取困难、刚性物理模型对复杂老化适应性有限及多任务梯度干扰等问题，本文提出退化编码与规律演化网络（DELE-Net）。框架包含三部分：退化特征编码器（DFE）用可学习基函数分解从多维原始信号中提取内在老化特征；退化规律演化（DLE）网络从数据中自主刻画隐式物理老化方程；梯度隔离级联（GIC）策略通过非对称梯度流路径缓解负迁移。在MIT、CALCE和NASA公开数据集上的实验表明，DELE-Net在双任务协同的组合误差指标（CEI）等方面优于LSTM、Transformer、PatchTST和ModernTCN等代表性基线；消融实验验证了各模块在不同骨干架构上的兼容性，并在CALCE与NASA的异质老化轨迹上保持稳定准确的预测。",
-        "relevance": "面向锂离子电池管理的SOH与RUL联合估计，服务于多任务电池健康预测。",
+        "title_zh": "葡萄串式复合固态电解质兼顾传输与机械支撑",
+        "takeaway": "介孔二氧化硅与原位聚合构筑复合网络，模型用于阻抗演化分析。",
+        "summary_zh": "研究结合PAN、磺酸锂功能化介孔SiO₂与原位聚合，形成葡萄串式复合电解质。25 ℃电导率1.44×10⁻³ S cm⁻¹，Li⁺迁移数0.65，模量520 MPa。LFP电池1000次后保持88.8%，NCM电池300次后保持94.3%；软包另报告414.9 Wh kg⁻¹。物理信息神经网络用于预测阻抗变化，不能据此宣称已实现剩余寿命预测。",
+        "relevance": "关注固态电解质的结构、传输、界面阻抗及软包验证。",
         "diagram": [
           {
             "label": "研究对象",
-            "text": "锂离子电池SOH与RUL联合估计",
-            "evidence": "Joint estimation of state of health (SOH) and"
+            "text": "复合固态电解质",
+            "evidence": "Grape Cluster Inspired Biomimetic Composite Solid Electrolyte for"
           },
           {
             "label": "研究方法",
-            "text": "退化编码与隐式物理规律演化网络",
-            "evidence": "this paper proposes the Degradation Encoder and Law"
+            "text": "功能化介孔颗粒与原位聚合",
+            "evidence": "polymerization. This structure establishes long‐range Li + conduction"
           },
           {
             "label": "主要发现",
-            "text": "双任务组合误差指标优于代表性基线",
-            "evidence": "DELE-Net competitively outperforms representative baselines (including LSTM, Transformer,"
+            "text": "室温传导与力学性能兼顾",
+            "evidence": "520 MPa. Benefiting from these advantages, the assembled"
           }
         ],
-        "limitations": "摘要未披露数据集规模、训练/测试划分、超参数设置、误差指标的具体计算方式及计算成本。",
-        "model": "deepseek-flash",
-        "generated_at": "2026-11-02T11:32:28+08:00",
-        "evidence_hash": "f1bbbcf7a0733160c107292a30b0961583a2127e69da1534cf52ec0c17ba9ebc"
+        "limitations": "各正极的循环条件与软包能量计量边界需查全文；阻抗预测不等于寿命验证。",
+        "model": "gpt-6-astra",
+        "generated_at": "2026-11-09T09:32:45+08:00",
+        "evidence_hash": "a665bc6903f1efcd9a0bd7aae561879c02fd84fe94a7e9a807ba6b7908ccac83"
+      },
+      "title_translation": {
+        "title_zh": "葡萄串式复合固态电解质兼顾传输与机械支撑",
+        "source_title_hash": "39ce739bcc150c1828588f8e8d9ee999bf4062e84da3422c225d95fccaa8ed54",
+        "model": "gpt-6-astra",
+        "generated_at": "2026-11-09T09:32:45+08:00"
       },
       "basis": "基于摘要",
       "summary_status": "ready",
@@ -2832,37 +2832,37 @@
       "metadata_verified": true,
       "published_source": "Crossref published-online",
       "analysis": {
-        "title_zh": "双电极免预装锌锰电池的阴离子协同调控",
-        "takeaway": "OTf⁻与乙酸根分别参与负极成膜和正极成核，协调双电极形成。",
-        "summary_zh": "研究使用OTf⁻与乙酸根协同调控双电极免预装锌锰电池。负极形成含氟SEI，正极通过瞬时MnO₂成核及质子补偿的锰空位调节反应。在10 mA cm⁻²下，0.5 mAh cm⁻²条件报告7500次循环，2 mAh cm⁻²条件报告600次循环，显示面容量增加后循环表现需要单独评价。",
-        "relevance": "直接研究水系锌锰储能及正负极原位形成机制。",
+        "title_zh": "阴离子协同调节稳定双无电极锌锰沉积溶解电池",
+        "takeaway": "混合阴离子分别调节锌侧SEI和锰侧成核缺陷，提高两端沉积/溶解可逆性。",
+        "summary_zh": "研究采用OTf⁻与乙酸根组成的混合电解液，面向双无电极Zn/MnO₂电池。锌侧形成富氟界面膜以减少枝晶和析氢；锰侧提高成核过电位、促成瞬时成核，并引入由质子补偿的锰空位，使MnO₂更易可逆溶解。电池在0.5 mAh/cm²下超过7500次循环，在2 mAh/cm²、10 mA/cm²下运行600次；还验证了液流与凝胶构型。",
+        "relevance": "直接研究水系沉积溶解电池的双界面控制与失活锰问题。",
         "diagram": [
           {
             "label": "研究对象",
-            "text": "双电极免预装锌锰电池",
-            "evidence": "Synergistic Anion Regulation Inducing Fluoride‐Rich SEI and Defect‐Rich"
+            "text": "双无电极Zn/MnO₂电池",
+            "evidence": "Dual electrode‐free (DEF)"
           },
           {
-            "label": "研究方法",
-            "text": "OTf⁻与乙酸根协同调控",
-            "evidence": "acetate (Ac − ) ions. At the anode,"
+            "label": "协同设计",
+            "text": "锌侧成膜、锰侧缺陷调控",
+            "evidence": "proton‐compensated manganese vacancies"
           },
           {
             "label": "主要发现",
-            "text": "面容量分组验证循环寿命",
-            "evidence": "7500 cycles at 0.5 mAh cm −2 and"
+            "text": "提高MnO₂可逆溶解能力",
+            "evidence": "ensuring highly reversible dissolution"
           }
         ],
-        "limitations": "两种面容量下的循环次数不可互换；摘要未给出完整软包级能量指标。",
+        "limitations": "摘要未提供不同构型的电解液库存、整体能量效率和活性物质利用率。",
         "model": "gpt-6-astra",
-        "generated_at": "2026-11-09T09:32:45+08:00",
+        "generated_at": "2026-11-09T09:37:16+08:00",
         "evidence_hash": "422453e5a9477d2949203ee3cdd88bd84764673ebc7e565216fbba7bc46bdfc2"
       },
       "title_translation": {
-        "title_zh": "双电极免预装锌锰电池的阴离子协同调控",
+        "title_zh": "阴离子协同调节稳定双无电极锌锰沉积溶解电池",
         "source_title_hash": "cf4da4628745d8bf83b72216f27c7ab8e633da31a3316f427d7e2034b4ebbe06",
         "model": "gpt-6-astra",
-        "generated_at": "2026-11-09T09:32:45+08:00"
+        "generated_at": "2026-11-09T09:37:16+08:00"
       },
       "basis": "基于摘要",
       "summary_status": "ready",
@@ -2969,6 +2969,7 @@
       "published_source": "Crossref published-online",
       "content_type": "review",
       "content_type_label": "综述",
+      "evidence_url": "https://doi.org/10.1002/adfm.79177",
       "analysis": {
         "title_zh": "从跨部件耦合审视可充锌空气电池",
         "takeaway": "综述强调把锌利用、电解液库存和气体边界一起纳入寿命评价。",
@@ -3073,71 +3074,6 @@
       "summary_message": "中文简介已完成。"
     },
     {
-      "doi": "10.1002/adfm.79519",
-      "title": "Grape Cluster Inspired Biomimetic Composite Solid Electrolyte for High‐Voltage and Long‐Life Solid‐State Lithium Metal Batteries",
-      "journal": "Advanced Functional Materials",
-      "published": "2026-11-07",
-      "abstract_kind": "abstract",
-      "url": "https://doi.org/10.1002/adfm.79519",
-      "topics": [
-        "interface",
-        "storage"
-      ],
-      "score": 10,
-      "authors": [
-        "Wanqing Fan",
-        "Xuetao Shi",
-        "Ying Huang",
-        "Kaihang She",
-        "Shumeng Wang",
-        "Zheng Zhang"
-      ],
-      "sources": [
-        "Crossref",
-        "期刊 RSS"
-      ],
-      "first_seen": "2026-11-09",
-      "metadata_verified": true,
-      "published_source": "Crossref published-online",
-      "reason": "PINN预测阻抗演变，未验证剩余寿命预测。",
-      "analysis": {
-        "title_zh": "葡萄串式复合固态电解质兼顾传输与机械支撑",
-        "takeaway": "介孔二氧化硅与原位聚合构筑复合网络，模型用于阻抗演化分析。",
-        "summary_zh": "研究结合PAN、磺酸锂功能化介孔SiO₂与原位聚合，形成葡萄串式复合电解质。25 ℃电导率1.44×10⁻³ S cm⁻¹，Li⁺迁移数0.65，模量520 MPa。LFP电池1000次后保持88.8%，NCM电池300次后保持94.3%；软包另报告414.9 Wh kg⁻¹。物理信息神经网络用于预测阻抗变化，不能据此宣称已实现剩余寿命预测。",
-        "relevance": "关注固态电解质的结构、传输、界面阻抗及软包验证。",
-        "diagram": [
-          {
-            "label": "研究对象",
-            "text": "复合固态电解质",
-            "evidence": "Grape Cluster Inspired Biomimetic Composite Solid Electrolyte for"
-          },
-          {
-            "label": "研究方法",
-            "text": "功能化介孔颗粒与原位聚合",
-            "evidence": "polymerization. This structure establishes long‐range Li + conduction"
-          },
-          {
-            "label": "主要发现",
-            "text": "室温传导与力学性能兼顾",
-            "evidence": "520 MPa. Benefiting from these advantages, the assembled"
-          }
-        ],
-        "limitations": "各正极的循环条件与软包能量计量边界需查全文；阻抗预测不等于寿命验证。",
-        "model": "gpt-6-astra",
-        "generated_at": "2026-11-09T09:32:45+08:00",
-        "evidence_hash": "a665bc6903f1efcd9a0bd7aae561879c02fd84fe94a7e9a807ba6b7908ccac83"
-      },
-      "title_translation": {
-        "title_zh": "葡萄串式复合固态电解质兼顾传输与机械支撑",
-        "source_title_hash": "39ce739bcc150c1828588f8e8d9ee999bf4062e84da3422c225d95fccaa8ed54",
-        "model": "gpt-6-astra",
-        "generated_at": "2026-11-09T09:32:45+08:00"
-      },
-      "basis": "基于摘要",
-      "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
-    },
-    {
       "doi": "10.1002/adfm.79182",
       "title": "Core–Shell Solvation Structure Engineering Enables Practical Lithium Metal Batteries With 475 Wh Kg −1",
       "journal": "Advanced Functional Materials",
@@ -3230,37 +3166,37 @@
       "metadata_verified": true,
       "published_source": "Crossref published-online",
       "analysis": {
-        "title_zh": "氯铝酸盐离子液体平衡调节改善铝电池循环活化",
-        "takeaway": "调节AlCl₄⁻/Al₂Cl₇⁻平衡改变铝电池界面与离子反应环境。",
-        "summary_zh": "研究在AlCl₃/EMIC离子液体中加入二氯乙烷，以原位拉曼跟踪氯铝酸根平衡变化。摘要报告全电池在200 mA g⁻¹下经历7000次循环后，比容量由92增至203 mAh g⁻¹，属于循环过程中的容量增长，而非203降至92的保持率描述。该工作为理解离子液体中的物种平衡和活化提供证据。",
-        "relevance": "直接研究非水铝电池电解液物种与循环行为。",
+        "title_zh": "加快氯铝酸根动态再平衡以稳定铝电池界面",
+        "takeaway": "通过小分子调节剂改善离子液体中的载流物种再分配，而非只降低黏度。",
+        "summary_zh": "研究在AlCl₃/EMIC离子液体中引入二氯乙烷，调节离子间作用以加快有效载流物种的动态再平衡。原位拉曼表明AlCl₄⁻与Al₂Cl₇⁻之间的可逆转化得到促进，有助于减少活性载流物种的持续耗损，并改善铝沉积与界面稳定。配对片状石墨正极后，摘要报告在200 mA/g、7000次循环条件下达到203 mAh/g。该工作适合从物种转化动力学角度审视离子液体电解质。",
+        "relevance": "直接研究铝电池电解液中的动态物种平衡与电极界面。",
         "diagram": [
           {
             "label": "研究对象",
-            "text": "氯铝酸盐铝电池",
-            "evidence": "Fast Dynamic Re‐Equilibration of Chloroaluminate Speciation Enables a"
+            "text": "AlCl₃/EMIC离子液体",
+            "evidence": "AlCl 3 /EMIC ionic liquid electrolyte"
           },
           {
             "label": "研究方法",
-            "text": "原位拉曼分析阴离子平衡",
-            "evidence": "Raman spectroscopy confirms that the moderator promotes reversible"
+            "text": "二氯乙烷调节物种再平衡",
+            "evidence": "dichloroethane‐enabled electrolyte"
           },
           {
-            "label": "主要发现",
-            "text": "循环中容量由92增至203",
-            "evidence": "203 mAh g −1 at 200 mA g"
+            "label": "研究证据",
+            "text": "原位拉曼观察可逆物种转化",
+            "evidence": "In situ Raman spectroscopy"
           }
         ],
-        "limitations": "摘要未明确容量增长各阶段的原因及长时库仑效率，需结合完整曲线分析。",
+        "limitations": "摘要对92与203 mAh/g的比较关系表述不够明确，不据此声称同一电池容量随循环增长。",
         "model": "gpt-6-astra",
-        "generated_at": "2026-11-09T09:32:45+08:00",
+        "generated_at": "2026-11-09T09:37:16+08:00",
         "evidence_hash": "761caa9dbc6c9709a60b4c3b084c1185ba84f7bd5325a025f230e9d35fe7b757"
       },
       "title_translation": {
-        "title_zh": "氯铝酸盐离子液体平衡调节改善铝电池循环活化",
+        "title_zh": "加快氯铝酸根动态再平衡以稳定铝电池界面",
         "source_title_hash": "8662cfe3223ecdbab1e5e8900b56db6505caabb16fce6aa5cee384bc871ea938",
         "model": "gpt-6-astra",
-        "generated_at": "2026-11-09T09:32:45+08:00"
+        "generated_at": "2026-11-09T09:37:16+08:00"
       },
       "basis": "基于摘要",
       "summary_status": "ready",
@@ -3274,7 +3210,6 @@
       "abstract_kind": "abstract",
       "url": "https://doi.org/10.1002/aenm.71798",
       "topics": [
-        "interface",
         "storage"
       ],
       "score": 10,
@@ -3296,7 +3231,7 @@
       "first_seen": "2026-11-09",
       "metadata_verified": true,
       "published_source": "Crossref published-online",
-      "reason": "超声预测SOC及相对额定容量的SOC_N，不是SOH或剩余寿命。",
+      "reason": "预测变量为SOC和SOCN，不是SOH或剩余寿命。",
       "analysis": {
         "title_zh": "温度补偿非线性超声实现电池荷电状态估计",
         "takeaway": "非线性导波信号结合温度补偿，用于估计SOC而非直接预测寿命。",
@@ -3327,70 +3262,6 @@
       "title_translation": {
         "title_zh": "温度补偿非线性超声实现电池荷电状态估计",
         "source_title_hash": "ea01e1185d3cc8db7fe5d734bf540687c9a57aa17314432a368440242217270b",
-        "model": "gpt-6-astra",
-        "generated_at": "2026-11-09T09:32:45+08:00"
-      },
-      "basis": "基于摘要",
-      "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
-    },
-    {
-      "doi": "10.1002/aenm.71809",
-      "title": "Super‐Toughness Self‐Healing Composite Solid Electrolyte With Structured Interfacial Reconstruction Enabling Fast Ion Transport and Stable Interface for High‐Performance Solid‐State Lithium Metal Batteries",
-      "journal": "Advanced Energy Materials",
-      "published": "2026-11-05",
-      "abstract_kind": "abstract",
-      "url": "https://doi.org/10.1002/aenm.71809",
-      "topics": [
-        "interface",
-        "storage"
-      ],
-      "score": 10,
-      "authors": [
-        "Feng Zou",
-        "Zhihong Yao",
-        "Bo Peng",
-        "Shixin Liu",
-        "Runwei Mo"
-      ],
-      "sources": [
-        "Crossref",
-        "期刊 RSS"
-      ],
-      "first_seen": "2026-11-09",
-      "metadata_verified": true,
-      "published_source": "Crossref published-online",
-      "reason": "压强/温度微分监测不等于寿命预测。",
-      "analysis": {
-        "title_zh": "自修复聚合物界面改善复合固态电解质",
-        "takeaway": "陶瓷表面转化与聚合物相调节共同改善传导、延展和界面接触。",
-        "summary_zh": "研究将LLZTO表面的Li₂CO₃转化为Li₂PO₃F，并借EDTA调节PVDF晶相。室温电导率为1.694 mS cm⁻¹，拉伸延展率422.6%，电化学窗口5.13 V；电池在1 C下500次循环保持89.4%。文中还通过压强和温度对电量的微分信号监测状态，这属于过程监测，尚非剩余寿命预测。",
-        "relevance": "直接涉及固态电解质界面修复及电池状态监测。",
-        "diagram": [
-          {
-            "label": "研究对象",
-            "text": "自修复复合固态界面",
-            "evidence": "Super‐Toughness Self‐Healing Composite Solid Electrolyte With Structured Interfacial"
-          },
-          {
-            "label": "研究方法",
-            "text": "陶瓷表面转化与PVDF相调节",
-            "evidence": "ethylenediaminetetraacetic acid to promote lithium salt dissolution and"
-          },
-          {
-            "label": "主要发现",
-            "text": "改善室温传导与循环",
-            "evidence": "1.694 mS cm − 1 ), excellent thermal"
-          }
-        ],
-        "limitations": "200 ℃热稳定性不代表可在200 ℃循环；状态监测指标缺少寿命预测验证。",
-        "model": "gpt-6-astra",
-        "generated_at": "2026-11-09T09:32:45+08:00",
-        "evidence_hash": "7d6240b8978019fb042842ff009873b80d5667387586f0980f819712184aea0e"
-      },
-      "title_translation": {
-        "title_zh": "自修复聚合物界面改善复合固态电解质",
-        "source_title_hash": "3ba21505c683cdf2ad426b30a2ad0ce5df5df24cfa8bafa7599b5236d1905043",
         "model": "gpt-6-astra",
         "generated_at": "2026-11-09T09:32:45+08:00"
       },
@@ -3493,6 +3364,8 @@
       "first_seen": "2026-11-09",
       "metadata_verified": true,
       "published_source": "Crossref published-online",
+      "reason": "复核为双面COF隔膜：正极侧分子限域与负极侧溶剂捕获/脱溶剂化共同作用。摘要未将其作为独立电催化剂研究，按保留电池隔膜涂层的偏好收录。",
+      "evidence_url": "https://doi.org/10.1002/adfm.79490",
       "analysis": {
         "title_zh": "双面COF分子陷阱隔膜协调硫物种限域与Li⁺去溶剂化",
         "takeaway": "正负极侧分别配置功能基团，以同时控制多硫化物迁移和锂界面传输。",
@@ -3526,6 +3399,7 @@
         "model": "gpt-6-astra",
         "generated_at": "2026-11-09T09:32:45+08:00"
       },
+      "excluded": false,
       "basis": "基于摘要",
       "summary_status": "ready",
       "summary_message": "中文简介已完成。"
@@ -3563,7 +3437,7 @@
       "abstract_source": "Elsevier ScienceDirect official Abstract",
       "published_source": "publisher_online_date",
       "published_url": "https://www.sciencedirect.com/science/article/abs/pii/S2405829726007713",
-      "abstract_verified_at": "2026-11-09T09:05:17+08:00",
+      "abstract_verified_at": "2026-11-09T09:05:15+08:00",
       "analysis": {
         "title_zh": "硼驱动闭孔形成与界面稳定提升硬碳储钠",
         "takeaway": "前驱体内生模板构孔与硼位点成膜共同改善硬碳平台容量和循环。",
@@ -3594,6 +3468,75 @@
       "title_translation": {
         "title_zh": "硼驱动闭孔形成与界面稳定提升硬碳储钠",
         "source_title_hash": "3f542424eb6ebbf73cef2f00bbc11d7a252364b40e213d9fb5cc64aa38bb0331",
+        "model": "gpt-6-astra",
+        "generated_at": "2026-11-09T09:32:45+08:00"
+      },
+      "basis": "基于摘要",
+      "summary_status": "ready",
+      "summary_message": "中文简介已完成。"
+    },
+    {
+      "doi": "10.1021/acs.nanolett.6c04206",
+      "title": "Capacity and Electrochromism Decoupling Strategy for Real-Time State-of-Charge Monitoring of High-Areal-Capacity Electrochromic Batteries",
+      "journal": "Nano Letters",
+      "published": "2026-11-03",
+      "abstract_kind": "abstract",
+      "url": "https://doi.org/10.1021/acs.nanolett.6c04206",
+      "topics": [
+        "storage"
+      ],
+      "score": 10,
+      "authors": [
+        "Huajie Zhang",
+        "Jian Chen",
+        "Jianwei Hu",
+        "Minfei Fei",
+        "Shujuan Han",
+        "Haiming Wang",
+        "Yue Li",
+        "Jingyi Xiao",
+        "Banghai Wang",
+        "Di Wu",
+        "Xin Chen",
+        "Jia Zhu"
+      ],
+      "sources": [
+        "Crossref"
+      ],
+      "first_seen": "2026-11-09",
+      "metadata_verified": true,
+      "published_source": "Crossref published-online",
+      "reason": "电致变色用于SOC光学监测，1%是标定间隔而非精度或寿命预测。",
+      "analysis": {
+        "title_zh": "电致变色电池实现可视化荷电状态读取",
+        "takeaway": "把变色与储能层分开，使颜色响应与SOC建立可解释的对应关系。",
+        "summary_zh": "研究分离变色层和容量贡献层，获得3.4 mAh cm⁻²面容量，300次循环后保持97.8%。SOC与色相呈单调对应，文中按1% SOC间隔采样；这一采样步长不是预测误差已达到1%的证明。另报告1000次变色循环中的81.2%反射调制，属于光学指标，不能作为电池容量保持率。",
+        "relevance": "直接关联电池可视化状态估计与电化学器件设计。",
+        "diagram": [
+          {
+            "label": "研究对象",
+            "text": "电致变色储能电池",
+            "evidence": "Capacity and Electrochromism Decoupling Strategy for Real-Time State-of-Charge"
+          },
+          {
+            "label": "研究方法",
+            "text": "分离变色层与容量层",
+            "evidence": "Hue relationship with 1% SOC intervals was established"
+          },
+          {
+            "label": "主要发现",
+            "text": "建立SOC与色相单调关系",
+            "evidence": "monotonic SOC–Hue relationship with 1% SOC intervals was"
+          }
+        ],
+        "limitations": "需要独立标定光照、观察条件及预测误差；光学循环与容量循环不同。",
+        "model": "gpt-6-astra",
+        "generated_at": "2026-11-09T09:32:45+08:00",
+        "evidence_hash": "885768affb3116e5dd1b4047e9181a880b920a12a0d7b916dc1fda744fe9c581"
+      },
+      "title_translation": {
+        "title_zh": "电致变色电池实现可视化荷电状态读取",
+        "source_title_hash": "429bf07721529df1bd981e3ae513d677ab92375ea41e5e27ba0ae16fda97c327",
         "model": "gpt-6-astra",
         "generated_at": "2026-11-09T09:32:45+08:00"
       },
@@ -3794,69 +3737,6 @@
       "summary_message": "中文简介已完成。"
     },
     {
-      "doi": "10.1002/aenm.71793",
-      "title": "Zwitterionic Thermoplastic Polyurethane‐Based Quasi‐Solid Polymer Electrolytes for Lithium Metal Batteries With Machine‐Learning‐Assisted Mechanistic Insights",
-      "journal": "Advanced Energy Materials",
-      "published": "2026-11-02",
-      "abstract_kind": "abstract",
-      "url": "https://doi.org/10.1002/aenm.71793",
-      "topics": [
-        "interface",
-        "storage"
-      ],
-      "score": 10,
-      "authors": [
-        "Hongbin Na",
-        "Kyeonghyeon Nam",
-        "Yonghyuk Lee",
-        "Sung‐Kon Kim"
-      ],
-      "sources": [
-        "Crossref",
-        "期刊 RSS"
-      ],
-      "first_seen": "2026-11-09",
-      "metadata_verified": true,
-      "published_source": "Crossref published-online",
-      "reason": "机器学习用于分子相互作用能分析，不是电池寿命预测。",
-      "analysis": {
-        "title_zh": "两性离子TPU构建抗溶胀准固态电解质",
-        "takeaway": "磷酰胆碱基团同时配位Li⁺并限制阴离子，离子交联减轻聚合物溶胀。",
-        "summary_zh": "研究把两性离子磷酰胆碱结构引入TPU，通过阳离子配位、阴离子固定及离子交联协调传输与力学稳定。分子能量分析和机器学习用于解释相互作用，支持抗溶胀界面的设计。摘要强调聚合物网络及其传输机制，未给出足够定量循环数据，因此不据此作性能排名。",
-        "relevance": "直接涉及准固态电解质的离子选择性与聚合物尺寸稳定性。",
-        "diagram": [
-          {
-            "label": "研究对象",
-            "text": "两性离子TPU电解质",
-            "evidence": "Zwitterionic Thermoplastic Polyurethane‐Based Quasi‐Solid Polymer Electrolytes for Lithium"
-          },
-          {
-            "label": "研究方法",
-            "text": "磷酰胆碱配位与离子交联",
-            "evidence": "phosphorylcholine‐derived zwitterionic groups in the TPU framework. The"
-          },
-          {
-            "label": "主要发现",
-            "text": "限制阴离子并减轻溶胀",
-            "evidence": "swelling due to ionic crosslinking. QS‐Z‐TPU exhibits high"
-          }
-        ],
-        "limitations": "分子相互作用预测不是寿命预测；器件循环条件需查全文。",
-        "model": "gpt-6-astra",
-        "generated_at": "2026-11-09T09:32:45+08:00",
-        "evidence_hash": "c57d1331e69d634c2d2492f93bcee9a44daf26a19829ee26b104b8dd4fbb7b88"
-      },
-      "title_translation": {
-        "title_zh": "两性离子TPU构建抗溶胀准固态电解质",
-        "source_title_hash": "89619013f78d3b2c4f6adbf1be4fbbae93fed01bbfafea73a74b744f27adbd0e",
-        "model": "gpt-6-astra",
-        "generated_at": "2026-11-09T09:32:45+08:00"
-      },
-      "basis": "基于摘要",
-      "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
-    },
-    {
       "doi": "10.1002/aenm.71796",
       "title": "Strengthening TMP‐Derived Phosphate SEI via Sn Scaffold and BF 4 − Interphase Chemistry for Ultra‐Stable, High‐Rate Zn Metal Anodes",
       "journal": "Advanced Energy Materials",
@@ -3889,7 +3769,7 @@
       "first_seen": "2026-11-09",
       "metadata_verified": true,
       "published_source": "Crossref published-online",
-      "reason": "TMP/乙醇非水电解液含微量水，不属于水系锌电池。",
+      "reason": "主体是TMP/乙醇非水有机电解液，含水添加剂不使其成为水系电池。",
       "analysis": {
         "title_zh": "Sn(BF₄)₂与水添加剂协同稳定磷酸酯/乙醇电解液中的锌界面",
         "takeaway": "锡沉积与含氟界面膜协同改善锌沉积，该体系以非水溶剂为主。",
@@ -3959,7 +3839,7 @@
       "abstract_source": "Elsevier ScienceDirect official Abstract",
       "published_source": "publisher_online_date",
       "published_url": "https://www.sciencedirect.com/science/article/abs/pii/S240582972600766X",
-      "abstract_verified_at": "2026-11-09T09:05:11+08:00",
+      "abstract_verified_at": "2026-11-09T09:05:08+08:00",
       "analysis": {
         "title_zh": "竞争配位协调低温钠电池溶剂化与界面动力学",
         "takeaway": "弱配位共溶剂促进阴离子进入溶剂化层，形成内外分工的富氟SEI。",
@@ -4028,7 +3908,7 @@
       "abstract_source": "Elsevier ScienceDirect official Abstract",
       "published_source": "publisher_online_date",
       "published_url": "https://www.sciencedirect.com/science/article/abs/pii/S240582972600752X",
-      "abstract_verified_at": "2026-11-09T09:05:00+08:00",
+      "abstract_verified_at": "2026-11-09T09:04:56+08:00",
       "analysis": {
         "title_zh": "自适应硅碳负极与自限界面支持无外加堆压准固态电池",
         "takeaway": "内缓冲、外约束与黏弹性电解质共同减轻硅膨胀引起的接触失效。",
@@ -4431,37 +4311,37 @@
       "metadata_verified": true,
       "published_source": "Crossref published-online",
       "analysis": {
-        "title_zh": "极性PEO/PU与MOF-177复合电解质改善离子传输",
-        "takeaway": "聚合物极性结构与MOF作用共同调节离子迁移，导电数据需保留温度条件。",
-        "summary_zh": "研究构建PEO/PU与MOF-177复合电解质，在60 ℃测得电导率1.9×10⁻³ S cm⁻¹、Li⁺迁移数0.71。锂对称电池在0.1 mAh cm⁻²的小面容量下运行9000小时。LFP电池分别报告1 C下5000次循环保持90%、100 C下500次保持85%，另有−15 ℃下150次循环验证。",
-        "relevance": "涉及固态聚合物电解质与宽温、高倍率储能。",
+        "title_zh": "分子极化调节均匀界面电势，稳定宽温固态锂电池",
+        "takeaway": "聚合物极性网络与MOF极化域共同平滑局部电场，减少优先锂成核。",
+        "summary_zh": "研究构建PEO/聚氨酯/MOF-177缠结电解质，通过极化相互作用降低界面电势不均，均匀Li⁺通量。60°C下电导率为1.9×10⁻³ S/cm、Li⁺迁移数0.71。锂对称电池以0.1 mAh/cm²面容量循环9000 h；LFP/Li电池1 C循环5000次后保持90%。另在100°C循环500次后保持85%，−15°C下运行150次，体现不同温度条件下的独立验证。",
+        "relevance": "关注固态电解质局域电场、金属成核与宽温运行。",
         "diagram": [
           {
             "label": "研究对象",
-            "text": "PEO/PU-MOF复合电解质",
-            "evidence": "Molecular Polarization Engineering Homogenizes Interfacial Potential for Long‐Life"
+            "text": "PEO/聚氨酯/MOF复合电解质",
+            "evidence": "molecularly entangled PEO/polyurethane/MOF‐177 electrolyte"
           },
           {
             "label": "研究方法",
-            "text": "极性聚合物与MOF协同传输",
-            "evidence": "MOF‐177 electrolyte is constructed, where polar polymer networks"
+            "text": "极化域重分布局部电场",
+            "evidence": "redistribute local electric‐field fluctuations"
           },
           {
             "label": "主要发现",
-            "text": "60 ℃电导率与迁移数改善",
-            "evidence": "60°C. The Li/CPEZ/Li cell cycles stably for 9000"
+            "text": "均匀Li⁺通量并抑制局部成核",
+            "evidence": "suppresses preferential lithium nucleation"
           }
         ],
-        "limitations": "60 ℃导电数据不能写成室温；小面容量对称电池不能代表高负载寿命。",
+        "limitations": "9000 h对应较低沉积面容量；摘要未明确5000次循环的测试温度。",
         "model": "gpt-6-astra",
-        "generated_at": "2026-11-09T09:32:45+08:00",
+        "generated_at": "2026-11-09T09:37:16+08:00",
         "evidence_hash": "5c9ee5ca9f1ec7c0297ddeca2b372803b4f2ac983f8881027d5c3938327db95d"
       },
       "title_translation": {
-        "title_zh": "极性PEO/PU与MOF-177复合电解质改善离子传输",
+        "title_zh": "分子极化调节均匀界面电势，稳定宽温固态锂电池",
         "source_title_hash": "96139c22a6aeec8eaca5535aaf757411b8c0a31e74c18c7141240316b379aab7",
         "model": "gpt-6-astra",
-        "generated_at": "2026-11-09T09:32:45+08:00"
+        "generated_at": "2026-11-09T09:37:16+08:00"
       },
       "basis": "基于摘要",
       "summary_status": "ready",
@@ -4705,35 +4585,98 @@
       "metadata_verified": true,
       "published_source": "Crossref published-online",
       "analysis": {
-        "title_zh": "硫醚准螯合溶剂化稳定锂/SPAN电池",
-        "takeaway": "将醚氧替换为硫醚位点，调节配位强度与阴离子参与程度。",
-        "summary_zh": "研究由甲氧基乙腈的氧位点替换为甲硫基乙腈中的硫，构建较弱的准螯合溶剂化环境，提高阴离子参与并形成更稳定的SEI。Li/SPAN电池在高负载条件下600次循环后保持86%。工作将分子配位结构与负极界面联系起来，重点是电解液与聚丙烯腈硫正极的兼容。",
-        "relevance": "直接研究锂硫相关电池电解液与界面稳定。",
+        "title_zh": "打破硫醚电解液的准螯合效应以稳定锂硫电池双界面",
+        "takeaway": "以硫替代醚氧削弱溶剂—Li⁺作用，推动富阴离子溶剂化和富硫界面形成。",
+        "summary_zh": "研究识别醚基腈溶剂中不易察觉的准螯合效应，并将甲氧基乙腈改为甲硫基乙腈。光谱与分子动力学显示，硫替换打破原有配位结构、降低脱溶剂化能垒。溶剂优先分解形成富硫无机界面，同时稳定锂金属和硫化聚丙烯腈正极，减少枝晶与多硫化物穿梭。Li/SPAN全电池在高载量条件下循环600次后保持86%。",
+        "relevance": "核心是溶剂配位与双电极成膜，不以硫转化催化剂设计为主。",
         "diagram": [
           {
             "label": "研究对象",
-            "text": "Li/SPAN电池电解液",
-            "evidence": "Breaking Quasi‐Chelation in Thioether Electrolytes for Synergistic Interfacial"
+            "text": "Li/SPAN电池硫醚电解液",
+            "evidence": "Li||SPAN full cells"
           },
           {
-            "label": "研究方法",
-            "text": "硫醚位点形成弱准螯合",
-            "evidence": "thioether‐substitution strategy. Specifically, replacing the ether oxygen in"
+            "label": "分子设计",
+            "text": "硫替换打破准螯合",
+            "evidence": "thioether‐substitution strategy"
           },
           {
             "label": "主要发现",
-            "text": "高负载电池600次后保持86%",
-            "evidence": "86% of their initial capacity after 600 cycles"
+            "text": "稳定锂负极与SPAN界面",
+            "evidence": "simultaneous stabilization of both"
           }
         ],
-        "limitations": "摘要没有给出所称高负载的具体数值、循环倍率与电解液量。",
+        "limitations": "摘要未说明高载量数值、循环倍率和电解液/硫比。",
         "model": "gpt-6-astra",
-        "generated_at": "2026-11-09T09:32:45+08:00",
+        "generated_at": "2026-11-09T09:37:16+08:00",
         "evidence_hash": "68548eeb7a5c7c62dfcb20ec55b70e8845b9a17f3d1ac4b186aeb4f57f85e1ad"
       },
       "title_translation": {
-        "title_zh": "硫醚准螯合溶剂化稳定锂/SPAN电池",
+        "title_zh": "打破硫醚电解液的准螯合效应以稳定锂硫电池双界面",
         "source_title_hash": "7827d6ae5bf3aaea3facd6021e295cd1f1367e16c7fa71d7e1695f2bc66a809a",
+        "model": "gpt-6-astra",
+        "generated_at": "2026-11-09T09:37:16+08:00"
+      },
+      "basis": "基于摘要",
+      "summary_status": "ready",
+      "summary_message": "中文简介已完成。"
+    },
+    {
+      "doi": "10.1002/aenm.71809",
+      "title": "Super‐Toughness Self‐Healing Composite Solid Electrolyte With Structured Interfacial Reconstruction Enabling Fast Ion Transport and Stable Interface for High‐Performance Solid‐State Lithium Metal Batteries",
+      "journal": "Advanced Energy Materials",
+      "published": "2026-11-05",
+      "abstract_kind": "abstract",
+      "url": "https://doi.org/10.1002/aenm.71809",
+      "topics": [
+        "interface",
+        "storage"
+      ],
+      "score": 7,
+      "authors": [
+        "Feng Zou",
+        "Zhihong Yao",
+        "Bo Peng",
+        "Shixin Liu",
+        "Runwei Mo"
+      ],
+      "sources": [
+        "Crossref",
+        "期刊 RSS"
+      ],
+      "first_seen": "2026-11-09",
+      "metadata_verified": true,
+      "published_source": "Crossref published-online",
+      "analysis": {
+        "title_zh": "自修复聚合物界面改善复合固态电解质",
+        "takeaway": "陶瓷表面转化与聚合物相调节共同改善传导、延展和界面接触。",
+        "summary_zh": "研究将LLZTO表面的Li₂CO₃转化为Li₂PO₃F，并借EDTA调节PVDF晶相。室温电导率为1.694 mS cm⁻¹，拉伸延展率422.6%，电化学窗口5.13 V；电池在1 C下500次循环保持89.4%。文中还通过压强和温度对电量的微分信号监测状态，这属于过程监测，尚非剩余寿命预测。",
+        "relevance": "直接涉及固态电解质界面修复及电池状态监测。",
+        "diagram": [
+          {
+            "label": "研究对象",
+            "text": "自修复复合固态界面",
+            "evidence": "Super‐Toughness Self‐Healing Composite Solid Electrolyte With Structured Interfacial"
+          },
+          {
+            "label": "研究方法",
+            "text": "陶瓷表面转化与PVDF相调节",
+            "evidence": "ethylenediaminetetraacetic acid to promote lithium salt dissolution and"
+          },
+          {
+            "label": "主要发现",
+            "text": "改善室温传导与循环",
+            "evidence": "1.694 mS cm − 1 ), excellent thermal"
+          }
+        ],
+        "limitations": "200 ℃热稳定性不代表可在200 ℃循环；状态监测指标缺少寿命预测验证。",
+        "model": "gpt-6-astra",
+        "generated_at": "2026-11-09T09:32:45+08:00",
+        "evidence_hash": "7d6240b8978019fb042842ff009873b80d5667387586f0980f819712184aea0e"
+      },
+      "title_translation": {
+        "title_zh": "自修复聚合物界面改善复合固态电解质",
+        "source_title_hash": "3ba21505c683cdf2ad426b30a2ad0ce5df5df24cfa8bafa7599b5236d1905043",
         "model": "gpt-6-astra",
         "generated_at": "2026-11-09T09:32:45+08:00"
       },
@@ -4902,6 +4845,8 @@
       "first_seen": "2026-11-09",
       "metadata_verified": true,
       "published_source": "Crossref published-online",
+      "reason": "复核为MoS₂/Cu集流体原位保护膜：NaPF₆分解发生于成膜过程，主要验证钠沉积剥离及无负极电池，不是催化电极转化性能研究，按保留电池涂层收录。",
+      "evidence_url": "https://doi.org/10.1002/adfm.79426",
       "analysis": {
         "title_zh": "MoS₂/Cu界面调节无负极钠电池成膜",
         "takeaway": "界面反应形成含Mo、Na₂S和NaF的保护层，以改善有限钠库存的可逆沉积。",
@@ -4935,6 +4880,7 @@
         "model": "gpt-6-astra",
         "generated_at": "2026-11-09T09:32:45+08:00"
       },
+      "excluded": false,
       "basis": "基于摘要",
       "summary_status": "ready",
       "summary_message": "中文简介已完成。"
@@ -4965,6 +4911,7 @@
       "published_source": "Crossref published-online",
       "content_type": "review",
       "content_type_label": "综述",
+      "evidence_url": "https://doi.org/10.1002/adfm.78308",
       "analysis": {
         "title_zh": "机理引导的电解液逆向设计与评价框架",
         "takeaway": "综述主张将稳定性、传输、热安全与寿命指标共同纳入电解液设计。",
@@ -5034,35 +4981,97 @@
       "metadata_verified": true,
       "published_source": "Crossref published-online",
       "analysis": {
-        "title_zh": "双隔膜结构改善不燃磷酸酯电解液的锂界面",
-        "takeaway": "通过隔膜两侧作用调节离子通量，使阻燃溶剂与锂金属更好兼容。",
-        "summary_zh": "研究使用双隔膜结构协调不燃磷酸酯电解液中的离子分布和锂界面反应。锂对称电池在2 mA cm⁻²下稳定运行1000小时；NCM811全电池在1 C下300次循环后容量保持超过90%。结果说明，电解液的阻燃性与金属负极兼容性需要通过界面结构共同解决。",
-        "relevance": "直接研究电池隔膜、电解液安全与锂负极稳定。",
+        "title_zh": "双功能隔膜调节不燃磷酸酯电解液中的离子通量",
+        "takeaway": "以隔膜促进离子解离和传输，缓解磷酸酯体系的浓差极化与两端副反应。",
+        "summary_zh": "研究针对不燃磷酸酯电解液中Li⁺结合较强、离子输运偏慢的问题，设计兼具快速解离和传输功能的隔膜。隔膜使离子场与电场分布更均匀，减少浓差极化，并降低锂金属和高镍正极与电解液之间的副反应。锂对称电池在2 mA/cm²下超过1000 h；Li/NCM811电池1 C循环300次后容量保持超过90%。工作把隔膜视为主动离子调节部件。",
+        "relevance": "直接研究电池隔膜与安全电解液的协同，保留为相关器件部件研究。",
         "diagram": [
           {
             "label": "研究对象",
-            "text": "磷酸酯锂电解液",
-            "evidence": "Formulating the Dual‐Function Separator‐Enabled Homogenizing Ion Flux in"
+            "text": "不燃磷酸酯锂电解液",
+            "evidence": "nonflammable phosphate electrolyte"
           },
           {
-            "label": "研究方法",
-            "text": "双隔膜调节离子通量",
-            "evidence": "separators with fast ion dissociation and transport capability"
+            "label": "部件设计",
+            "text": "隔膜促进解离与输运",
+            "evidence": "fast ion dissociation and transport capability"
           },
           {
             "label": "主要发现",
-            "text": "全电池300次后保持超过90%",
-            "evidence": "300 cycles at 1C. Furthermore, stable bidirectional electrode‐electrolyte"
+            "text": "减少浓差极化与界面副反应",
+            "evidence": "reducing the concentration polarization"
           }
         ],
-        "limitations": "摘要未披露隔膜完整化学组成、面容量及阻燃测试判据。",
+        "limitations": "摘要未披露隔膜具体组成、正极载量和电解液用量。",
         "model": "gpt-6-astra",
-        "generated_at": "2026-11-09T09:32:45+08:00",
+        "generated_at": "2026-11-09T09:37:16+08:00",
         "evidence_hash": "782756645b9faea86346a42d99da62fb33ca36200975f58a6dfb039809e9cde5"
       },
       "title_translation": {
-        "title_zh": "双隔膜结构改善不燃磷酸酯电解液的锂界面",
+        "title_zh": "双功能隔膜调节不燃磷酸酯电解液中的离子通量",
         "source_title_hash": "60cbfcadd8d361e91dbad3ec07644a34d44b7c7c61152e74151d36ad72c89487",
+        "model": "gpt-6-astra",
+        "generated_at": "2026-11-09T09:37:16+08:00"
+      },
+      "basis": "基于摘要",
+      "summary_status": "ready",
+      "summary_message": "中文简介已完成。"
+    },
+    {
+      "doi": "10.1002/aenm.71793",
+      "title": "Zwitterionic Thermoplastic Polyurethane‐Based Quasi‐Solid Polymer Electrolytes for Lithium Metal Batteries With Machine‐Learning‐Assisted Mechanistic Insights",
+      "journal": "Advanced Energy Materials",
+      "published": "2026-11-02",
+      "abstract_kind": "abstract",
+      "url": "https://doi.org/10.1002/aenm.71793",
+      "topics": [
+        "interface",
+        "storage"
+      ],
+      "score": 7,
+      "authors": [
+        "Hongbin Na",
+        "Kyeonghyeon Nam",
+        "Yonghyuk Lee",
+        "Sung‐Kon Kim"
+      ],
+      "sources": [
+        "Crossref",
+        "期刊 RSS"
+      ],
+      "first_seen": "2026-11-09",
+      "metadata_verified": true,
+      "published_source": "Crossref published-online",
+      "analysis": {
+        "title_zh": "两性离子TPU构建抗溶胀准固态电解质",
+        "takeaway": "磷酰胆碱基团同时配位Li⁺并限制阴离子，离子交联减轻聚合物溶胀。",
+        "summary_zh": "研究把两性离子磷酰胆碱结构引入TPU，通过阳离子配位、阴离子固定及离子交联协调传输与力学稳定。分子能量分析和机器学习用于解释相互作用，支持抗溶胀界面的设计。摘要强调聚合物网络及其传输机制，未给出足够定量循环数据，因此不据此作性能排名。",
+        "relevance": "直接涉及准固态电解质的离子选择性与聚合物尺寸稳定性。",
+        "diagram": [
+          {
+            "label": "研究对象",
+            "text": "两性离子TPU电解质",
+            "evidence": "Zwitterionic Thermoplastic Polyurethane‐Based Quasi‐Solid Polymer Electrolytes for Lithium"
+          },
+          {
+            "label": "研究方法",
+            "text": "磷酰胆碱配位与离子交联",
+            "evidence": "phosphorylcholine‐derived zwitterionic groups in the TPU framework. The"
+          },
+          {
+            "label": "主要发现",
+            "text": "限制阴离子并减轻溶胀",
+            "evidence": "swelling due to ionic crosslinking. QS‐Z‐TPU exhibits high"
+          }
+        ],
+        "limitations": "分子相互作用预测不是寿命预测；器件循环条件需查全文。",
+        "model": "gpt-6-astra",
+        "generated_at": "2026-11-09T09:32:45+08:00",
+        "evidence_hash": "c57d1331e69d634c2d2492f93bcee9a44daf26a19829ee26b104b8dd4fbb7b88"
+      },
+      "title_translation": {
+        "title_zh": "两性离子TPU构建抗溶胀准固态电解质",
+        "source_title_hash": "89619013f78d3b2c4f6adbf1be4fbbae93fed01bbfafea73a74b744f27adbd0e",
         "model": "gpt-6-astra",
         "generated_at": "2026-11-09T09:32:45+08:00"
       },
@@ -5302,6 +5311,7 @@
       "published_source": "Crossref published-online",
       "content_type": "review",
       "content_type_label": "综述",
+      "evidence_url": "https://doi.org/10.1002/adfm.78738",
       "analysis": {
         "title_zh": "从前驱体到工作结构：MOF衍生电池电极的结构与界面",
         "takeaway": "综述强调转化后实际保留的连接和接触，比前驱体名称更能解释电极功能。",
@@ -5363,7 +5373,10 @@
         "Zhao Ge",
         "Zhaoci Guo",
         "Yu Zhang",
-        "Zhen Shen"
+        "Zhen Shen",
+        "Yizhou Wang",
+        "Jin Zhao",
+        "Yanwen Ma"
       ],
       "sources": [
         "期刊 RSS"
@@ -5433,7 +5446,10 @@
         "Zhenyang Wu",
         "Rutao Wang",
         "Zhiwei Zhang",
-        "Luyuan Zhang"
+        "Luyuan Zhang",
+        "Xiaobin Hui",
+        "Longwei Yin",
+        "Chengxiang Wang"
       ],
       "sources": [
         "期刊 RSS"
@@ -5577,6 +5593,7 @@
       "published_source": "Crossref published-online",
       "content_type": "review",
       "content_type_label": "综述",
+      "evidence_url": "https://doi.org/10.1002/aenm.71636",
       "analysis": {
         "title_zh": "钠离子电池预钠化策略与多维评价",
         "takeaway": "综述把补钠效果、界面变化与制造兼容性放到同一评价框架。",
@@ -5881,6 +5898,72 @@
       "summary_message": "中文简介已完成。"
     },
     {
+      "doi": "10.1002/adfm.79415",
+      "title": "Electrolyte‐Enabled Suppression of Static Corrosion for Long‐Cycle Calendar Life in Lithium Metal Batteries",
+      "journal": "Advanced Functional Materials",
+      "published": "2026-11-05",
+      "abstract_kind": "abstract",
+      "url": "https://doi.org/10.1002/adfm.79415",
+      "topics": [
+        "storage"
+      ],
+      "score": 5,
+      "authors": [
+        "Zengwu Wei",
+        "Haichao Li",
+        "Yixiao Kong",
+        "Li Liu",
+        "Danning Yu",
+        "Min Zhou",
+        "Mingjiong Zhou",
+        "Xing Xin",
+        "Yongyao Xia"
+      ],
+      "sources": [
+        "Crossref",
+        "期刊 RSS"
+      ],
+      "first_seen": "2026-11-09",
+      "metadata_verified": true,
+      "published_source": "Crossref published-online",
+      "analysis": {
+        "title_zh": "静态腐蚀模型揭示锂金属电池日历老化",
+        "takeaway": "将开路腐蚀与循环衰退分开，有助于评价锂电池储存寿命。",
+        "summary_zh": "研究通过非外电路驱动的开路腐蚀过程分析锂电池日历老化，用拟合衰减参数λ描述容量损失，并考察LiNO₃、15C5及CsBr相关界面调控。文中100% SOC下2.7倍、0% SOC下3.4倍的寿命改善来自模型外推，不是电池已经实际运行完这些寿命的证明。",
+        "relevance": "直接研究锂金属日历寿命、静置界面腐蚀与预测。",
+        "diagram": [
+          {
+            "label": "研究对象",
+            "text": "锂金属电池日历老化",
+            "evidence": "Electrolyte‐Enabled Suppression of Static Corrosion for Long‐Cycle Calendar"
+          },
+          {
+            "label": "研究方法",
+            "text": "开路腐蚀测量与衰减模型",
+            "evidence": "corrosion under open‐circuit conditions, defining a distinct degradation"
+          },
+          {
+            "label": "主要发现",
+            "text": "寿命倍数属于模型预测",
+            "evidence": "2.7‐fold extension in storage lifetime at 100% SOC"
+          }
+        ],
+        "limitations": "模型外推需核对温度、拟合区间和失效阈值；不能与循环寿命倍率混用。",
+        "model": "gpt-6-astra",
+        "generated_at": "2026-11-09T09:32:45+08:00",
+        "evidence_hash": "002e8a2e147e0ab58a368eb75fa8151ed20da0da33b7488fd29e752904fe397c"
+      },
+      "title_translation": {
+        "title_zh": "静态腐蚀模型揭示锂金属电池日历老化",
+        "source_title_hash": "06ba6377e8ba08ff96b6246647ed67f231fbbff985dbb9e6ff228c75f3cf8129",
+        "model": "gpt-6-astra",
+        "generated_at": "2026-11-09T09:32:45+08:00"
+      },
+      "basis": "基于摘要",
+      "summary_status": "ready",
+      "summary_message": "中文简介已完成。"
+    },
+    {
       "doi": "10.1002/adma.75673",
       "title": "Cathode‐Driven Aluminothermic Fronts Amplify Thermal Runaway in Lithium‐Ion Batteries",
       "journal": "Advanced Materials",
@@ -6077,74 +6160,6 @@
       "summary_message": "中文简介已完成。"
     },
     {
-      "doi": "10.1021/acs.nanolett.6c04206",
-      "title": "Capacity and Electrochromism Decoupling Strategy for Real-Time State-of-Charge Monitoring of High-Areal-Capacity Electrochromic Batteries",
-      "journal": "Nano Letters",
-      "published": "2026-11-03",
-      "abstract_kind": "abstract",
-      "url": "https://doi.org/10.1021/acs.nanolett.6c04206",
-      "topics": [
-        "storage"
-      ],
-      "score": 5,
-      "authors": [
-        "Huajie Zhang",
-        "Jian Chen",
-        "Jianwei Hu",
-        "Minfei Fei",
-        "Shujuan Han",
-        "Haiming Wang",
-        "Yue Li",
-        "Jingyi Xiao",
-        "Banghai Wang",
-        "Di Wu",
-        "Xin Chen",
-        "Jia Zhu"
-      ],
-      "sources": [
-        "Crossref"
-      ],
-      "first_seen": "2026-11-09",
-      "metadata_verified": true,
-      "published_source": "Crossref published-online",
-      "analysis": {
-        "title_zh": "电致变色电池实现可视化荷电状态读取",
-        "takeaway": "把变色与储能层分开，使颜色响应与SOC建立可解释的对应关系。",
-        "summary_zh": "研究分离变色层和容量贡献层，获得3.4 mAh cm⁻²面容量，300次循环后保持97.8%。SOC与色相呈单调对应，文中按1% SOC间隔采样；这一采样步长不是预测误差已达到1%的证明。另报告1000次变色循环中的81.2%反射调制，属于光学指标，不能作为电池容量保持率。",
-        "relevance": "直接关联电池可视化状态估计与电化学器件设计。",
-        "diagram": [
-          {
-            "label": "研究对象",
-            "text": "电致变色储能电池",
-            "evidence": "Capacity and Electrochromism Decoupling Strategy for Real-Time State-of-Charge"
-          },
-          {
-            "label": "研究方法",
-            "text": "分离变色层与容量层",
-            "evidence": "Hue relationship with 1% SOC intervals was established"
-          },
-          {
-            "label": "主要发现",
-            "text": "建立SOC与色相单调关系",
-            "evidence": "monotonic SOC–Hue relationship with 1% SOC intervals was"
-          }
-        ],
-        "limitations": "需要独立标定光照、观察条件及预测误差；光学循环与容量循环不同。",
-        "model": "gpt-6-astra",
-        "generated_at": "2026-11-09T09:32:45+08:00",
-        "evidence_hash": "885768affb3116e5dd1b4047e9181a880b920a12a0d7b916dc1fda744fe9c581"
-      },
-      "title_translation": {
-        "title_zh": "电致变色电池实现可视化荷电状态读取",
-        "source_title_hash": "429bf07721529df1bd981e3ae513d677ab92375ea41e5e27ba0ae16fda97c327",
-        "model": "gpt-6-astra",
-        "generated_at": "2026-11-09T09:32:45+08:00"
-      },
-      "basis": "基于摘要",
-      "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
-    },
-    {
       "doi": "10.1021/acsenergylett.6c02552",
       "title": "Reconfiguring Quinone Cathodes via Transition Metal Coordination for Advanced Calcium Batteries",
       "journal": "ACS Energy Letters",
@@ -6172,37 +6187,37 @@
       "metadata_verified": true,
       "published_source": "Crossref published-online",
       "analysis": {
-        "title_zh": "铜镍醌类正极实现高电压钙离子存储",
-        "takeaway": "羰基、亚胺与高电位阴离子存储共同参与有机正极反应。",
-        "summary_zh": "研究以铜镍醌类结构构建钙电池正极：放电过程中Ca参与羰基和亚胺相关储存，高荷电状态还涉及TFSI⁻存储。正极报告203 mAh g⁻¹及约3.1 V相对Ca的工作电位，材料层级能量超过600 Wh kg⁻¹。该数字基于正极活性材料，不能解释为整电池能量密度。",
-        "relevance": "直接涉及多价电池有机正极与阴阳离子协同储存。",
+        "title_zh": "过渡金属配位重构醌正极以提高钙电池储能",
+        "takeaway": "通过Cu/Ni配位重组共轭结构，使Ca²⁺配位储存与高电位阴离子储存共同贡献容量。",
+        "summary_zh": "研究制备Cu和Ni配位醌正极，利用金属中心重构共轭分子框架，同时改善工作电压和可逆容量。优化电极达到203 mAh/g，平均电压约3.1 V（相对Ca²⁺/Ca），据此报告超过600 Wh/kg的正极能量。原位表征与计算支持双极储存：放电时Ca²⁺与羰基和亚胺位点配位，高充电电位时则储存TFSI⁻。",
+        "relevance": "直接研究多价钙电池有机正极及阳、阴离子共同储存机制。",
         "diagram": [
           {
             "label": "研究对象",
-            "text": "钙电池铜镍醌正极",
-            "evidence": "Reconfiguring Quinone Cathodes via Transition Metal Coordination for"
+            "text": "Cu/Ni配位醌正极",
+            "evidence": "metal (Cu and Ni)-coordinated quinone cathodes"
           },
           {
             "label": "研究方法",
-            "text": "羰基/亚胺与TFSI⁻共同反应",
-            "evidence": "carbonyl compounds possess structural flexibility and redox activity,"
+            "text": "原位表征与理论计算",
+            "evidence": "in situ characterizations and theoretical calculations"
           },
           {
             "label": "主要发现",
-            "text": "正极材料获得较高电压容量",
-            "evidence": "203 mAh g–1 at an average voltage of"
+            "text": "Ca²⁺配位与TFSI⁻储存协同",
+            "evidence": "a bipolar charge-storage mechanism"
           }
         ],
-        "limitations": "摘要未给出整电池质量分布和长期循环条件。",
+        "limitations": "能量指标来自正极容量和电位，不能作为完整钙电池的质量能量密度。",
         "model": "gpt-6-astra",
-        "generated_at": "2026-11-09T09:32:45+08:00",
+        "generated_at": "2026-11-09T09:37:16+08:00",
         "evidence_hash": "75e93aca68474cd4708ac668b8e8acc53c651fabb7dd675ca14c03e55981f000"
       },
       "title_translation": {
-        "title_zh": "铜镍醌类正极实现高电压钙离子存储",
+        "title_zh": "过渡金属配位重构醌正极以提高钙电池储能",
         "source_title_hash": "1fec8b41e90d0de6ad0f2d7038b5484fafd146af38f97568e9109f14ed62b0c4",
         "model": "gpt-6-astra",
-        "generated_at": "2026-11-09T09:32:45+08:00"
+        "generated_at": "2026-11-09T09:37:16+08:00"
       },
       "basis": "基于摘要",
       "summary_status": "ready",
@@ -6431,37 +6446,37 @@
       "metadata_verified": true,
       "published_source": "Crossref published-online",
       "analysis": {
-        "title_zh": "多阶段热响应气凝胶抑制电池热失控传播",
-        "takeaway": "湿度预警、放气与高温陶瓷化分别参与不同阶段的防护。",
-        "summary_zh": "研究构建多阶段响应气凝胶，利用热触发放气及Co-BDC相关陶瓷化改善阻隔。材料压缩强度从1.25升至4.5 MPa，并进行电池模组热失控传播测试。文中4.07%的氧体积分数属于放气稀释的理论估算，不能写成整个电池包实测氧浓度。",
-        "relevance": "直接关注电池模组热安全与隔热材料响应。",
+        "title_zh": "多阶段热响应气凝胶抑制电池模组热失控传播",
+        "takeaway": "按热失控阶段依次提供预警、气相阻燃、陶瓷屏障与机械保护。",
+        "summary_zh": "研究设计多阶段响应气凝胶：早期释放水蒸气并以湿度变化预警，后期持续释放阻燃气体并原位陶瓷化。多孔夹层延长传热路径，表面陶瓷层阻隔火焰；陶瓷化后抗压强度由1.25提高到4.5 MPa。不同电池模组的传播试验验证抑制效果。摘要中的氧摩尔分数4.07%来自理论计算，与实际模组各位置的测量浓度需区分。",
+        "relevance": "直接面向电池模组的热管理、传播抑制与失效预警材料。",
         "diagram": [
           {
             "label": "研究对象",
-            "text": "电池热防护气凝胶",
-            "evidence": "Multistage Thermally Responsive Aerogel for Full‐Cycle Thermal Protection"
+            "text": "电池模组热防护气凝胶",
+            "evidence": "multistage thermal response aerogel"
           },
           {
-            "label": "研究方法",
-            "text": "分阶段放气与陶瓷化",
-            "evidence": "ceramization reaction is triggered, generating a dense ceramic"
+            "label": "保护路径",
+            "text": "蒸汽、阻燃气体与陶瓷化",
+            "evidence": "an in situ ceramization reaction"
           },
           {
-            "label": "主要发现",
-            "text": "材料强化并验证模组阻隔",
-            "evidence": "4.5 MPa, enabling resistance against explosion‐induced mechanical impact"
+            "label": "验证方法",
+            "text": "不同模组热失控传播试验",
+            "evidence": "different battery modules"
           }
         ],
-        "limitations": "材料强度、理论氧稀释和模组传播是不同证据层级，需结合真实模组边界判断。",
+        "limitations": "摘要未披露模组配置和全部滥用条件，不能保证所有热失控场景均被阻断。",
         "model": "gpt-6-astra",
-        "generated_at": "2026-11-09T09:32:45+08:00",
+        "generated_at": "2026-11-09T09:37:16+08:00",
         "evidence_hash": "866d9f03a5073bb8f5d3e436b4b9f0a88d55c97070b469b0214dbe080aebe19f"
       },
       "title_translation": {
-        "title_zh": "多阶段热响应气凝胶抑制电池热失控传播",
+        "title_zh": "多阶段热响应气凝胶抑制电池模组热失控传播",
         "source_title_hash": "7006dfcaf4fcc596fec51a1e80b059a01fc12ab97a47069e356407b84be97030",
         "model": "gpt-6-astra",
-        "generated_at": "2026-11-09T09:32:45+08:00"
+        "generated_at": "2026-11-09T09:37:16+08:00"
       },
       "basis": "基于摘要",
       "summary_status": "ready",
@@ -6494,37 +6509,37 @@
       "metadata_verified": true,
       "published_source": "Crossref published-online",
       "analysis": {
-        "title_zh": "可规模化制备聚阴离子调控的无序岩盐正极",
-        "takeaway": "共沉淀与共晶盐热处理缩短制备流程，保留较高材料容量。",
-        "summary_zh": "研究制备Li₁.₆₇Mn₁.₅P₀.₁₇O₄无序岩盐正极，采用共沉淀和共晶盐辅助，在空气中450 ℃处理30分钟，无需机械球磨。材料报告324 mAh g⁻¹比容量及935 Wh kg⁻¹比能量。制备路线与材料初始性能得到展示，但不能据摘要推算整电池能量和寿命。",
-        "relevance": "直接研究锂电池正极化学及可制造工艺。",
+        "title_zh": "共沉淀路线放大制备聚阴离子整合无序岩盐锂电正极",
+        "takeaway": "以前驱体化学控制降低固相反应热预算，将机械化学材料转向常规正极工艺。",
+        "summary_zh": "研究以Mn²⁺、HPO₄²⁻和OH⁻共沉淀调节前驱体，再借助共熔锂盐进行固相反应，在空气中450°C、30 min制得Li₁.₆₇Mn₁.₅P₀.₁₇O₄。较低热预算减少颗粒粗化，避免后续粉碎，得到微纳混合颗粒。正极比容量为324 mAh/g，对应材料能量935 Wh/kg。工作重点是把亚稳无序岩盐的制备转向兼容既有制造流程的路线。",
+        "relevance": "直接研究无钴镍高容量锂电正极的合成与制造可放大性。",
         "diagram": [
           {
             "label": "研究对象",
-            "text": "聚阴离子调控无序岩盐正极",
-            "evidence": "Coprecipitation‐Enabled Scalable Synthesis of High‐Energy Density Polyanion‐Integrated Disordered"
+            "text": "聚阴离子整合无序岩盐正极",
+            "evidence": "polyanion‐integrated DRX"
           },
           {
-            "label": "研究方法",
-            "text": "共沉淀与短时共晶盐处理",
-            "evidence": "450°C, 30 min) in air. The reduced thermal"
+            "label": "制备方法",
+            "text": "共沉淀加共熔盐辅助固相反应",
+            "evidence": "coprecipitation–enabled solid‐state synthesis"
           },
           {
             "label": "主要发现",
-            "text": "较低温度制备高容量材料",
-            "evidence": "324 mAh g −1 (935 Wh kg −1"
+            "text": "降低热预算并避免后续粉碎",
+            "evidence": "eliminating the need for post‐synthesis particle pulverization"
           }
         ],
-        "limitations": "935 Wh kg⁻¹以正极材料为基准；摘要没有足够长期保持率数据。",
+        "limitations": "935 Wh/kg为正极材料能量，摘要未给出整电池指标、规模产量及长循环保持率。",
         "model": "gpt-6-astra",
-        "generated_at": "2026-11-09T09:32:45+08:00",
+        "generated_at": "2026-11-09T09:37:16+08:00",
         "evidence_hash": "58806a32f57f907dd488753c77f681bfeb67a41ac1ba51102f13448cbfdddab4"
       },
       "title_translation": {
-        "title_zh": "可规模化制备聚阴离子调控的无序岩盐正极",
+        "title_zh": "共沉淀路线放大制备聚阴离子整合无序岩盐锂电正极",
         "source_title_hash": "582476997fbd658ec87d9c8580ba22f2c75e2197ea9b62e334b6e3d9f41afbc1",
         "model": "gpt-6-astra",
-        "generated_at": "2026-11-09T09:32:45+08:00"
+        "generated_at": "2026-11-09T09:37:16+08:00"
       },
       "basis": "基于摘要",
       "summary_status": "ready",
@@ -6561,37 +6576,37 @@
       "metadata_verified": true,
       "published_source": "Crossref published-online",
       "analysis": {
-        "title_zh": "形状记忆隔膜通过热收孔调节电池安全响应",
-        "takeaway": "热触发孔道收缩提高离子阻力，芳纶骨架帮助保持结构完整。",
-        "summary_zh": "研究将芳纶与PETMP/TMPTA/IBOA形状记忆网络结合，约140 ℃收孔使电阻升高一个数量级，骨架可保持至175 ℃。正常条件下电导率0.29 mS cm⁻¹，锂对称电池运行3000小时；富锂正极在16 mg cm⁻²、0.5 C、60 ℃下100次循环仍接近250 mAh g⁻¹。热响应阈值与电池运行温度应分开。",
-        "relevance": "直接研究电池隔膜、热关断及较高负载运行。",
+        "title_zh": "形状记忆隔膜通过热触发重构离子通道保护锂金属电池",
+        "takeaway": "正常温度保留导离子孔道，过热时收缩孔道，同时由芳纶骨架维持电极隔离。",
+        "summary_zh": "研究在多孔芳纶内光聚合交联网络，使温度升高触发热机械重排。正常工况离子电导率为0.29 mS/cm，锂沉积/剥离超过3000 h；140°C时孔道收缩，离子电阻提高一个数量级，芳纶在175°C仍保持尺寸完整。隔膜兼容高镍及富锂正极，16 mg/cm²富锂正极在0.5 C循环100次，并另验证60°C容量及最高125°C运行。",
+        "relevance": "直接研究电池隔膜的自主过热保护与高载量兼容性；光聚合是制备步骤。",
         "diagram": [
           {
             "label": "研究对象",
-            "text": "热响应形状记忆隔膜",
-            "evidence": "Dynamic Reconstruction of Ion Transport Pathways by a"
+            "text": "芳纶支持的形状记忆隔膜",
+            "evidence": "aramid‐supported shape memory separator"
           },
           {
-            "label": "研究方法",
-            "text": "升温触发孔道收缩",
-            "evidence": "140°C, the shape memory network undergoes thermomechanical rearrangement,"
+            "label": "热响应",
+            "text": "140°C收缩贯通孔道",
+            "evidence": "constricting the percolating pores"
           },
           {
-            "label": "主要发现",
-            "text": "电阻增加并保持骨架",
-            "evidence": "175°C and maintains electrode isolation after ionic shutdown."
+            "label": "保护机制",
+            "text": "离子阻力增加且电极继续隔离",
+            "evidence": "maintains electrode isolation"
           }
         ],
-        "limitations": "175 ℃是结构耐受条件，不代表电池可持续在该温度安全工作。",
+        "limitations": "离子电阻上升不等于完全切断电流；摘要未报告完整热失控抑制协议和寿命。",
         "model": "gpt-6-astra",
-        "generated_at": "2026-11-09T09:32:45+08:00",
+        "generated_at": "2026-11-09T09:37:16+08:00",
         "evidence_hash": "4c7941bc818bebcdf2fbdee0954961cb692649fb59235d0f7288c7ddc12de28d"
       },
       "title_translation": {
-        "title_zh": "形状记忆隔膜通过热收孔调节电池安全响应",
+        "title_zh": "形状记忆隔膜通过热触发重构离子通道保护锂金属电池",
         "source_title_hash": "01dc03951458e4982e80ceef87c6b2834b1c2038305adbf1a7885cf91daaa544",
         "model": "gpt-6-astra",
-        "generated_at": "2026-11-09T09:32:45+08:00"
+        "generated_at": "2026-11-09T09:37:16+08:00"
       },
       "basis": "基于摘要",
       "summary_status": "ready",
@@ -6910,7 +6925,15 @@
       ],
       "score": 10,
       "authors": [
-        "Yu Yan, \nJingzhao Chen, \nJinyang Li, \nYiwei Cai, \nXiaoyan Zhang, \nZiqiang Niu, \nYuwen Liu, \nFeng Huo, \nSuojiang Zhang"
+        "Yu Yan",
+        "Jingzhao Chen",
+        "Jinyang Li",
+        "Yiwei Cai",
+        "Xiaoyan Zhang",
+        "Ziqiang Niu",
+        "Yuwen Liu",
+        "Feng Huo",
+        "Suojiang Zhang"
       ],
       "sources": [
         "Crossref",
@@ -6995,7 +7018,15 @@
       ],
       "score": 10,
       "authors": [
-        "Md Shahnewaz Khan, \nM. Akif Rahman, \nHossein Shahali, \nGuotao Wang, \nJaven S. Weston, \nHema Ramsurn, \nAmir Asadi, \nSyed Raziullah Hussaini, \nAhmad Amiri"
+        "Md Shahnewaz Khan",
+        "M. Akif Rahman",
+        "Hossein Shahali",
+        "Guotao Wang",
+        "Javen S. Weston",
+        "Hema Ramsurn",
+        "Amir Asadi",
+        "Syed Raziullah Hussaini",
+        "Ahmad Amiri"
       ],
       "sources": [
         "Crossref",
@@ -7048,7 +7079,20 @@
       ],
       "score": 17,
       "authors": [
-        "Baojiu Hao, \nJinqiu Zhou, \nChanghao Zhu, \nMengxing Fan, \nSongyue Liu, \nQiuyu Qian, \nBinbin Shen, \nXiuzhen Yang, \nHao Yang, \nYun Shi, \nZhenkang Wang, \nShaochun Tang, \nChenglin Yan, \nTao Qian"
+        "Baojiu Hao",
+        "Jinqiu Zhou",
+        "Changhao Zhu",
+        "Mengxing Fan",
+        "Songyue Liu",
+        "Qiuyu Qian",
+        "Binbin Shen",
+        "Xiuzhen Yang",
+        "Hao Yang",
+        "Yun Shi",
+        "Zhenkang Wang",
+        "Shaochun Tang",
+        "Chenglin Yan",
+        "Tao Qian"
       ],
       "sources": [
         "Crossref",
@@ -7101,7 +7145,14 @@
       ],
       "score": 17,
       "authors": [
-        "Bing Li, \nWeicong Liang, \nMinghui Ye, \nZhipeng Wen, \nYufei Zhang, \nYongchao Tang, \nXiaoqing Liu, \nCheng Chao Li"
+        "Bing Li",
+        "Weicong Liang",
+        "Minghui Ye",
+        "Zhipeng Wen",
+        "Yufei Zhang",
+        "Yongchao Tang",
+        "Xiaoqing Liu",
+        "Cheng Chao Li"
       ],
       "sources": [
         "Crossref",
@@ -7390,7 +7441,13 @@
       ],
       "score": 14,
       "authors": [
-        "Junyi Han, \nJiaming Li, \nHedong Gu, \nYini Long, \nNan Li, \nShaoyu Zhang, \nZhanhong Yang"
+        "Junyi Han",
+        "Jiaming Li",
+        "Hedong Gu",
+        "Yini Long",
+        "Nan Li",
+        "Shaoyu Zhang",
+        "Zhanhong Yang"
       ],
       "sources": [
         "Crossref",
@@ -7442,7 +7499,14 @@
       ],
       "score": 15,
       "authors": [
-        "Jingkang Ma, \nQiuyuan Feng, \nYining Chen, \nShaoxing Li, \nPenghui Cao, \nQuan Zong, \nShuang Zhou, \nAnqiang Pan"
+        "Jingkang Ma",
+        "Qiuyuan Feng",
+        "Yining Chen",
+        "Shaoxing Li",
+        "Penghui Cao",
+        "Quan Zong",
+        "Shuang Zhou",
+        "Anqiang Pan"
       ],
       "sources": [
         "Crossref",
@@ -7494,7 +7558,19 @@
       ],
       "score": 12,
       "authors": [
-        "Li‐Ling Fu, \nYu Wu, \nRuisheng Zhang, \nHai‐Feng Bian, \nLin Zhu, \nWen‐Chao Tang, \nSong Sun, \nYing‐Jie Ma, \nPei‐Jie Jiao, \nYanqiang Cao, \nYu Deng, \nShuang Chen, \nAi‐Dong Li"
+        "Li‐Ling Fu",
+        "Yu Wu",
+        "Ruisheng Zhang",
+        "Hai‐Feng Bian",
+        "Lin Zhu",
+        "Wen‐Chao Tang",
+        "Song Sun",
+        "Ying‐Jie Ma",
+        "Pei‐Jie Jiao",
+        "Yanqiang Cao",
+        "Yu Deng",
+        "Shuang Chen",
+        "Ai‐Dong Li"
       ],
       "sources": [
         "Crossref",
@@ -7546,7 +7622,17 @@
       ],
       "score": 10,
       "authors": [
-        "Cuiping Luo, \nWenwei Li, \nQi An, \nKun Zeng, \nYunyu Zhao, \nYunchun Zha, \nHongjia Liu, \nFanyu Xie, \nBangyu Zhang, \nGenfu Zhao, \nHong Guo"
+        "Cuiping Luo",
+        "Wenwei Li",
+        "Qi An",
+        "Kun Zeng",
+        "Yunyu Zhao",
+        "Yunchun Zha",
+        "Hongjia Liu",
+        "Fanyu Xie",
+        "Bangyu Zhang",
+        "Genfu Zhao",
+        "Hong Guo"
       ],
       "sources": [
         "Crossref",
@@ -7572,7 +7658,21 @@
       ],
       "score": 17,
       "authors": [
-        "Jianqiang Huang, \nZhijin Ju, \nTao Yang, \nXufen Ding, \nLirong Chen, \nYuanfeng Wu, \nFei Ru, \nGongxun Lu, \nOuwei Sheng, \nJie Xu, \nYanshuai Li, \nChao Zheng, \nShun Wang, \nChengbin Jin, \nYifei Yuan"
+        "Jianqiang Huang",
+        "Zhijin Ju",
+        "Tao Yang",
+        "Xufen Ding",
+        "Lirong Chen",
+        "Yuanfeng Wu",
+        "Fei Ru",
+        "Gongxun Lu",
+        "Ouwei Sheng",
+        "Jie Xu",
+        "Yanshuai Li",
+        "Chao Zheng",
+        "Shun Wang",
+        "Chengbin Jin",
+        "Yifei Yuan"
       ],
       "sources": [
         "Crossref",
@@ -7806,7 +7906,21 @@
       ],
       "score": 17,
       "authors": [
-        "Chunhui Gao, \nYulong Yang, \nJun Wang, \nBin Zhu, \nXian Wu, \nRunpeng Ma, \nPengxin Shu, \nJichao Zhang, \nZheng Li, \nMenghui Liao, \nSongsong Zheng, \nXiaoyu Li, \nMei Ding, \nChuankun Jia, \nWei Zhang"
+        "Chunhui Gao",
+        "Yulong Yang",
+        "Jun Wang",
+        "Bin Zhu",
+        "Xian Wu",
+        "Runpeng Ma",
+        "Pengxin Shu",
+        "Jichao Zhang",
+        "Zheng Li",
+        "Menghui Liao",
+        "Songsong Zheng",
+        "Xiaoyu Li",
+        "Mei Ding",
+        "Chuankun Jia",
+        "Wei Zhang"
       ],
       "sources": [
         "Crossref",
@@ -7860,7 +7974,12 @@
       ],
       "score": 20,
       "authors": [
-        "Canfu Zhang, \nWenlong Liang, \nJiayue Peng, \nSaisai Qiu, \nShijie Cheng, \nJia Xie"
+        "Canfu Zhang",
+        "Wenlong Liang",
+        "Jiayue Peng",
+        "Saisai Qiu",
+        "Shijie Cheng",
+        "Jia Xie"
       ],
       "sources": [
         "Crossref",
@@ -7914,7 +8033,11 @@
       ],
       "score": 17,
       "authors": [
-        "Cunxin Liu, \nPeng Yang, \nMohamed H. Helal, \nJiang Zhou, \nEero Kontturi"
+        "Cunxin Liu",
+        "Peng Yang",
+        "Mohamed H. Helal",
+        "Jiang Zhou",
+        "Eero Kontturi"
       ],
       "sources": [
         "Crossref",
@@ -7967,7 +8090,16 @@
       ],
       "score": 15,
       "authors": [
-        "Yipeng Xiong, \nHuan Xia, \nDingshuo Qiao, \nFengyi Wang, \nHongye Ding, \nXinyu Li, \nChengjie Lu, \nTao Shui, \nWei Zhang, \nZheng Ming Sun"
+        "Yipeng Xiong",
+        "Huan Xia",
+        "Dingshuo Qiao",
+        "Fengyi Wang",
+        "Hongye Ding",
+        "Xinyu Li",
+        "Chengjie Lu",
+        "Tao Shui",
+        "Wei Zhang",
+        "Zheng Ming Sun"
       ],
       "sources": [
         "Crossref",
@@ -8019,7 +8151,16 @@
       ],
       "score": 10,
       "authors": [
-        "Shahid Ali, \nGaoxue Jiang, \nMingji Sun, \nYong Jiang, \nYimei Ouyang, \nQiyao Zou, \nGuiming Zhong, \nJianmin Ma, \nZhangquan Peng, \nYuwei Su"
+        "Shahid Ali",
+        "Gaoxue Jiang",
+        "Mingji Sun",
+        "Yong Jiang",
+        "Yimei Ouyang",
+        "Qiyao Zou",
+        "Guiming Zhong",
+        "Jianmin Ma",
+        "Zhangquan Peng",
+        "Yuwei Su"
       ],
       "sources": [
         "Crossref",
@@ -8073,7 +8214,14 @@
       ],
       "score": 17,
       "authors": [
-        "Jiaqi Liu, \nZhonghao Lu, \nRuiwang Zhang, \nYinwei Fan, \nSiqi Liao, \nFan Yang, \nShiwei Lin, \nXihong Lu"
+        "Jiaqi Liu",
+        "Zhonghao Lu",
+        "Ruiwang Zhang",
+        "Yinwei Fan",
+        "Siqi Liao",
+        "Fan Yang",
+        "Shiwei Lin",
+        "Xihong Lu"
       ],
       "sources": [
         "Crossref",
@@ -8127,7 +8275,15 @@
       ],
       "score": 15,
       "authors": [
-        "Hongxu Zhang, \nMeijia Qiu, \nYumeng Lu, \nYanan Wang, \nWanglin Li, \nHan Huang, \nYuxuan Liang, \nPeng Sun, \nWenjie Mai"
+        "Hongxu Zhang",
+        "Meijia Qiu",
+        "Yumeng Lu",
+        "Yanan Wang",
+        "Wanglin Li",
+        "Han Huang",
+        "Yuxuan Liang",
+        "Peng Sun",
+        "Wenjie Mai"
       ],
       "sources": [
         "Crossref",
@@ -8245,7 +8401,13 @@
       ],
       "score": 17,
       "authors": [
-        "Neng Yu, \nQingpu Zeng, \nYazhou Liang, \nZuyang Liu, \nKai Guo, \nLei Wang, \nHuiqiao Li"
+        "Neng Yu",
+        "Qingpu Zeng",
+        "Yazhou Liang",
+        "Zuyang Liu",
+        "Kai Guo",
+        "Lei Wang",
+        "Huiqiao Li"
       ],
       "sources": [
         "Crossref",
@@ -8299,7 +8461,13 @@
       ],
       "score": 12,
       "authors": [
-        "Yifan Zhang, \nRumeng Feng, \nDerong Luo, \nZhigang Wang, \nHai Xu, \nHui Dou, \nXiaogang Zhang"
+        "Yifan Zhang",
+        "Rumeng Feng",
+        "Derong Luo",
+        "Zhigang Wang",
+        "Hai Xu",
+        "Hui Dou",
+        "Xiaogang Zhang"
       ],
       "sources": [
         "Crossref",
@@ -8353,7 +8521,18 @@
       ],
       "score": 17,
       "authors": [
-        "Xianting Zhao, \nXinya Qiu, \nXinying Wang, \nHanci Chen, \nDi Liu, \nMengqi Zhu, \nShengyang Huang, \nYanhong Li, \nJiarui He, \nWenwu Li, \nZaiping Guo, \nWei Huang, \nHo Seok Park, \nXianhui Zhang"
+        "Xianting Zhao",
+        "Xinya Qiu",
+        "Xinying Wang",
+        "Hanci Chen",
+        "Di Liu",
+        "Mengqi Zhu",
+        "Shengyang Huang",
+        "Yanhong Li",
+        "Jiarui He",
+        "Wenwu Li",
+        "Zaiping Guo",
+        "Wei Huang"
       ],
       "sources": [
         "Crossref",
@@ -8407,7 +8586,16 @@
       ],
       "score": 20,
       "authors": [
-        "Lingbo Yao, \nZhurui Wang, \nTianshi Zhao, \nZeyu Wei, \nGege Wang, \nZifei Shi, \nZhichao Li, \nYanyu Sun, \nXiaowei Chi, \nYu Liu"
+        "Lingbo Yao",
+        "Zhurui Wang",
+        "Tianshi Zhao",
+        "Zeyu Wei",
+        "Gege Wang",
+        "Zifei Shi",
+        "Zhichao Li",
+        "Yanyu Sun",
+        "Xiaowei Chi",
+        "Yu Liu"
       ],
       "sources": [
         "Crossref",
@@ -8466,7 +8654,12 @@
       ],
       "score": 10,
       "authors": [
-        "Meinan Zhao, \nZixian Gao, \nQi Yu, \nZihan Xu, \nZhipeng Jiang, \nYongtao Li"
+        "Meinan Zhao",
+        "Zixian Gao",
+        "Qi Yu",
+        "Zihan Xu",
+        "Zhipeng Jiang",
+        "Yongtao Li"
       ],
       "sources": [
         "Crossref",
@@ -8519,7 +8712,14 @@
       ],
       "score": 10,
       "authors": [
-        "Xianbin Wu, \nZhenxiang Zhu, \nHaotian Yang, \nDayao Zhang, \nZhen Geng, \nCunman Zhang, \nMingzhe Xue, \nJian Wang"
+        "Xianbin Wu",
+        "Zhenxiang Zhu",
+        "Haotian Yang",
+        "Dayao Zhang",
+        "Zhen Geng",
+        "Cunman Zhang",
+        "Mingzhe Xue",
+        "Jian Wang"
       ],
       "sources": [
         "Crossref",
@@ -8567,7 +8767,14 @@
       ],
       "score": 10,
       "authors": [
-        "Zexuan Wu, \nLiying Wang, \nGuopeng Li, \nPengwei Hou, \nXinlong Yin, \nMing‐Hua Li, \nPan Chu, \nNian‐Wu Li"
+        "Zexuan Wu",
+        "Liying Wang",
+        "Guopeng Li",
+        "Pengwei Hou",
+        "Xinlong Yin",
+        "Ming‐Hua Li",
+        "Pan Chu",
+        "Nian‐Wu Li"
       ],
       "sources": [
         "Crossref",
@@ -8620,7 +8827,17 @@
       ],
       "score": 12,
       "authors": [
-        "Linling Zhou, \nJiachi Chen, \nYuzhuo Tan, \nBo Chen, \nMinghui Ye, \nYufei Zhang, \nZhipeng Wen, \nYongchao Tang, \nXiaoqing Liu, \nWencheng Du, \nCheng Chao Li"
+        "Linling Zhou",
+        "Jiachi Chen",
+        "Yuzhuo Tan",
+        "Bo Chen",
+        "Minghui Ye",
+        "Yufei Zhang",
+        "Zhipeng Wen",
+        "Yongchao Tang",
+        "Xiaoqing Liu",
+        "Wencheng Du",
+        "Cheng Chao Li"
       ],
       "sources": [
         "Crossref",
@@ -8674,7 +8891,13 @@
       ],
       "score": 17,
       "authors": [
-        "Ming Zhao, \nYanjing Wang, \nZhihao Li, \nLe Zhou, \nMingyu Zhang, \nHongfei Wang, \nYong Hu"
+        "Ming Zhao",
+        "Yanjing Wang",
+        "Zhihao Li",
+        "Le Zhou",
+        "Mingyu Zhang",
+        "Hongfei Wang",
+        "Yong Hu"
       ],
       "sources": [
         "Crossref",
@@ -8727,7 +8950,11 @@
       ],
       "score": 10,
       "authors": [
-        "Yuan Li, \nZhiwei Ni, \nShenglin Xiong, \nBaojuan Xi, \nJinkui Feng"
+        "Yuan Li",
+        "Zhiwei Ni",
+        "Shenglin Xiong",
+        "Baojuan Xi",
+        "Jinkui Feng"
       ],
       "sources": [
         "Crossref",
@@ -8781,7 +9008,13 @@
       ],
       "score": 17,
       "authors": [
-        "Jingbao Chen, \nChangfei Sun, \nCong Chen, \nWeiguang Fang, \nLei Zhang, \nNadeem Hussain, \nHaibo Hu"
+        "Jingbao Chen",
+        "Changfei Sun",
+        "Cong Chen",
+        "Weiguang Fang",
+        "Lei Zhang",
+        "Nadeem Hussain",
+        "Haibo Hu"
       ],
       "sources": [
         "Crossref",
@@ -8790,6 +9023,8 @@
       "first_seen": "2026-09-28",
       "metadata_verified": true,
       "published_source": "Crossref published-online",
+      "reason": "复核为晶相调控的锌碘正极界面和中间体限域研究；未报告独立电催化反应，按保留电池材料及界面研究保留历史收录。",
+      "evidence_url": "https://doi.org/10.1002/adfm.78723",
       "analysis": {
         "title_zh": "ZrO2的相工程电子结构调控水系Zn–I2电池中多碘化物化学的动力学-热力学平衡",
         "takeaway": "四方相ZrO2通过氧空位缺陷与低功函数增强界面电荷转移，与碳框架协同平衡多碘化物吸附-转化，实现2000次循环97%容量保持。",
@@ -8817,6 +9052,7 @@
         "generated_at": "2026-09-28T09:44:01+08:00",
         "evidence_hash": "e6c068fdd71823102375ac12de8316efc2ddb4bc71fa4adf15d38e674c7db95e"
       },
+      "excluded": false,
       "basis": "基于摘要",
       "summary_status": "ready",
       "summary_message": "中文简介已完成。"
@@ -12308,7 +12544,10 @@
       ],
       "score": 10,
       "authors": [
-        "Yuan Meng, \nJiulin Hu, \nRong Qian, \nChilin Li"
+        "Yuan Meng",
+        "Jiulin Hu",
+        "Rong Qian",
+        "Chilin Li"
       ],
       "sources": [
         "期刊 RSS"
@@ -12361,7 +12600,18 @@
       ],
       "score": 10,
       "authors": [
-        "Shuoqing Zhang, \nHaotian Zhu, \nLong Li, \nMing Yang, \nLong Chen, \nJunyi Hua, \nShan Yang, \nRuhong Li, \nLixin Chen, \nJingying Xie, \nTao Deng, \nXiulin Fan"
+        "Shuoqing Zhang",
+        "Haotian Zhu",
+        "Long Li",
+        "Ming Yang",
+        "Long Chen",
+        "Junyi Hua",
+        "Shan Yang",
+        "Ruhong Li",
+        "Lixin Chen",
+        "Jingying Xie",
+        "Tao Deng",
+        "Xiulin Fan"
       ],
       "sources": [
         "期刊 RSS"
@@ -12670,7 +12920,13 @@
       ],
       "score": 5,
       "authors": [
-        "Minh Van Duong, \nMitchell Kaiser, \nXia Cao, \nTrung Thien Nguyen, \nAu Nguyen, \nPhung My Loan Le, \nJun Liu"
+        "Minh Van Duong",
+        "Mitchell Kaiser",
+        "Xia Cao",
+        "Trung Thien Nguyen",
+        "Au Nguyen",
+        "Phung My Loan Le",
+        "Jun Liu"
       ],
       "sources": [
         "期刊 RSS"
@@ -12841,7 +13097,16 @@
       ],
       "score": 17,
       "authors": [
-        "Yu Han, \nZihao Lu, \nChuxin Cui, \nGuobing Ying, \nCheongwa Leong, \nHaotian Zhang, \nMin Gao, \nXiaozhong Huang, \nLong Pan, \nZhengMing Sun"
+        "Yu Han",
+        "Zihao Lu",
+        "Chuxin Cui",
+        "Guobing Ying",
+        "Cheongwa Leong",
+        "Haotian Zhang",
+        "Min Gao",
+        "Xiaozhong Huang",
+        "Long Pan",
+        "ZhengMing Sun"
       ],
       "sources": [
         "期刊 RSS"
@@ -13090,7 +13355,15 @@
       ],
       "score": 17,
       "authors": [
-        "Zhou Zhou, \nHongyu Guo, \nJian Feng, \nBohan Zhang, \nShuoqing Zhao, \nKai Liu, \nMingchuan Luo, \nDaliang Zhang, \nShaojun Guo"
+        "Zhou Zhou",
+        "Hongyu Guo",
+        "Jian Feng",
+        "Bohan Zhang",
+        "Shuoqing Zhao",
+        "Kai Liu",
+        "Mingchuan Luo",
+        "Daliang Zhang",
+        "Shaojun Guo"
       ],
       "sources": [
         "Crossref",
@@ -13262,7 +13535,13 @@
       ],
       "score": 10,
       "authors": [
-        "Xing‐Di Li, \nJia‐Ling Yu, \nGuo‐Hong Wang, \nGuo‐Rui Zhu, \nXiu‐Li Wang, \nYu‐Zhong Wang, \nGang Wu"
+        "Xing‐Di Li",
+        "Jia‐Ling Yu",
+        "Guo‐Hong Wang",
+        "Guo‐Rui Zhu",
+        "Xiu‐Li Wang",
+        "Yu‐Zhong Wang",
+        "Gang Wu"
       ],
       "sources": [
         "Crossref",
@@ -13314,7 +13593,13 @@
       ],
       "score": 15,
       "authors": [
-        "Zi‐Hang Huang, \nXiaoyu Liu, \nShuai Mao, \nLingfeng Zhu, \nZhijun Wu, \nHongge Pan, \nTianyi Ma"
+        "Zi‐Hang Huang",
+        "Xiaoyu Liu",
+        "Shuai Mao",
+        "Lingfeng Zhu",
+        "Zhijun Wu",
+        "Hongge Pan",
+        "Tianyi Ma"
       ],
       "sources": [
         "期刊 RSS"
@@ -13430,7 +13715,16 @@
       ],
       "score": 20,
       "authors": [
-        "Fanxiang Meng, \nPeiyao Wang, \nZeheng Lv, \nHuadong Jiang, \nQilong Wu, \nMinghao Zhang, \nWenhao Yang, \nXue Li, \nCheng Chao Li, \nYang Yang"
+        "Fanxiang Meng",
+        "Peiyao Wang",
+        "Zeheng Lv",
+        "Huadong Jiang",
+        "Qilong Wu",
+        "Minghao Zhang",
+        "Wenhao Yang",
+        "Xue Li",
+        "Cheng Chao Li",
+        "Yang Yang"
       ],
       "sources": [
         "Crossref",
@@ -13484,7 +13778,12 @@
       ],
       "score": 10,
       "authors": [
-        "Zihan Guo, \nZichan Yuan, \nRongfu Xu, \nYi Huang, \nNingxin Chen, \nZhaohui Wang"
+        "Zihan Guo",
+        "Zichan Yuan",
+        "Rongfu Xu",
+        "Yi Huang",
+        "Ningxin Chen",
+        "Zhaohui Wang"
       ],
       "sources": [
         "Crossref",
@@ -13537,7 +13836,15 @@
       ],
       "score": 17,
       "authors": [
-        "Zhendong Guo, \nTieyan Wang, \nPeng Yang, \nZhuo Li, \nSongsong Xu, \nDai Zhang, \nJie Zhang, \nHaozhen Dou, \nZhongwei Chen"
+        "Zhendong Guo",
+        "Tieyan Wang",
+        "Peng Yang",
+        "Zhuo Li",
+        "Songsong Xu",
+        "Dai Zhang",
+        "Jie Zhang",
+        "Haozhen Dou",
+        "Zhongwei Chen"
       ],
       "sources": [
         "Crossref",
@@ -13591,7 +13898,18 @@
       ],
       "score": 20,
       "authors": [
-        "Xiaotong Li, \nYue Wang, \nYuanyuan Wang, \nJingsong Sun, \nDiguang Jia, \nXuewei Bao, \nWentao Yuan, \nJixue Shen, \nLei Ma, \nJianzhong Xu, \nZhaoxi Shen, \nNing Zhang"
+        "Xiaotong Li",
+        "Yue Wang",
+        "Yuanyuan Wang",
+        "Jingsong Sun",
+        "Diguang Jia",
+        "Xuewei Bao",
+        "Wentao Yuan",
+        "Jixue Shen",
+        "Lei Ma",
+        "Jianzhong Xu",
+        "Zhaoxi Shen",
+        "Ning Zhang"
       ],
       "sources": [
         "Crossref",
@@ -13646,7 +13964,17 @@
       ],
       "score": 17,
       "authors": [
-        "Peilin Liang, \nDongzhi Zhang, \nHongliang Dong, \nBaptiste Py, \nQinfen Gu, \nPan Xiong, \nHui Xia, \nFrancesco Ciucci, \nWei She, \nYuping Wu, \nLinfeng Hu"
+        "Peilin Liang",
+        "Dongzhi Zhang",
+        "Hongliang Dong",
+        "Baptiste Py",
+        "Qinfen Gu",
+        "Pan Xiong",
+        "Hui Xia",
+        "Francesco Ciucci",
+        "Wei She",
+        "Yuping Wu",
+        "Linfeng Hu"
       ],
       "sources": [
         "Crossref",
@@ -13700,7 +14028,16 @@
       ],
       "score": 10,
       "authors": [
-        "Wenfeng Mao, \nHuarong Xia, \nFeng Pei, \nZhipeng Hu, \nLiya Cai, \nXiangbo Tang, \nGuo Ai, \nXian Jun Loh, \nXiaodong Chen, \nXiangdong Huang"
+        "Wenfeng Mao",
+        "Huarong Xia",
+        "Feng Pei",
+        "Zhipeng Hu",
+        "Liya Cai",
+        "Xiangbo Tang",
+        "Guo Ai",
+        "Xian Jun Loh",
+        "Xiaodong Chen",
+        "Xiangdong Huang"
       ],
       "sources": [
         "Crossref",
@@ -13754,7 +14091,13 @@
       ],
       "score": 17,
       "authors": [
-        "Mingcong Tang, \nAng Li, \nXiaoyu Huo, \nXiaohong Zou, \nMaochun Wu, \nZongping Shao, \nLiang An"
+        "Mingcong Tang",
+        "Ang Li",
+        "Xiaoyu Huo",
+        "Xiaohong Zou",
+        "Maochun Wu",
+        "Zongping Shao",
+        "Liang An"
       ],
       "sources": [
         "Crossref",
@@ -13809,7 +14152,15 @@
       "score": 20,
       "first_seen": "2026-09-23",
       "authors": [
-        "Jing Wei, \nQianyi Ma, \nXintao Long, \nShibin Li, \nQingying Li, \nDan Luo, \nJie Zhang, \nXin Wang, \nZhongwei Chen"
+        "Jing Wei",
+        "Qianyi Ma",
+        "Xintao Long",
+        "Shibin Li",
+        "Qingying Li",
+        "Dan Luo",
+        "Jie Zhang",
+        "Xin Wang",
+        "Zhongwei Chen"
       ],
       "sources": [
         "Crossref",
@@ -13863,7 +14214,18 @@
       ],
       "score": 10,
       "authors": [
-        "Zhuolin Yang, \nYuanxing Zhang, \nLirui Luo, \nYawen Liu, \nHaijian Lv, \nXinyu Zhang, \nYuxiang Zhang, \nJingwen Cui, \nZhuangnan Li, \nDaobin Mu, \nXiangyi Luo, \nJun Lu"
+        "Zhuolin Yang",
+        "Yuanxing Zhang",
+        "Lirui Luo",
+        "Yawen Liu",
+        "Haijian Lv",
+        "Xinyu Zhang",
+        "Yuxiang Zhang",
+        "Jingwen Cui",
+        "Zhuangnan Li",
+        "Daobin Mu",
+        "Xiangyi Luo",
+        "Jun Lu"
       ],
       "sources": [
         "Crossref",
@@ -13982,7 +14344,17 @@
       ],
       "score": 14,
       "authors": [
-        "Yiwen Zhang, \nQiang Hu, \nDajiang Tang, \nXiaoyang Du, \nHao Zhuo, \nMingyuan Xie, \nJingxin Zhao, \nJia‐Lin Yang, \nJin‐Zhi Guo, \nSilu Tao, \nXing‐Long Wu"
+        "Yiwen Zhang",
+        "Qiang Hu",
+        "Dajiang Tang",
+        "Xiaoyang Du",
+        "Hao Zhuo",
+        "Mingyuan Xie",
+        "Jingxin Zhao",
+        "Jia‐Lin Yang",
+        "Jin‐Zhi Guo",
+        "Silu Tao",
+        "Xing‐Long Wu"
       ],
       "sources": [
         "Crossref",
@@ -14036,7 +14408,17 @@
       ],
       "score": 14,
       "authors": [
-        "Tao Yang, \nZeyang Sun, \nChang Dong, \nFangyi Zha, \nHongbo Wu, \nYalan Zhang, \nYong Chen, \nShimou Chen, \nHongli Chen, \nYuhang Liang, \nXuefeng Zhang"
+        "Tao Yang",
+        "Zeyang Sun",
+        "Chang Dong",
+        "Fangyi Zha",
+        "Hongbo Wu",
+        "Yalan Zhang",
+        "Yong Chen",
+        "Shimou Chen",
+        "Hongli Chen",
+        "Yuhang Liang",
+        "Xuefeng Zhang"
       ],
       "sources": [
         "Crossref",
@@ -14090,7 +14472,18 @@
       ],
       "score": 14,
       "authors": [
-        "Yuhan Zou, \nChengjin Wu, \nYongbiao Mu, \nYanxia Ma, \nJiashu Chen, \nXinzhong Wang, \nTong Shen, \nWeichuan Chen, \nZixiang Meng, \nJianshuang Wei, \nKaicheng Jia, \nJincan Zhang, \nLuzhao Sun, \nLin Zeng, \nShixue Dou, \nZhongfan Liu, \nJingyu Sun"
+        "Yuhan Zou",
+        "Chengjin Wu",
+        "Yongbiao Mu",
+        "Yanxia Ma",
+        "Jiashu Chen",
+        "Xinzhong Wang",
+        "Tong Shen",
+        "Weichuan Chen",
+        "Zixiang Meng",
+        "Jianshuang Wei",
+        "Kaicheng Jia",
+        "Jincan Zhang"
       ],
       "sources": [
         "Crossref",
@@ -16556,7 +16949,21 @@
       ],
       "score": 5,
       "authors": [
-        "Jisub Kim, \nIhnkyung Jung, \nKyunam Lee, \nInsu Hwang, \nMinkwan Kim, \nEunseok Park, \nDongmin Park, \nHayoung Park, \nYonggoon Jeon, \nGaeun Park, \nHyo Chul Ahn, \nJihoon Oh, \nJungwon Park, \nAli Coskun, \nJang Wook Choi"
+        "Jisub Kim",
+        "Ihnkyung Jung",
+        "Kyunam Lee",
+        "Insu Hwang",
+        "Minkwan Kim",
+        "Eunseok Park",
+        "Dongmin Park",
+        "Hayoung Park",
+        "Yonggoon Jeon",
+        "Gaeun Park",
+        "Hyo Chul Ahn",
+        "Jihoon Oh",
+        "Jungwon Park",
+        "Ali Coskun",
+        "Jang Wook Choi"
       ],
       "sources": [
         "期刊 RSS"
@@ -16609,7 +17016,20 @@
       ],
       "score": 7,
       "authors": [
-        "Young‐Ro Lee, \nSeong Chul Hong, \nKyoungoh Kim, \nJooha Park, \nJihyeon Kim, \nByungwook Kang, \nYoungsu Kim, \nChaelin Lee, \nSoogyeong Son, \nByungmo Cho, \nJunhyung Kim, \nSang‐Gil Woo, \nGwan‐Hyoung Lee, \nKisuk Kang"
+        "Young‐Ro Lee",
+        "Seong Chul Hong",
+        "Kyoungoh Kim",
+        "Jooha Park",
+        "Jihyeon Kim",
+        "Byungwook Kang",
+        "Youngsu Kim",
+        "Chaelin Lee",
+        "Soogyeong Son",
+        "Byungmo Cho",
+        "Junhyung Kim",
+        "Sang‐Gil Woo",
+        "Gwan‐Hyoung Lee",
+        "Kisuk Kang"
       ],
       "sources": [
         "期刊 RSS"
@@ -16662,7 +17082,19 @@
       ],
       "score": 7,
       "authors": [
-        "Jangwhan Seok, \nChanyou Chung, \nHyunbeom Lee, \nSubin Ahn, \nSeongeun Lee, \nSangbin Park, \nSunhyun Hwang, \nJaeyoung Kim, \nJeonghyun Seo, \nSungwoo Noh, \nJuyeong Seong, \nSangheon Lee, \nWon‐Sub Yoon"
+        "Jangwhan Seok",
+        "Chanyou Chung",
+        "Hyunbeom Lee",
+        "Subin Ahn",
+        "Seongeun Lee",
+        "Sangbin Park",
+        "Sunhyun Hwang",
+        "Jaeyoung Kim",
+        "Jeonghyun Seo",
+        "Sungwoo Noh",
+        "Juyeong Seong",
+        "Sangheon Lee",
+        "Won‐Sub Yoon"
       ],
       "sources": [
         "期刊 RSS"
@@ -16715,7 +17147,15 @@
       ],
       "score": 7,
       "authors": [
-        "Chenduan Xie, \nXiaoqin Yi, \nDi Liu, \nXianting Zhao, \nTianyang Hong, \nXianhui Zhang, \nWenwu Li, \nQiang Zhang, \nHo Seok Park"
+        "Chenduan Xie",
+        "Xiaoqin Yi",
+        "Di Liu",
+        "Xianting Zhao",
+        "Tianyang Hong",
+        "Xianhui Zhang",
+        "Wenwu Li",
+        "Qiang Zhang",
+        "Ho Seok Park"
       ],
       "sources": [
         "期刊 RSS"
@@ -16772,7 +17212,16 @@
       ],
       "score": 17,
       "authors": [
-        "Yonggyun Lee, \nEunseo Kim, \nByeonghwa Goh, \nIlgyu Kim, \nKyung Il Kim, \nJi‐Won Jung, \nJoonmyung Choi, \nJunwoo Lee, \nKi Ro Yoon, \nTae Gwang Yun"
+        "Yonggyun Lee",
+        "Eunseo Kim",
+        "Byeonghwa Goh",
+        "Ilgyu Kim",
+        "Kyung Il Kim",
+        "Ji‐Won Jung",
+        "Joonmyung Choi",
+        "Junwoo Lee",
+        "Ki Ro Yoon",
+        "Tae Gwang Yun"
       ],
       "sources": [
         "期刊 RSS"
@@ -16825,7 +17274,20 @@
       ],
       "score": 7,
       "authors": [
-        "Jae‐Seung Kim, \nHeeju Park, \nHae‐Yong Kim, \nEunryeol Lee, \nHeewon Kim, \nSoeul Lee, \nJinyeong Choe, \nJiwon Seo, \nHyeon‐Jong Lee, \nHojoon Kim, \nJemin Yeon, \nYoon Seok Jung, \nKyung‐Wan Nam, \nDong‐Hwa Seo"
+        "Jae‐Seung Kim",
+        "Heeju Park",
+        "Hae‐Yong Kim",
+        "Eunryeol Lee",
+        "Heewon Kim",
+        "Soeul Lee",
+        "Jinyeong Choe",
+        "Jiwon Seo",
+        "Hyeon‐Jong Lee",
+        "Hojoon Kim",
+        "Jemin Yeon",
+        "Yoon Seok Jung",
+        "Kyung‐Wan Nam",
+        "Dong‐Hwa Seo"
       ],
       "sources": [
         "期刊 RSS"
@@ -16878,7 +17340,10 @@
       ],
       "score": 7,
       "authors": [
-        "Yoon Jeong Choi, \nJi‐Youn Bae, \nGa‐On Park, \nSeung‐Ho Yu"
+        "Yoon Jeong Choi",
+        "Ji‐Youn Bae",
+        "Ga‐On Park",
+        "Seung‐Ho Yu"
       ],
       "sources": [
         "期刊 RSS"
@@ -16935,7 +17400,16 @@
       ],
       "score": 17,
       "authors": [
-        "Dong Zhang, \nJong Hun Kim, \nWon Tae Hong, \nHyungu Han, \nWoo‐Seok Choe, \nGi‐Hoon Kwon, \nKyoung Il Moon, \nMin‐Cheol Kim, \nJongwook Park, \nJung Kyu Kim"
+        "Dong Zhang",
+        "Jong Hun Kim",
+        "Won Tae Hong",
+        "Hyungu Han",
+        "Woo‐Seok Choe",
+        "Gi‐Hoon Kwon",
+        "Kyoung Il Moon",
+        "Min‐Cheol Kim",
+        "Jongwook Park",
+        "Jung Kyu Kim"
       ],
       "sources": [
         "期刊 RSS"
@@ -16988,7 +17462,9 @@
       ],
       "score": 7,
       "authors": [
-        "Di Wang, \nIl Jeon, \nJinkwang Hwang"
+        "Di Wang",
+        "Il Jeon",
+        "Jinkwang Hwang"
       ],
       "sources": [
         "期刊 RSS"
@@ -17045,7 +17521,19 @@
       ],
       "score": 14,
       "authors": [
-        "Jaeil Park, \nInho Lee, \nNamhee Kim, \nWonseok Shin, \nJoo Sung Kim, \nDaegun Kim, \nGiwon Lee, \nJinhan Cho, \nHoon‐Hee Ryu, \nMyung‐Han Yoon, \nSeung Joon Yoo, \nWoo‐Jin Song, \nSungjun Park"
+        "Jaeil Park",
+        "Inho Lee",
+        "Namhee Kim",
+        "Wonseok Shin",
+        "Joo Sung Kim",
+        "Daegun Kim",
+        "Giwon Lee",
+        "Jinhan Cho",
+        "Hoon‐Hee Ryu",
+        "Myung‐Han Yoon",
+        "Seung Joon Yoo",
+        "Woo‐Jin Song",
+        "Sungjun Park"
       ],
       "sources": [
         "期刊 RSS"
@@ -17264,7 +17752,20 @@
       ],
       "score": 20,
       "authors": [
-        "Shaohui Hu, \nDongliang Yan, \nMing Yang, \nShunmin Yi, \nYanfei Zeng, \nQifan Liu, \nKefeng Ouyang, \nLongjun He, \nTonghan Yang, \nKetong Luo, \nShengkui Zhong, \nZhian Qiu, \nDingtao Ma, \nPeixin Zhang"
+        "Shaohui Hu",
+        "Dongliang Yan",
+        "Ming Yang",
+        "Shunmin Yi",
+        "Yanfei Zeng",
+        "Qifan Liu",
+        "Kefeng Ouyang",
+        "Longjun He",
+        "Tonghan Yang",
+        "Ketong Luo",
+        "Shengkui Zhong",
+        "Zhian Qiu",
+        "Dingtao Ma",
+        "Peixin Zhang"
       ],
       "sources": [
         "期刊 RSS"
@@ -17317,7 +17818,10 @@
       ],
       "score": 10,
       "authors": [
-        "Haiqi Zhang, \nZhanlin Feng, \nWeiye He, \nJinrui Ye"
+        "Haiqi Zhang",
+        "Zhanlin Feng",
+        "Weiye He",
+        "Jinrui Ye"
       ],
       "sources": [
         "期刊 RSS"
@@ -17494,7 +17998,15 @@
       ],
       "score": 10,
       "authors": [
-        "Ao Liu, \nJinlun Wu, \nYimeng Han, \nIhar Razanau, \nArtem Okulov, \nJiangan Wang, \nZhe Liu, \nFei Xu, \nHongqiang Wang"
+        "Ao Liu",
+        "Jinlun Wu",
+        "Yimeng Han",
+        "Ihar Razanau",
+        "Artem Okulov",
+        "Jiangan Wang",
+        "Zhe Liu",
+        "Fei Xu",
+        "Hongqiang Wang"
       ],
       "sources": [
         "期刊 RSS"
@@ -17911,7 +18423,14 @@
       ],
       "score": 14,
       "authors": [
-        "Qianwen Xue, \nDinghao Xu, \nRui Hu, \nTongshan Zhao, \nTao Zhong, \nZixuan Zhou, \nYuange Wang, \nQianyu Zhang"
+        "Qianwen Xue",
+        "Dinghao Xu",
+        "Rui Hu",
+        "Tongshan Zhao",
+        "Tao Zhong",
+        "Zixuan Zhou",
+        "Yuange Wang",
+        "Qianyu Zhang"
       ],
       "sources": [
         "Crossref",
@@ -17963,7 +18482,12 @@
       ],
       "score": 7,
       "authors": [
-        "Dayakar Gandla, \nInyoung Jang, \nAshok Kumar Kakarla, \nSe Hwan Park, \nJunghyun Choi, \nDongsoo Lee"
+        "Dayakar Gandla",
+        "Inyoung Jang",
+        "Ashok Kumar Kakarla",
+        "Se Hwan Park",
+        "Junghyun Choi",
+        "Dongsoo Lee"
       ],
       "sources": [
         "Crossref",
@@ -18016,7 +18540,16 @@
       ],
       "score": 20,
       "authors": [
-        "Nhat Anh Thieu, \nWei Li, \nShanshan Zhang, \nChanho Kim, \nGuang Yang, \nLiam Collins, \nDerrick Banerjee, \nKonstantinos A. Sierros, \nXiaolin Li, \nXingbo Liu"
+        "Nhat Anh Thieu",
+        "Wei Li",
+        "Shanshan Zhang",
+        "Chanho Kim",
+        "Guang Yang",
+        "Liam Collins",
+        "Derrick Banerjee",
+        "Konstantinos A. Sierros",
+        "Xiaolin Li",
+        "Xingbo Liu"
       ],
       "sources": [
         "Crossref",
@@ -18069,7 +18602,12 @@
       ],
       "score": 10,
       "authors": [
-        "Dongni Zhao, \nYong Pang, \nXiaoling Cui, \nLi Wang, \nShiyou Li, \nXiangming He"
+        "Dongni Zhao",
+        "Yong Pang",
+        "Xiaoling Cui",
+        "Li Wang",
+        "Shiyou Li",
+        "Xiangming He"
       ],
       "sources": [
         "Crossref",
@@ -18121,7 +18659,16 @@
       ],
       "score": 7,
       "authors": [
-        "Xiangjie Li, \nXilong Chen, \nJie Cui, \nZiyong Li, \nFanbo Meng, \nGui Chen, \nYouyuan Zeng, \nXiaoyun Gao, \nMin Zhu, \nRenzong Hu"
+        "Xiangjie Li",
+        "Xilong Chen",
+        "Jie Cui",
+        "Ziyong Li",
+        "Fanbo Meng",
+        "Gui Chen",
+        "Youyuan Zeng",
+        "Xiaoyun Gao",
+        "Min Zhu",
+        "Renzong Hu"
       ],
       "sources": [
         "Crossref",
@@ -18148,7 +18695,16 @@
       ],
       "score": 10,
       "authors": [
-        "Yi Li, \nShangming He, \nWeiliang Li, \nShilin Zhang, \nKai Wan, \nMingbao Huang, \nWeiyuan Huang, \nZhiyong Fu, \nZhenxing Liang, \nXiaoru Chen"
+        "Yi Li",
+        "Shangming He",
+        "Weiliang Li",
+        "Shilin Zhang",
+        "Kai Wan",
+        "Mingbao Huang",
+        "Weiyuan Huang",
+        "Zhiyong Fu",
+        "Zhenxing Liang",
+        "Xiaoru Chen"
       ],
       "sources": [
         "Crossref",
@@ -18261,7 +18817,14 @@
       ],
       "score": 10,
       "authors": [
-        "Ying‐Xian Li, \nChong Han, \nYuan‐Xin Gao, \nYu‐Shuai Feng, \nGuan‐Hua Chen, \nHuan Ye, \nSeung‐Ho Yu, \nFei‐Fei Cao"
+        "Ying‐Xian Li",
+        "Chong Han",
+        "Yuan‐Xin Gao",
+        "Yu‐Shuai Feng",
+        "Guan‐Hua Chen",
+        "Huan Ye",
+        "Seung‐Ho Yu",
+        "Fei‐Fei Cao"
       ],
       "sources": [
         "Crossref",
@@ -18314,7 +18877,14 @@
       ],
       "score": 17,
       "authors": [
-        "Weijun Zhou, \nKejie Bao, \nHongli Chen, \nXingdong Ding, \nMing Yang, \nMinfeng Chen, \nDingtao Ma, \nLimin Lu"
+        "Weijun Zhou",
+        "Kejie Bao",
+        "Hongli Chen",
+        "Xingdong Ding",
+        "Ming Yang",
+        "Minfeng Chen",
+        "Dingtao Ma",
+        "Limin Lu"
       ],
       "sources": [
         "Crossref",
@@ -18367,7 +18937,18 @@
       ],
       "score": 14,
       "authors": [
-        "Jiahao Li, \nYifan Peng, \nXi Liu, \nXincang Yu, \nZiying Lin, \nBoyin Hu, \nMeng Xu, \nTianxu Cai, \nTianyi Zhang, \nPeng Wen, \nYongbiao Mu, \nJing Li"
+        "Jiahao Li",
+        "Yifan Peng",
+        "Xi Liu",
+        "Xincang Yu",
+        "Ziying Lin",
+        "Boyin Hu",
+        "Meng Xu",
+        "Tianxu Cai",
+        "Tianyi Zhang",
+        "Peng Wen",
+        "Yongbiao Mu",
+        "Jing Li"
       ],
       "sources": [
         "Crossref",
@@ -18475,7 +19056,12 @@
       ],
       "score": 12,
       "authors": [
-        "Puja De, \nPetr Lazar, \nMichal Otyepka, \nJakub Mesicek, \nJiri Hajnys, \nMartin Pumera"
+        "Puja De",
+        "Petr Lazar",
+        "Michal Otyepka",
+        "Jakub Mesicek",
+        "Jiri Hajnys",
+        "Martin Pumera"
       ],
       "sources": [
         "Crossref",
@@ -18523,7 +19109,22 @@
       ],
       "score": 14,
       "authors": [
-        "Yuanzhe Tao, \nYonggang Hu, \nZhifeng He, \nMeifang Ding, \nYufan Peng, \nShijun Tang, \nHuiyan Zhang, \nKe Zhang, \nYing Lin, \nWenhao Wu, \nYanting Jin, \nWenhua Zuo, \nJinding Liang, \nZhengliang Gong, \nYiming Wei, \nYong Yang"
+        "Yuanzhe Tao",
+        "Yonggang Hu",
+        "Zhifeng He",
+        "Meifang Ding",
+        "Yufan Peng",
+        "Shijun Tang",
+        "Huiyan Zhang",
+        "Ke Zhang",
+        "Ying Lin",
+        "Wenhao Wu",
+        "Yanting Jin",
+        "Wenhua Zuo",
+        "Jinding Liang",
+        "Zhengliang Gong",
+        "Yiming Wei",
+        "Yong Yang"
       ],
       "sources": [
         "Crossref",
@@ -18571,7 +19172,13 @@
       ],
       "score": 10,
       "authors": [
-        "Yongtao Zhao, \nRong Hao, \nJianwei Qiu, \nQianqian Fu, \nJiaxuan Feng, \nNing Liu, \nPengchao Si"
+        "Yongtao Zhao",
+        "Rong Hao",
+        "Jianwei Qiu",
+        "Qianqian Fu",
+        "Jiaxuan Feng",
+        "Ning Liu",
+        "Pengchao Si"
       ],
       "sources": [
         "Crossref",
@@ -18623,7 +19230,13 @@
       ],
       "score": 10,
       "authors": [
-        "Yingrui Liu, \nShuang Liu, \nSai Che, \nChong Xu, \nQuan Xu, \nYongfeng Li, \nZhenhua Yan"
+        "Yingrui Liu",
+        "Shuang Liu",
+        "Sai Che",
+        "Chong Xu",
+        "Quan Xu",
+        "Yongfeng Li",
+        "Zhenhua Yan"
       ],
       "sources": [
         "Crossref",
@@ -18743,7 +19356,16 @@
       "score": 17,
       "first_seen": "2026-09-23",
       "authors": [
-        "Wenjing Li, \nYang‐Feng Cui, \nHaobin Song, \nMingyue Wang, \nHan Sheng Wong, \nCong Huang, \nNan Zhao, \nCaiyan Yu, \nDong Yan, \nHui Ying Yang"
+        "Wenjing Li",
+        "Yang‐Feng Cui",
+        "Haobin Song",
+        "Mingyue Wang",
+        "Han Sheng Wong",
+        "Cong Huang",
+        "Nan Zhao",
+        "Caiyan Yu",
+        "Dong Yan",
+        "Hui Ying Yang"
       ],
       "sources": [
         "Crossref",
@@ -18798,7 +19420,14 @@
       ],
       "score": 17,
       "authors": [
-        "Guowei Gao, \nConghao Yu, \nBoxin Li, \nYuhao Guan, \nJingxuan Bi, \nZhenkai Zhou, \nXin Yu, \nWei Ai"
+        "Guowei Gao",
+        "Conghao Yu",
+        "Boxin Li",
+        "Yuhao Guan",
+        "Jingxuan Bi",
+        "Zhenkai Zhou",
+        "Xin Yu",
+        "Wei Ai"
       ],
       "sources": [
         "Crossref",
@@ -18853,7 +19482,17 @@
       "score": 17,
       "first_seen": "2026-09-23",
       "authors": [
-        "Zhen Zhang, \nGuode Chen, \nZhenxun Tang, \nJing Yang, \nDu Yuan, \nJun Li, \nZhicong Shi, \nCarlos Ponce de León, \nDmitry Bavykin, \nChuan Wu, \nJia Hong Pan"
+        "Zhen Zhang",
+        "Guode Chen",
+        "Zhenxun Tang",
+        "Jing Yang",
+        "Du Yuan",
+        "Jun Li",
+        "Zhicong Shi",
+        "Carlos Ponce de León",
+        "Dmitry Bavykin",
+        "Chuan Wu",
+        "Jia Hong Pan"
       ],
       "sources": [
         "Crossref",
@@ -18907,7 +19546,8 @@
       ],
       "score": 7,
       "authors": [
-        "Esra Ulgey Akgun, \nBrett M. Savoie"
+        "Esra Ulgey Akgun",
+        "Brett M. Savoie"
       ],
       "sources": [
         "Crossref",
@@ -18960,7 +19600,15 @@
       ],
       "score": 10,
       "authors": [
-        "Haiye Zhu, \nLei Qiu, \nJie Cui, \nQi An, \nGuiquan Zhao, \nOu Ka, \nGenfu Zhao, \nShubiao Xia, \nHong Guo"
+        "Haiye Zhu",
+        "Lei Qiu",
+        "Jie Cui",
+        "Qi An",
+        "Guiquan Zhao",
+        "Ou Ka",
+        "Genfu Zhao",
+        "Shubiao Xia",
+        "Hong Guo"
       ],
       "sources": [
         "Crossref",
@@ -19013,7 +19661,15 @@
       ],
       "score": 10,
       "authors": [
-        "Yingxin Tian, \nJunwei Sun, \nXiaoyu Shi, \nBingtao Zuo, \nZhihao Ren, \nZhuobin Guo, \nShaoxu Wang, \nQuan‐Hong Yang, \nZhong‐Shuai Wu"
+        "Yingxin Tian",
+        "Junwei Sun",
+        "Xiaoyu Shi",
+        "Bingtao Zuo",
+        "Zhihao Ren",
+        "Zhuobin Guo",
+        "Shaoxu Wang",
+        "Quan‐Hong Yang",
+        "Zhong‐Shuai Wu"
       ],
       "sources": [
         "Crossref",
@@ -19067,7 +19723,14 @@
       ],
       "score": 17,
       "authors": [
-        "Chang Liu, \nDan Xie, \nPei‐Qi Zheng, \nQiu‐Bai Jiang, \nYu‐Ying Wu, \nLan Wang, \nYu‐Zhen Sun, \nJing‐Ping Zhang"
+        "Chang Liu",
+        "Dan Xie",
+        "Pei‐Qi Zheng",
+        "Qiu‐Bai Jiang",
+        "Yu‐Ying Wu",
+        "Lan Wang",
+        "Yu‐Zhen Sun",
+        "Jing‐Ping Zhang"
       ],
       "sources": [
         "Crossref",
@@ -20039,7 +20702,13 @@
       ],
       "score": 5,
       "authors": [
-        "Bingzhong Chen, \nHao Chen, \nXuqi Lin, \nKunwei Huang, \nYuhao Liang, \nCheng Yan, \nShanqing Zhang"
+        "Bingzhong Chen",
+        "Hao Chen",
+        "Xuqi Lin",
+        "Kunwei Huang",
+        "Yuhao Liang",
+        "Cheng Yan",
+        "Shanqing Zhang"
       ],
       "sources": [
         "Crossref",
@@ -20645,7 +21314,18 @@
       ],
       "score": 7,
       "authors": [
-        "Jiazhu Guan, \nYu Zhang, \nYong Cao, \nYajuan Zhou, \nWenping Liu, \nQinghui Zeng, \nZhengyan Lun, \nWei Liu, \nShi Wang, \nWei Cui, \nZhong Jin, \nLiaoyun Zhang"
+        "Jiazhu Guan",
+        "Yu Zhang",
+        "Yong Cao",
+        "Yajuan Zhou",
+        "Wenping Liu",
+        "Qinghui Zeng",
+        "Zhengyan Lun",
+        "Wei Liu",
+        "Shi Wang",
+        "Wei Cui",
+        "Zhong Jin",
+        "Liaoyun Zhang"
       ],
       "sources": [
         "期刊 RSS"
@@ -20755,7 +21435,13 @@
       ],
       "score": 14,
       "authors": [
-        "Wanlong Wu, \nZhaoyi Wang, \nBharat Prasad Sharma, \nHuijuan Yang, \nRazium Ali Soomro, \nXiaoqi Sun, \nBin Xu"
+        "Wanlong Wu",
+        "Zhaoyi Wang",
+        "Bharat Prasad Sharma",
+        "Huijuan Yang",
+        "Razium Ali Soomro",
+        "Xiaoqi Sun",
+        "Bin Xu"
       ],
       "sources": [
         "Crossref",
@@ -20865,7 +21551,15 @@
       ],
       "score": 17,
       "authors": [
-        "Jingcheng Li, \nYuanwei Chu, \nXinpeng Li, \nTingting Luo, \nRuixiang Ying, \nMingshan Wang, \nDongling Wu, \nGuozhong Cao, \nXing Li"
+        "Jingcheng Li",
+        "Yuanwei Chu",
+        "Xinpeng Li",
+        "Tingting Luo",
+        "Ruixiang Ying",
+        "Mingshan Wang",
+        "Dongling Wu",
+        "Guozhong Cao",
+        "Xing Li"
       ],
       "sources": [
         "Crossref",
@@ -20982,7 +21676,13 @@
       ],
       "score": 14,
       "authors": [
-        "Mahla Sarfaraz Khabbaz, \nKuldeepsinh Raj, \nLucas Zhang, \nSepideh Biabanialitappeh, \nJ. David Bazak, \nNav Nidhi Rajput, \nXiaoliang Wei"
+        "Mahla Sarfaraz Khabbaz",
+        "Kuldeepsinh Raj",
+        "Lucas Zhang",
+        "Sepideh Biabanialitappeh",
+        "J. David Bazak",
+        "Nav Nidhi Rajput",
+        "Xiaoliang Wei"
       ],
       "sources": [
         "Crossref",
@@ -21035,7 +21735,19 @@
       ],
       "score": 10,
       "authors": [
-        "Baozhan Wu, \nJinlin Li, \nXin‐Gai Wang, \nJianxin Deng, \nLetian Chen, \nMengrao Luo, \nYunfei Hao, \nWen Cheng, \nZhaojun Xie, \nJinping Wei, \nXiaodan Wang, \nBin Tang, \nZhen Zhou"
+        "Baozhan Wu",
+        "Jinlin Li",
+        "Xin‐Gai Wang",
+        "Jianxin Deng",
+        "Letian Chen",
+        "Mengrao Luo",
+        "Yunfei Hao",
+        "Wen Cheng",
+        "Zhaojun Xie",
+        "Jinping Wei",
+        "Xiaodan Wang",
+        "Bin Tang",
+        "Zhen Zhou"
       ],
       "sources": [
         "Crossref",
@@ -21087,7 +21799,14 @@
       ],
       "score": 10,
       "authors": [
-        "Xiangyu Chen, \nMeng Feng, \nAohong Tang, \nLina Zhang, \nXiangru Su, \nTianpeng Zhang, \nYanjun Xie, \nFangyuan Hu"
+        "Xiangyu Chen",
+        "Meng Feng",
+        "Aohong Tang",
+        "Lina Zhang",
+        "Xiangru Su",
+        "Tianpeng Zhang",
+        "Yanjun Xie",
+        "Fangyuan Hu"
       ],
       "sources": [
         "Crossref",
@@ -21197,7 +21916,15 @@
       ],
       "score": 10,
       "authors": [
-        "Xiaolin Guo, \nZijun Wang, \nYining Lv, \nMin Niu, \nJiale Wan, \nJin Ren, \nZhijun Chen, \nLiwei Dong, \nZuotao Lei"
+        "Xiaolin Guo",
+        "Zijun Wang",
+        "Yining Lv",
+        "Min Niu",
+        "Jiale Wan",
+        "Jin Ren",
+        "Zhijun Chen",
+        "Liwei Dong",
+        "Zuotao Lei"
       ],
       "sources": [
         "Crossref",
@@ -21430,7 +22157,13 @@
       ],
       "score": 20,
       "authors": [
-        "Kun Xu, \nRuxia Han, \nWei Gao, \nZhengchunyu Zhang, \nJinkui Feng, \nBaojuan Xi, \nShenglin Xiong"
+        "Kun Xu",
+        "Ruxia Han",
+        "Wei Gao",
+        "Zhengchunyu Zhang",
+        "Jinkui Feng",
+        "Baojuan Xi",
+        "Shenglin Xiong"
       ],
       "sources": [
         "Crossref",
@@ -21734,7 +22467,15 @@
       ],
       "score": 17,
       "authors": [
-        "Jiahao Li, \nSimil Thomas, \nXin Liu, \nFangwang Ming, \nJiaxian Zheng, \nOsman M. Bakr, \nOmar F. Mohammed, \nHusam N. Alshareef, \nHanfeng Liang"
+        "Jiahao Li",
+        "Simil Thomas",
+        "Xin Liu",
+        "Fangwang Ming",
+        "Jiaxian Zheng",
+        "Osman M. Bakr",
+        "Omar F. Mohammed",
+        "Husam N. Alshareef",
+        "Hanfeng Liang"
       ],
       "sources": [
         "期刊 RSS"
@@ -21958,7 +22699,11 @@
       ],
       "score": 12,
       "authors": [
-        "Meijia Chen, \nChuang Sun, \nYuxuan Zhu, \nMengting Zheng, \nJun Lu"
+        "Meijia Chen",
+        "Chuang Sun",
+        "Yuxuan Zhu",
+        "Mengting Zheng",
+        "Jun Lu"
       ],
       "sources": [
         "Crossref",
@@ -22011,7 +22756,11 @@
       ],
       "score": 14,
       "authors": [
-        "Mingzhu Li, \nShengwei Du, \nShuquan Liang, \nXin Wang, \nGuozhao Fang"
+        "Mingzhu Li",
+        "Shengwei Du",
+        "Shuquan Liang",
+        "Xin Wang",
+        "Guozhao Fang"
       ],
       "sources": [
         "Crossref",
@@ -22128,7 +22877,16 @@
       ],
       "score": 17,
       "authors": [
-        "Lei Zhang, \nYunlong Zhang, \nYixu Wang, \nBo Zhang, \nMengyao Li, \nLan Yang, \nQian Wang, \nHaiqi Gao, \nZhong Jin, \nShi Wang"
+        "Lei Zhang",
+        "Yunlong Zhang",
+        "Yixu Wang",
+        "Bo Zhang",
+        "Mengyao Li",
+        "Lan Yang",
+        "Qian Wang",
+        "Haiqi Gao",
+        "Zhong Jin",
+        "Shi Wang"
       ],
       "sources": [
         "期刊 RSS"
@@ -22306,7 +23064,13 @@
       ],
       "score": 14,
       "authors": [
-        "Shuangyu Wu, \nFengxue Duan, \nJunpeng Li, \nJunjie Ba, \nYizhan Wang, \nBao Li, \nLixin Wu"
+        "Shuangyu Wu",
+        "Fengxue Duan",
+        "Junpeng Li",
+        "Junjie Ba",
+        "Yizhan Wang",
+        "Bao Li",
+        "Lixin Wu"
       ],
       "sources": [
         "Crossref",
@@ -22359,7 +23123,19 @@
       ],
       "score": 14,
       "authors": [
-        "Xiaoqi Liu, \nYipu Xu, \nLinjiao Wei, \nHongman Sun, \nZhengxing Qin, \nXizhi Zhang, \nDahai Zhang, \nXianguo Li, \nHan Hu, \nWei Xing, \nYu Zhang, \nBin Luo, \nZifeng Yan"
+        "Xiaoqi Liu",
+        "Yipu Xu",
+        "Linjiao Wei",
+        "Hongman Sun",
+        "Zhengxing Qin",
+        "Xizhi Zhang",
+        "Dahai Zhang",
+        "Xianguo Li",
+        "Han Hu",
+        "Wei Xing",
+        "Yu Zhang",
+        "Bin Luo",
+        "Zifeng Yan"
       ],
       "sources": [
         "Crossref",
@@ -22468,7 +23244,18 @@
       ],
       "score": 15,
       "authors": [
-        "Ao Wang, \nDai‐Huo Liu, \nYaozhi Liu, \nJia‐Lin Yang, \nBo‐Wen Fan, \nYun‐Nan Yang, \nKe‐Xin Wan, \nQin Li, \nTian‐Hao Chang, \nFang Xu, \nZhen‐Yi Gu, \nXing‐Long Wu"
+        "Ao Wang",
+        "Dai‐Huo Liu",
+        "Yaozhi Liu",
+        "Jia‐Lin Yang",
+        "Bo‐Wen Fan",
+        "Yun‐Nan Yang",
+        "Ke‐Xin Wan",
+        "Qin Li",
+        "Tian‐Hao Chang",
+        "Fang Xu",
+        "Zhen‐Yi Gu",
+        "Xing‐Long Wu"
       ],
       "sources": [
         "Crossref",
@@ -22521,7 +23308,15 @@
       ],
       "score": 17,
       "authors": [
-        "Jin Yan, \nJi Qian, \nJiacheng Li, \nXiaowei Lv, \nHaonan Chang, \nYi Zhao, \nYu Li, \nRenjie Chen, \nLi Li"
+        "Jin Yan",
+        "Ji Qian",
+        "Jiacheng Li",
+        "Xiaowei Lv",
+        "Haonan Chang",
+        "Yi Zhao",
+        "Yu Li",
+        "Renjie Chen",
+        "Li Li"
       ],
       "sources": [
         "Crossref",
@@ -22732,7 +23527,17 @@
       ],
       "score": 17,
       "authors": [
-        "Sheng Wen, \nJianwen Guo, \nBinze Yang, \nTengfei Dai, \nPengbo Zhang, \nPeng Liu, \nYongkang Chen, \nQingbo Guo, \nYuzhu Liu, \nZuoxiu Tie, \nZhong Jin"
+        "Sheng Wen",
+        "Jianwen Guo",
+        "Binze Yang",
+        "Tengfei Dai",
+        "Pengbo Zhang",
+        "Peng Liu",
+        "Yongkang Chen",
+        "Qingbo Guo",
+        "Yuzhu Liu",
+        "Zuoxiu Tie",
+        "Zhong Jin"
       ],
       "sources": [
         "Crossref",
@@ -23371,7 +24176,15 @@
       ],
       "score": 14,
       "authors": [
-        "Jiayi He, \nChangfeng Lin, \nBaoquan Liu, \nYubo Yang, \nJing Li, \nHui Zhang, \nJinlin Yang, \nTianyu Qiu, \nXinlong Tian"
+        "Jiayi He",
+        "Changfeng Lin",
+        "Baoquan Liu",
+        "Yubo Yang",
+        "Jing Li",
+        "Hui Zhang",
+        "Jinlin Yang",
+        "Tianyu Qiu",
+        "Xinlong Tian"
       ],
       "sources": [
         "Crossref",
@@ -23424,7 +24237,15 @@
       ],
       "score": 17,
       "authors": [
-        "Jiyao Zhou, \nJiapeng Zhao, \nXinyue Deng, \nXiaojing Sun, \nHao Guo, \nChenghui Sun, \nWeixiao Ji, \nSiping Pang, \nHe Huang"
+        "Jiyao Zhou",
+        "Jiapeng Zhao",
+        "Xinyue Deng",
+        "Xiaojing Sun",
+        "Hao Guo",
+        "Chenghui Sun",
+        "Weixiao Ji",
+        "Siping Pang",
+        "He Huang"
       ],
       "sources": [
         "Crossref",
@@ -23599,7 +24420,20 @@
       ],
       "score": 17,
       "authors": [
-        "Zhiqiang Zhao, \nYeyang Jia, \nZhiquan Wei, \nXun Guo, \nHuilin Cui, \nZehui Xie, \nXinru Yang, \nShuo Feng, \nKim Hung MAK, \nXintao Ma, \nHu Hong, \nShixun Wang, \nJun Fan, \nChunyi Zhi"
+        "Zhiqiang Zhao",
+        "Yeyang Jia",
+        "Zhiquan Wei",
+        "Xun Guo",
+        "Huilin Cui",
+        "Zehui Xie",
+        "Xinru Yang",
+        "Shuo Feng",
+        "Kim Hung MAK",
+        "Xintao Ma",
+        "Hu Hong",
+        "Shixun Wang",
+        "Jun Fan",
+        "Chunyi Zhi"
       ],
       "sources": [
         "Crossref",
@@ -30268,6 +31102,67 @@
         "model": "deepseek-flash",
         "generated_at": "2026-11-02T11:33:19+08:00",
         "evidence_hash": "0d1de6c1d7fb38ed6339928b87a388a5a1737ccb4d45fe2989ab4022a9536ce7"
+      },
+      "basis": "基于摘要",
+      "summary_status": "ready",
+      "summary_message": "中文简介已完成。"
+    },
+    {
+      "doi": "10.1016/j.jpowsour.2026.241124",
+      "title": "Joint estimation of battery state of health and remaining useful life via degradation encoding and implicit physics-informed neural networks",
+      "journal": "Journal of Power Sources",
+      "published": "2026-07-31",
+      "abstract_kind": "abstract",
+      "url": "https://doi.org/10.1016/j.jpowsour.2026.241124",
+      "topics": [
+        "storage",
+        "lifetime"
+      ],
+      "score": 15,
+      "authors": [
+        "Zheng Liu",
+        "Linfeng Yao",
+        "Wenjing Huang",
+        "Yanjun Jiang",
+        "Siyuan Qiu",
+        "Xiaofeng Tang"
+      ],
+      "sources": [
+        "Crossref"
+      ],
+      "first_seen": "2026-11-02",
+      "metadata_verified": true,
+      "abstract_url": "https://www.sciencedirect.com/science/article/abs/pii/S0378775326018744",
+      "abstract_source": "Elsevier ScienceDirect official Abstract",
+      "published_source": "publisher_online_date",
+      "published_url": "https://www.sciencedirect.com/science/article/abs/pii/S0378775326018744",
+      "abstract_verified_at": "2026-11-02T11:29:34+08:00",
+      "analysis": {
+        "title_zh": "通过退化编码与隐式物理信息神经网络联合估计电池健康状态与剩余使用寿命",
+        "takeaway": "DELE-Net以可学习基函数退化编码、隐式物理规律演化网络和梯度隔离级联实现SOH与RUL联合估计。",
+        "summary_zh": "针对含噪数据特征提取困难、刚性物理模型对复杂老化适应性有限及多任务梯度干扰等问题，本文提出退化编码与规律演化网络（DELE-Net）。框架包含三部分：退化特征编码器（DFE）用可学习基函数分解从多维原始信号中提取内在老化特征；退化规律演化（DLE）网络从数据中自主刻画隐式物理老化方程；梯度隔离级联（GIC）策略通过非对称梯度流路径缓解负迁移。在MIT、CALCE和NASA公开数据集上的实验表明，DELE-Net在双任务协同的组合误差指标（CEI）等方面优于LSTM、Transformer、PatchTST和ModernTCN等代表性基线；消融实验验证了各模块在不同骨干架构上的兼容性，并在CALCE与NASA的异质老化轨迹上保持稳定准确的预测。",
+        "relevance": "面向锂离子电池管理的SOH与RUL联合估计，服务于多任务电池健康预测。",
+        "diagram": [
+          {
+            "label": "研究对象",
+            "text": "锂离子电池SOH与RUL联合估计",
+            "evidence": "Joint estimation of state of health (SOH) and"
+          },
+          {
+            "label": "研究方法",
+            "text": "退化编码与隐式物理规律演化网络",
+            "evidence": "this paper proposes the Degradation Encoder and Law"
+          },
+          {
+            "label": "主要发现",
+            "text": "双任务组合误差指标优于代表性基线",
+            "evidence": "DELE-Net competitively outperforms representative baselines (including LSTM, Transformer,"
+          }
+        ],
+        "limitations": "摘要未披露数据集规模、训练/测试划分、超参数设置、误差指标的具体计算方式及计算成本。",
+        "model": "deepseek-flash",
+        "generated_at": "2026-11-02T11:32:28+08:00",
+        "evidence_hash": "f1bbbcf7a0733160c107292a30b0961583a2127e69da1534cf52ec0c17ba9ebc"
       },
       "basis": "基于摘要",
       "summary_status": "ready",
@@ -39190,6 +40085,8 @@
         "generated_at": "2026-11-02T11:33:00+08:00",
         "evidence_hash": "9edcad346d8bcdaee6839c8c4b49ea77e1db5340b4857eb94b6b2b2c0d665b97"
       },
+      "published_source": "Crossref published-print",
+      "published_url": "https://api.crossref.org/works/10.1126/sciadv.aei9538",
       "basis": "基于摘要",
       "summary_status": "ready",
       "summary_message": "中文简介已完成。"
@@ -39373,6 +40270,8 @@
         "generated_at": "2026-11-02T11:32:32+08:00",
         "evidence_hash": "4b9c129138d52120a44ec8b3219a93ab96f48ff6f44e1acf5d895213f33ac7b1"
       },
+      "published_source": "Crossref published-print",
+      "published_url": "https://api.crossref.org/works/10.1126/sciadv.aek6073",
       "basis": "基于摘要",
       "summary_status": "ready",
       "summary_message": "中文简介已完成。"
@@ -39416,18 +40315,18 @@
       "to": "2026-11-09",
       "label": "本周精选",
       "papers": [
-        "10.1038/s41557-026-02291-7",
         "10.1016/j.matt.2026.102951",
-        "10.1016/j.chempr.2026.103329",
+        "10.1038/s41557-026-02291-7",
         "10.1016/j.joule.2026.102718",
         "10.1038/s41560-026-02154-y",
         "10.1016/j.matt.2026.102966",
+        "10.1016/j.chempr.2026.103329",
         "10.1016/j.chempr.2026.103324",
         "10.1038/s41467-026-79025-3",
         "10.1038/s41467-026-79376-x",
         "10.1038/s41467-026-79393-w",
+        "10.1126/sciadv.aeh8668",
         "10.1002/adma.75609",
-        "10.1002/adfm.79415",
         "10.1002/anie.8448116",
         "10.1002/adfm.79505",
         "10.1002/adma.75498",
@@ -39440,22 +40339,21 @@
         "10.1021/jacs.6c17339",
         "10.1016/j.ensm.2026.105616",
         "10.1021/acsnano.6c15091",
+        "10.1002/adfm.79519",
         "10.1002/aenm.71804",
         "10.1002/adma.75017",
         "10.1002/adfm.79177",
         "10.1002/adfm.79433",
-        "10.1002/adfm.79519",
         "10.1002/adfm.79182",
         "10.1002/aenm.71750",
         "10.1002/aenm.71798",
-        "10.1002/aenm.71809",
         "10.1002/anie.5211841",
         "10.1002/adfm.79490",
         "10.1016/j.ensm.2026.105639",
+        "10.1021/acs.nanolett.6c04206",
         "10.1002/adfm.79445",
         "10.1002/adfm.79452",
         "10.1002/adma.75606",
-        "10.1002/aenm.71793",
         "10.1002/aenm.71796",
         "10.1016/j.ensm.2026.105634",
         "10.1016/j.ensm.2026.105620",
@@ -39469,11 +40367,13 @@
         "10.1002/adfm.79157",
         "10.1002/adfm.79374",
         "10.1002/adfm.79507",
+        "10.1002/aenm.71809",
         "10.1002/aenm.71816",
         "10.1021/jacs.6c20698",
         "10.1002/adfm.79426",
         "10.1002/adfm.78308",
         "10.1002/adfm.79461",
+        "10.1002/aenm.71793",
         "10.1002/adma.75592",
         "10.1002/adma.75607",
         "10.1002/aenm.71648",
@@ -39486,10 +40386,10 @@
         "10.1002/adfm.78597",
         "10.1002/adfm.77793",
         "10.1002/anie.6271513",
+        "10.1002/adfm.79415",
         "10.1002/adma.75673",
         "10.1002/aenm.71790",
         "10.1021/acsenergylett.6c02456",
-        "10.1021/acs.nanolett.6c04206",
         "10.1021/acsenergylett.6c02552",
         "10.1021/jacs.6c18595",
         "10.1002/adfm.79466",
@@ -40133,17 +41033,17 @@
   },
   "source_status": [
     {
-      "journal": "Science",
-      "message": "RSS 正常；Crossref 正常",
-      "count": 0
-    },
-    {
       "journal": "Cell",
       "message": "RSS 正常；Crossref 正常",
       "count": 0
     },
     {
-      "journal": "Nature Materials",
+      "journal": "Nature Energy",
+      "message": "RSS 正常；Crossref 正常",
+      "count": 6
+    },
+    {
+      "journal": "Science",
       "message": "RSS 正常；Crossref 正常",
       "count": 0
     },
@@ -40153,9 +41053,9 @@
       "count": 0
     },
     {
-      "journal": "Nature Energy",
+      "journal": "Nature Materials",
       "message": "RSS 正常；Crossref 正常",
-      "count": 6
+      "count": 0
     },
     {
       "journal": "Nature Physics",
@@ -40166,11 +41066,6 @@
       "journal": "Nature Chemistry",
       "message": "RSS 正常；Crossref 正常",
       "count": 2
-    },
-    {
-      "journal": "Nature Catalysis",
-      "message": "RSS 正常；Crossref 正常",
-      "count": 0
     },
     {
       "journal": "Nature Nanotechnology",
@@ -40188,9 +41083,9 @@
       "count": 0
     },
     {
-      "journal": "Nature Water",
+      "journal": "Nature Catalysis",
       "message": "RSS 正常；Crossref 正常",
-      "count": 1
+      "count": 0
     },
     {
       "journal": "Nature Sustainability",
@@ -40199,6 +41094,16 @@
     },
     {
       "journal": "Nature Chemical Engineering",
+      "message": "RSS 正常；Crossref 正常",
+      "count": 0
+    },
+    {
+      "journal": "Nature Water",
+      "message": "RSS 正常；Crossref 正常",
+      "count": 1
+    },
+    {
+      "journal": "Nature Computational Science",
       "message": "RSS 正常；Crossref 正常",
       "count": 0
     },
@@ -40213,19 +41118,9 @@
       "count": 0
     },
     {
-      "journal": "Nature Computational Science",
-      "message": "RSS 正常；Crossref 正常",
-      "count": 0
-    },
-    {
       "journal": "Nature Reviews Chemistry",
       "message": "RSS 正常；Crossref 正常",
       "count": 0
-    },
-    {
-      "journal": "Nature Reviews Clean Technology",
-      "message": "RSS 正常；Crossref 正常",
-      "count": 1
     },
     {
       "journal": "Nature Reviews Electrical Engineering",
@@ -40233,24 +41128,9 @@
       "count": 2
     },
     {
-      "journal": "Communications Chemistry",
+      "journal": "Nature Reviews Clean Technology",
       "message": "RSS 正常；Crossref 正常",
-      "count": 0
-    },
-    {
-      "journal": "Communications Materials",
-      "message": "RSS 正常；Crossref 正常",
-      "count": 2
-    },
-    {
-      "journal": "Science Advances",
-      "message": "RSS 正常；Crossref 正常",
-      "count": 5
-    },
-    {
-      "journal": "Communications Engineering",
-      "message": "RSS 正常；Crossref 正常",
-      "count": 0
+      "count": 1
     },
     {
       "journal": "Nature Communications",
@@ -40258,9 +41138,19 @@
       "count": 10
     },
     {
-      "journal": "Matter",
+      "journal": "Communications Materials",
       "message": "RSS 正常；Crossref 正常",
-      "count": 8
+      "count": 2
+    },
+    {
+      "journal": "Communications Engineering",
+      "message": "RSS 正常；Crossref 正常",
+      "count": 0
+    },
+    {
+      "journal": "Communications Chemistry",
+      "message": "RSS 正常；Crossref 正常",
+      "count": 0
     },
     {
       "journal": "Joule",
@@ -40268,9 +41158,14 @@
       "count": 3
     },
     {
-      "journal": "Cell Reports Physical Science",
-      "message": "RSS 暂不可用；Crossref 正常",
-      "count": 3
+      "journal": "Matter",
+      "message": "RSS 正常；Crossref 正常",
+      "count": 8
+    },
+    {
+      "journal": "Science Advances",
+      "message": "RSS 正常；Crossref 正常",
+      "count": 5
     },
     {
       "journal": "Chem",
@@ -40278,9 +41173,9 @@
       "count": 2
     },
     {
-      "journal": "Advanced Energy Materials",
-      "message": "RSS 正常；Crossref 正常",
-      "count": 41
+      "journal": "Cell Reports Physical Science",
+      "message": "RSS 暂不可用；Crossref 正常",
+      "count": 3
     },
     {
       "journal": "Energy & Environmental Science",
@@ -40293,14 +41188,19 @@
       "count": 64
     },
     {
-      "journal": "Journal of the American Chemical Society",
+      "journal": "Advanced Energy Materials",
       "message": "RSS 正常；Crossref 正常",
-      "count": 27
+      "count": 41
     },
     {
       "journal": "Advanced Functional Materials",
       "message": "RSS 正常；Crossref 正常",
       "count": 93
+    },
+    {
+      "journal": "Journal of the American Chemical Society",
+      "message": "RSS 正常；Crossref 正常",
+      "count": 27
     },
     {
       "journal": "Chemical Reviews",
@@ -40318,14 +41218,14 @@
       "count": 0
     },
     {
-      "journal": "Chemical Society Reviews",
-      "message": "RSS 正常；Crossref 正常",
-      "count": 0
-    },
-    {
       "journal": "ACS Energy Letters",
       "message": "RSS 正常；Crossref 正常",
       "count": 12
+    },
+    {
+      "journal": "Chemical Society Reviews",
+      "message": "RSS 正常；Crossref 正常",
+      "count": 0
     },
     {
       "journal": "ACS Nano",
@@ -40343,11 +41243,6 @@
       "count": 0
     },
     {
-      "journal": "Energy Storage Materials",
-      "message": "RSS 正常；Crossref 正常",
-      "count": 39
-    },
-    {
       "journal": "Applied Energy",
       "message": "RSS 正常；Crossref 正常",
       "count": 18
@@ -40356,6 +41251,11 @@
       "journal": "Journal of Power Sources",
       "message": "RSS 正常；Crossref 正常",
       "count": 181
+    },
+    {
+      "journal": "Energy Storage Materials",
+      "message": "RSS 正常；Crossref 正常",
+      "count": 39
     }
   ],
   "schedule": "每周一 09:00",
