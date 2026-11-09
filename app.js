@@ -15,9 +15,14 @@ function diagramHTML(analysis, basis = "基于摘要") {
   return `<p class="diagram-caption">研究路径 · ${escapeHTML(basis)}的示意图</p><ol class="diagram">${analysis.diagram.map(n => `<li><span>${escapeHTML(n.label)}</span><strong>${escapeHTML(n.text)}</strong></li>`).join("")}</ol>`;
 }
 const translatedTitle = (p) => p.title_translation?.title_zh || p.analysis?.title_zh || p.title;
+function collectionNote(p) {
+  const issue = data.issues.find(x => x.id === state.issue) || data.issues[0];
+  return issue?.papers.includes(p.doi) && p.published && p.published < issue.from && p.first_seen >= issue.from && p.first_seen <= issue.to
+    ? "本期首次收录 · 较早发表" : "";
+}
 function paperHTML(p, i) {
   const a = p.analysis;
-  return `<article class="paper"><span class="paper-num">${String(i + 1).padStart(2,"0")}</span><div class="paper-content"><h2><button class="title-button" data-doi="${escapeHTML(p.doi)}">${escapeHTML(translatedTitle(p))}</button></h2>${translatedTitle(p) !== p.title ? `<p class="original-title" lang="en">${escapeHTML(p.title)}</p>` : ""}${authorsHTML(p)}${a ? `<p class="takeaway">${escapeHTML(a.takeaway)}</p>${diagramHTML(a,p.basis)}` : `<p class="takeaway muted">${escapeHTML(p.summary_message || "仅收录题录，暂无中文简介。")}</p>`}<div class="paper-tags">${p.topics.map(t => `<span class="topic-tag">${escapeHTML(topicName(t))}</span>`).join("")}${p.content_type_label ? `<span>${escapeHTML(p.content_type_label)}</span>` : ""}<span>${escapeHTML(p.basis)}</span></div></div><aside class="paper-meta"><span class="journal-name">${escapeHTML(p.journal)}</span><time>${escapeHTML(p.published || "发表日期待核实")}</time><a href="${escapeHTML(safeURL(p.url))}" target="_blank" rel="noopener noreferrer">阅读原文 ↗</a></aside></article>`;
+  return `<article class="paper"><span class="paper-num">${String(i + 1).padStart(2,"0")}</span><div class="paper-content"><h2><button class="title-button" data-doi="${escapeHTML(p.doi)}">${escapeHTML(translatedTitle(p))}</button></h2>${translatedTitle(p) !== p.title ? `<p class="original-title" lang="en">${escapeHTML(p.title)}</p>` : ""}${authorsHTML(p)}${a ? `<p class="takeaway">${escapeHTML(a.takeaway)}</p>${diagramHTML(a,p.basis)}` : `<p class="takeaway muted">${escapeHTML(p.summary_message || "仅收录题录，暂无中文简介。")}</p>`}<div class="paper-tags">${p.topics.map(t => `<span class="topic-tag">${escapeHTML(topicName(t))}</span>`).join("")}${p.content_type_label ? `<span>${escapeHTML(p.content_type_label)}</span>` : ""}<span>${escapeHTML(p.basis)}</span></div></div><aside class="paper-meta"><span class="journal-name">${escapeHTML(p.journal)}</span><time>${escapeHTML(p.published || "发表日期待核实")}</time>${collectionNote(p) ? `<span class="source-note">${escapeHTML(collectionNote(p))}</span>` : ""}<a href="${escapeHTML(safeURL(p.url))}" target="_blank" rel="noopener noreferrer">阅读原文 ↗</a></aside></article>`;
 }
 function render() {
   const issue = data.issues.find(x => x.id === state.issue) || data.issues[0];
@@ -29,7 +34,11 @@ function render() {
   document.querySelector(".tools").classList.toggle("hidden", state.view === "archive");
   $("eyebrow").textContent = state.view === "issue" ? issue?.label || "本期" : state.view === "all" ? "文献索引" : "按周归档";
   $("view-title").textContent = state.view === "archive" ? "历史周报" : state.view === "all" ? "近期精选" : "电池与储能研究";
-  $("view-description").textContent = state.view === "archive" ? "每期保留文献、简介和原文出处。" : state.view === "all" ? "近期最多保留 100 篇。每周按相关性精选 60–100 篇，不固定收满；合适的不足时不凑数。" : issue ? `${issue.from} — ${issue.to} · ${issue.papers.length} 篇精选` : "首期正在整理。";
+  $("view-description").textContent = state.view === "archive" ? "每期保留文献、简介和原文出处。" : state.view === "all" ? "按研究内容与证据质量精选，不设每周最低篇数；近期最多保留 100 篇。" : issue ? `${issue.from} — ${issue.to} · ${issue.papers.length} 篇精选` : "首期正在整理。";
+  if (state.view === "issue" && issue) {
+    const earlier = issue.papers.map(findPaper).filter(p => p && collectionNote(p)).length;
+    if (earlier) $("view-description").textContent += ` 其中 ${earlier} 篇为较早发表、本期首次收录，日期按原文保留。`;
+  }
   if (state.view !== "archive" && data.sort_description) $("view-description").textContent += ` ${data.sort_description}`;
   if (state.view === "archive") {
     $("result-count").textContent = `${data.issues.length} 期周报`;
