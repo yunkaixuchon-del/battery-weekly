@@ -1,11 +1,45 @@
 "use strict";
 let data;
 const state = {view: "issue", topic: "all", journal: "all", search: "", issue: null};
+const learningGroup = {id: "battery_ml", name: "机器学习与寿命预测", topics: ["battery_ai", "lifetime"]};
 const $ = (id) => document.getElementById(id);
 const escapeHTML = (v) => String(v ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const safeURL = (v) => { try { const u = new URL(v); return u.protocol === "https:" ? u.href : "#"; } catch { return "#"; } };
 const findPaper = (doi) => data.papers.find(p => p.doi === doi) || (data.archived_papers || []).find(p => p.doi === doi);
 const topicName = (id) => data.topics.find(t => t.id === id)?.name || id;
+function topicButton({id, name}, controls = "") {
+  return `<button type="button" data-topic="${escapeHTML(id)}" aria-pressed="false"${controls}>${escapeHTML(name)}</button>`;
+}
+function setupTopicFilters() {
+  const groupedTopics = learningGroup.topics.filter(id => data.topics.some(topic => topic.id === id));
+  if (groupedTopics.length < 2) {
+    $("topics").insertAdjacentHTML("beforeend", data.topics.map(topic => topicButton(topic)).join(""));
+    return;
+  }
+  const firstGroupTopic = data.topics.find(topic => groupedTopics.includes(topic.id));
+  const mainTopics = data.topics.filter(topic => !groupedTopics.includes(topic.id) || topic === firstGroupTopic);
+  const buttons = mainTopics.map(topic => topic === firstGroupTopic
+    ? topicButton(learningGroup, ' aria-controls="learning-topics" aria-expanded="false"')
+    : topicButton(topic)).join("");
+  const groupedButtons = groupedTopics.map(id => topicButton({id, name: topicName(id)})).join("");
+  $("topics").insertAdjacentHTML("beforeend", `${buttons}<div id="learning-topics" class="learning-topics hidden" role="group" aria-label="${learningGroup.name}">${groupedButtons}</div>`);
+}
+function updateTopicFilters() {
+  const inLearningGroup = state.topic === learningGroup.id || learningGroup.topics.includes(state.topic);
+  if ($("learning-topics")) $("learning-topics").classList.toggle("hidden", !inLearningGroup);
+  document.querySelectorAll("#topics button").forEach(button => {
+    const isGroup = button.dataset.topic === learningGroup.id;
+    const selected = isGroup ? inLearningGroup : button.dataset.topic === state.topic;
+    button.classList.toggle("selected", selected);
+    button.setAttribute("aria-pressed", String(selected));
+    if (isGroup) button.setAttribute("aria-expanded", String(inLearningGroup));
+  });
+}
+function matchesTopic(paper) {
+  if (state.topic === "all") return true;
+  if (state.topic === learningGroup.id) return learningGroup.topics.some(topic => paper.topics.includes(topic));
+  return paper.topics.includes(state.topic);
+}
 function authorsHTML(p) {
   const authors = (Array.isArray(p.authors) ? p.authors : []).filter(name => typeof name === "string" && name.trim()).map(name => name.trim());
   return `<p class="paper-authors">${authors.length ? `作者：${authors.map(escapeHTML).join(" · ")}` : "作者信息待补充"}</p>`;
@@ -40,6 +74,7 @@ function paperHTML(p, i) {
   return `<article class="paper"><span class="paper-num">${String(i + 1).padStart(2,"0")}</span><div class="paper-content"><h2><button class="title-button" data-doi="${escapeHTML(p.doi)}">${escapeHTML(translatedTitle(p))}</button></h2>${translatedTitle(p) !== p.title ? `<p class="original-title" lang="en">${escapeHTML(p.title)}</p>` : ""}${authorsHTML(p)}${description}${diagramHTML(a,p.basis)}<div class="paper-tags">${p.topics.map(t => `<span class="topic-tag">${escapeHTML(topicName(t))}</span>`).join("")}${p.content_type_label ? `<span>${escapeHTML(p.content_type_label)}</span>` : ""}<span>${escapeHTML(p.basis)}</span></div></div><aside class="paper-meta"><span class="journal-name">${escapeHTML(p.journal)}</span><time>${escapeHTML(p.published || "发表日期待核实")}</time>${collectionNote(p) ? `<span class="source-note">${escapeHTML(collectionNote(p))}</span>` : ""}<div class="paper-links">${openFullTextHTML(p)}<a href="${escapeHTML(safeURL(p.url))}" target="_blank" rel="noopener noreferrer">阅读原文 ↗</a></div></aside></article>`;
 }
 function render() {
+  updateTopicFilters();
   const issue = data.issues.find(x => x.id === state.issue) || data.issues[0];
   $("volume").textContent = String(Math.max(1, data.issues.length - data.issues.indexOf(issue))).padStart(2,"0");
   $("issue-date").textContent = issue ? `${issue.id} · ${issue.date}` : "文献索引";
@@ -62,7 +97,7 @@ function render() {
   }
   let papers = state.view === "issue" ? (issue?.papers || []).map(doi => findPaper(doi)).filter(Boolean) : data.papers;
   const total = papers.length;
-  papers = papers.filter(p => (state.topic === "all" || p.topics.includes(state.topic)) && (state.journal === "all" || p.journal === state.journal) && (!state.search || [p.title,p.title_translation?.title_zh,p.analysis?.title_zh,p.analysis?.summary_zh,p.journal,p.doi].join(" ").toLowerCase().includes(state.search)));
+  papers = papers.filter(p => matchesTopic(p) && (state.journal === "all" || p.journal === state.journal) && (!state.search || [p.title,p.title_translation?.title_zh,p.analysis?.title_zh,p.analysis?.summary_zh,p.journal,p.doi].join(" ").toLowerCase().includes(state.search)));
   $("result-count").textContent = `${papers.length} / ${total} 篇文献`;
   $("papers").innerHTML = papers.length ? papers.map(paperHTML).join("") : `<div class="empty">${total ? "没有符合筛选条件的文献，试试其他关键词或方向。" : "本期暂无符合筛选条件的文献。"}</div>`;
 }
@@ -75,15 +110,16 @@ function detail(doi) {
   $("detail").showModal();
 }
 document.querySelector(".nav").addEventListener("click", e => { const b=e.target.closest("button[data-view]");if(!b||!data)return;state.view=b.dataset.view;state.issue=null;render(); });
-$("topics").addEventListener("click", e => { const b=e.target.closest("button");if(!b||!data)return;state.topic=b.dataset.topic;document.querySelectorAll("#topics button").forEach(n=>{const selected=n===b;n.classList.toggle("selected",selected);n.setAttribute("aria-pressed",String(selected));});render(); });
+$("topics").addEventListener("click", e => { const b=e.target.closest("button[data-topic]");if(!b||!data)return;state.topic=b.dataset.topic;render(); });
 $("journal").addEventListener("change", e => {state.journal=e.target.value;render();});
 $("search").addEventListener("input", e=>{state.search=e.target.value.trim().toLowerCase();if(data)render();});
 $("papers").addEventListener("click", e=>{const b=e.target.closest("[data-doi]");if(b)detail(b.dataset.doi);});
-$("archives").addEventListener("click",e=>{const b=e.target.closest("[data-issue]");if(b){state.issue=b.dataset.issue;state.view="issue";state.topic="all";state.journal="all";state.search="";$("journal").value="all";$("search").value="";document.querySelectorAll("#topics button").forEach(n=>{const selected=n.dataset.topic==="all";n.classList.toggle("selected",selected);n.setAttribute("aria-pressed",String(selected));});render();}});
+$("archives").addEventListener("click",e=>{const b=e.target.closest("[data-issue]");if(b){state.issue=b.dataset.issue;state.view="issue";state.topic="all";state.journal="all";state.search="";$("journal").value="all";$("search").value="";render();}});
 $("close-detail").addEventListener("click",()=>$("detail").close());
 $("detail").addEventListener("click",e=>{if(e.target===$("detail")){const r=$("detail").getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)$("detail").close();}});
 fetch("./data.json",{cache:"no-cache"}).then(r=>{if(!r.ok)throw new Error("unavailable");return r.json();}).then(value=>{
-  data=value;$("topics").insertAdjacentHTML("beforeend",data.topics.map(t=>`<button data-topic="${escapeHTML(t.id)}" aria-pressed="false">${escapeHTML(t.name)}</button>`).join(""));
+  data=value;
+  setupTopicFilters();
   $("journal").insertAdjacentHTML("beforeend",data.journals.map(j=>`<option>${escapeHTML(j)}</option>`).join(""));
   $("source-list").innerHTML=data.journals.map(j=>`<span>${escapeHTML(j)}</span>`).join("");
   $("source-heading").textContent=`期刊来源 · ${data.journals.length} 本`;

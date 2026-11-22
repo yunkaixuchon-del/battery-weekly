@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T09:55:19+08:00",
+  "updated_at": "2026-11-22T10:14:24+08:00",
   "timezone": "Asia/Shanghai",
   "topics": [
     {
@@ -17,6 +17,10 @@
     {
       "id": "lifetime",
       "name": "寿命预测与健康评估"
+    },
+    {
+      "id": "battery_ai",
+      "name": "电池 AI 与材料设计"
     }
   ],
   "journals": [
@@ -1637,7 +1641,8 @@
       "abstract_kind": "abstract",
       "url": "https://doi.org/10.1038/s41467-026-79420-w",
       "topics": [
-        "storage"
+        "storage",
+        "battery_ai"
       ],
       "score": 2,
       "authors": [
@@ -1845,7 +1850,8 @@
       "topics": [
         "aqueous",
         "interface",
-        "storage"
+        "storage",
+        "battery_ai"
       ],
       "score": 20,
       "authors": [
@@ -2111,7 +2117,8 @@
       "topics": [
         "aqueous",
         "interface",
-        "storage"
+        "storage",
+        "battery_ai"
       ],
       "score": 17,
       "authors": [
@@ -3427,7 +3434,8 @@
       "url": "https://doi.org/10.1002/aenm.71823",
       "topics": [
         "interface",
-        "storage"
+        "storage",
+        "battery_ai"
       ],
       "score": 10,
       "authors": [
@@ -4872,7 +4880,8 @@
       "abstract_kind": "abstract",
       "url": "https://doi.org/10.1002/adfm.78592",
       "topics": [
-        "storage"
+        "storage",
+        "battery_ai"
       ],
       "score": 7,
       "authors": [
@@ -6966,7 +6975,8 @@
       "url": "https://doi.org/10.1002/adfm.77943",
       "topics": [
         "interface",
-        "storage"
+        "storage",
+        "battery_ai"
       ],
       "score": 10,
       "authors": [
@@ -7698,7 +7708,8 @@
       "url": "https://doi.org/10.1002/adfm.78308",
       "topics": [
         "interface",
-        "storage"
+        "storage",
+        "battery_ai"
       ],
       "score": 7,
       "authors": [
@@ -8697,7 +8708,8 @@
       "topics": [
         "aqueous",
         "interface",
-        "storage"
+        "storage",
+        "battery_ai"
       ],
       "score": 20,
       "authors": [
@@ -10025,7 +10037,8 @@
       "url": "https://doi.org/10.1002/adfm.78881",
       "topics": [
         "interface",
-        "storage"
+        "storage",
+        "battery_ai"
       ],
       "score": 7,
       "authors": [
@@ -10870,7 +10883,8 @@
       "url": "https://doi.org/10.1002/adfm.79026",
       "topics": [
         "interface",
-        "storage"
+        "storage",
+        "battery_ai"
       ],
       "score": 7,
       "authors": [
@@ -12402,7 +12416,8 @@
       "topics": [
         "aqueous",
         "interface",
-        "storage"
+        "storage",
+        "battery_ai"
       ],
       "score": 20,
       "authors": [
@@ -12582,7 +12597,8 @@
       "url": "https://doi.org/10.1002/adfm.79304",
       "topics": [
         "interface",
-        "storage"
+        "storage",
+        "battery_ai"
       ],
       "score": 10,
       "authors": [
@@ -14137,7 +14153,8 @@
       "topics": [
         "interface",
         "storage",
-        "lifetime"
+        "lifetime",
+        "battery_ai"
       ],
       "score": 14,
       "authors": [
@@ -14813,7 +14830,8 @@
       "abstract_kind": "abstract",
       "url": "https://doi.org/10.1002/adma.74635",
       "topics": [
-        "storage"
+        "storage",
+        "battery_ai"
       ],
       "score": 5,
       "authors": [
@@ -15192,7 +15210,8 @@
       "topics": [
         "aqueous",
         "interface",
-        "storage"
+        "storage",
+        "battery_ai"
       ],
       "score": 14,
       "authors": [
@@ -16382,7 +16401,8 @@
       "topics": [
         "aqueous",
         "interface",
-        "storage"
+        "storage",
+        "battery_ai"
       ],
       "score": 14,
       "authors": [
@@ -19027,7 +19047,8 @@
       "abstract_kind": "abstract",
       "url": "https://doi.org/10.1002/adma.75561",
       "topics": [
-        "storage"
+        "storage",
+        "battery_ai"
       ],
       "score": 5,
       "authors": [
@@ -19349,7 +19370,8 @@
         "aqueous",
         "interface",
         "storage",
-        "lifetime"
+        "lifetime",
+        "battery_ai"
       ],
       "score": 21,
       "authors": [
@@ -21164,7 +21186,8 @@
       "url": "https://doi.org/10.1002/aenm.71533",
       "topics": [
         "interface",
-        "storage"
+        "storage",
+        "battery_ai"
       ],
       "score": 10,
       "authors": [
@@ -22926,7 +22949,8 @@
       "topics": [
         "aqueous",
         "interface",
-        "storage"
+        "storage",
+        "battery_ai"
       ],
       "score": 14,
       "authors": [
@@ -23173,7 +23197,8 @@
       "url": "https://doi.org/10.1002/aenm.71714",
       "topics": [
         "interface",
-        "storage"
+        "storage",
+        "battery_ai"
       ],
       "score": 7,
       "authors": [
@@ -24248,7 +24273,8 @@
       "url": "https://doi.org/10.1002/aenm.71793",
       "topics": [
         "interface",
-        "storage"
+        "storage",
+        "battery_ai"
       ],
       "score": 10,
       "authors": [
@@ -26647,7 +26673,8 @@
       "topics": [
         "aqueous",
         "interface",
-        "storage"
+        "storage",
+        "battery_ai"
       ],
       "score": 14,
       "authors": [
@@ -27559,7 +27586,8 @@
       "topics": [
         "aqueous",
         "interface",
-        "storage"
+        "storage",
+        "battery_ai"
       ],
       "score": 20,
       "authors": [
@@ -28024,7 +28052,8 @@
       "topics": [
         "aqueous",
         "interface",
-        "storage"
+        "storage",
+        "battery_ai"
       ],
       "score": 17,
       "authors": [
@@ -28204,7 +28233,8 @@
       "topics": [
         "aqueous",
         "interface",
-        "storage"
+        "storage",
+        "battery_ai"
       ],
       "score": 17,
       "authors": [
@@ -31993,7 +32023,8 @@
       "abstract_kind": "publisher_summary",
       "url": "https://doi.org/10.1016/j.joule.2026.102712",
       "topics": [
-        "storage"
+        "storage",
+        "battery_ai"
       ],
       "score": 5,
       "authors": [
@@ -40102,7 +40133,8 @@
       "topics": [
         "aqueous",
         "interface",
-        "storage"
+        "storage",
+        "battery_ai"
       ],
       "score": 17,
       "authors": [
@@ -40824,7 +40856,8 @@
       "url": "https://doi.org/10.1021/jacs.6c08135",
       "topics": [
         "interface",
-        "storage"
+        "storage",
+        "battery_ai"
       ],
       "score": 10,
       "authors": [
@@ -41122,7 +41155,8 @@
       "url": "https://doi.org/10.1021/jacs.6c10960",
       "topics": [
         "interface",
-        "storage"
+        "storage",
+        "battery_ai"
       ],
       "score": 7,
       "authors": [
@@ -41316,7 +41350,8 @@
       "url": "https://doi.org/10.1021/jacs.6c11691",
       "topics": [
         "interface",
-        "storage"
+        "storage",
+        "battery_ai"
       ],
       "score": 7,
       "authors": [
@@ -41442,7 +41477,8 @@
       "url": "https://doi.org/10.1021/jacs.6c12519",
       "topics": [
         "interface",
-        "storage"
+        "storage",
+        "battery_ai"
       ],
       "score": 7,
       "authors": [
@@ -41939,7 +41975,8 @@
       "url": "https://doi.org/10.1021/jacs.6c15227",
       "topics": [
         "aqueous",
-        "storage"
+        "storage",
+        "battery_ai"
       ],
       "score": 12,
       "authors": [
@@ -42053,7 +42090,8 @@
       "abstract_kind": "abstract",
       "url": "https://doi.org/10.1021/jacs.6c16379",
       "topics": [
-        "storage"
+        "storage",
+        "battery_ai"
       ],
       "score": 5,
       "authors": [
@@ -42305,7 +42343,8 @@
       "url": "https://doi.org/10.1021/jacs.6c20698",
       "topics": [
         "interface",
-        "storage"
+        "storage",
+        "battery_ai"
       ],
       "score": 7,
       "authors": [
@@ -42371,7 +42410,8 @@
       "topics": [
         "aqueous",
         "interface",
-        "storage"
+        "storage",
+        "battery_ai"
       ],
       "score": 17,
       "authors": [
@@ -42896,7 +42936,8 @@
       "abstract_kind": "abstract",
       "url": "https://doi.org/10.1038/s41467-026-77440-0",
       "topics": [
-        "storage"
+        "storage",
+        "battery_ai"
       ],
       "score": 5,
       "authors": [
@@ -44619,7 +44660,8 @@
       "published": "2026-08-25",
       "url": "https://doi.org/10.1038/s41560-026-02131-5",
       "topics": [
-        "storage"
+        "storage",
+        "battery_ai"
       ],
       "score": 5,
       "first_seen": "2026-09-23",
@@ -45174,7 +45216,8 @@
       "url": "https://doi.org/10.1038/s41586-026-11138-7",
       "topics": [
         "interface",
-        "storage"
+        "storage",
+        "battery_ai"
       ],
       "score": 7,
       "authors": [
@@ -46391,7 +46434,8 @@
       "url": "https://doi.org/10.1126/sciadv.aei9659",
       "topics": [
         "interface",
-        "storage"
+        "storage",
+        "battery_ai"
       ],
       "score": 7,
       "authors": [
