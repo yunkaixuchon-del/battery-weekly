@@ -14,6 +14,17 @@ function diagramHTML(analysis, basis = "基于摘要") {
   if (!analysis?.diagram?.length) return "";
   return `<p class="diagram-caption">研究路径 · ${escapeHTML(basis)}的示意图</p><ol class="diagram">${analysis.diagram.map(n => `<li><span>${escapeHTML(n.label)}</span><strong>${escapeHTML(n.text)}</strong></li>`).join("")}</ol>`;
 }
+function openFullTextHTML(paper) {
+  const fullText = paper.open_full_text;
+  if (typeof fullText?.url !== "string" || !["publisher", "repository"].includes(fullText.source)) return "";
+  try {
+    const url = new URL(fullText.url);
+    if (url.protocol !== "https:" || url.username || url.password) return "";
+    return `<a class="open-full-text" href="${escapeHTML(url.href)}" target="_blank" rel="noopener noreferrer">在线阅读全文</a>`;
+  } catch {
+    return "";
+  }
+}
 const translatedTitle = (p) => p.title_translation?.title_zh || p.analysis?.title_zh || p.title;
 function collectionNote(p) {
   const issue = data.issues.find(x => x.id === state.issue) || data.issues[0];
@@ -22,7 +33,11 @@ function collectionNote(p) {
 }
 function paperHTML(p, i) {
   const a = p.analysis;
-  return `<article class="paper"><span class="paper-num">${String(i + 1).padStart(2,"0")}</span><div class="paper-content"><h2><button class="title-button" data-doi="${escapeHTML(p.doi)}">${escapeHTML(translatedTitle(p))}</button></h2>${translatedTitle(p) !== p.title ? `<p class="original-title" lang="en">${escapeHTML(p.title)}</p>` : ""}${authorsHTML(p)}${a ? `<p class="takeaway">${escapeHTML(a.takeaway)}</p>${diagramHTML(a,p.basis)}` : `<p class="takeaway muted">${escapeHTML(p.summary_message || "仅收录题录，暂无中文简介。")}</p>`}<div class="paper-tags">${p.topics.map(t => `<span class="topic-tag">${escapeHTML(topicName(t))}</span>`).join("")}${p.content_type_label ? `<span>${escapeHTML(p.content_type_label)}</span>` : ""}<span>${escapeHTML(p.basis)}</span></div></div><aside class="paper-meta"><span class="journal-name">${escapeHTML(p.journal)}</span><time>${escapeHTML(p.published || "发表日期待核实")}</time>${collectionNote(p) ? `<span class="source-note">${escapeHTML(collectionNote(p))}</span>` : ""}<a href="${escapeHTML(safeURL(p.url))}" target="_blank" rel="noopener noreferrer">阅读原文 ↗</a></aside></article>`;
+  const summary = a?.summary_zh || a?.takeaway;
+  const description = summary
+    ? `<div class="paper-summary"><h3>这篇文章做了什么</h3><p>${escapeHTML(summary)}</p></div>`
+    : `<p class="takeaway muted">${escapeHTML(p.summary_message || "仅收录题录，暂无中文简介。")}</p>`;
+  return `<article class="paper"><span class="paper-num">${String(i + 1).padStart(2,"0")}</span><div class="paper-content"><h2><button class="title-button" data-doi="${escapeHTML(p.doi)}">${escapeHTML(translatedTitle(p))}</button></h2>${translatedTitle(p) !== p.title ? `<p class="original-title" lang="en">${escapeHTML(p.title)}</p>` : ""}${authorsHTML(p)}${description}${diagramHTML(a,p.basis)}<div class="paper-tags">${p.topics.map(t => `<span class="topic-tag">${escapeHTML(topicName(t))}</span>`).join("")}${p.content_type_label ? `<span>${escapeHTML(p.content_type_label)}</span>` : ""}<span>${escapeHTML(p.basis)}</span></div></div><aside class="paper-meta"><span class="journal-name">${escapeHTML(p.journal)}</span><time>${escapeHTML(p.published || "发表日期待核实")}</time>${collectionNote(p) ? `<span class="source-note">${escapeHTML(collectionNote(p))}</span>` : ""}<div class="paper-links">${openFullTextHTML(p)}<a href="${escapeHTML(safeURL(p.url))}" target="_blank" rel="noopener noreferrer">阅读原文 ↗</a></div></aside></article>`;
 }
 function render() {
   const issue = data.issues.find(x => x.id === state.issue) || data.issues[0];
@@ -55,7 +70,8 @@ function detail(doi) {
   const p = findPaper(doi);
   if (!p) return;
   const a = p.analysis;
-  $("detail-content").innerHTML = `<p class="source-note">${escapeHTML(p.journal)} · ${escapeHTML(p.published || "发表日期待核实")} · ${escapeHTML(p.basis)}</p><h2 id="detail-title">${escapeHTML(translatedTitle(p))}</h2><p class="original-title" lang="en">${escapeHTML(p.title)}</p>${a ? `<h3>研究简介</h3><p>${escapeHTML(a.summary_zh)}</p>${diagramHTML(a,p.basis)}<h3>与你的方向相关</h3><p>${escapeHTML(a.relevance)}</p>${a.limitations ? `<h3>阅读时留意</h3><p class="source-note">${escapeHTML(a.limitations)}</p>` : ""}${a.diagram.length ? `<details><summary class="source-note">图示依据</summary>${a.diagram.map(n=>`<p class="evidence" lang="en">${escapeHTML(n.evidence)}</p>`).join("")}</details>` : ""}` : `<p>${escapeHTML(p.summary_message || "仅收录题录，暂无中文简介。")}</p>`}<h3>原文与出处</h3><p class="source-note">${escapeHTML((p.authors || []).slice(0,8).join(" · "))}</p><p><a class="doi-link" href="${escapeHTML(safeURL(p.url))}" target="_blank" rel="noopener noreferrer">${escapeHTML(p.doi)} ↗</a></p><p class="source-note">首次收录：${escapeHTML(p.first_seen)} · 来源：${escapeHTML(p.sources.join(" / "))}<br>简介与示意图依据所标注来源整理，实验细节请核对原文。</p>`;
+  const diagramEvidence = a?.diagram?.filter(n => n.evidence) || [];
+  $("detail-content").innerHTML = `<p class="source-note">${escapeHTML(p.journal)} · ${escapeHTML(p.published || "发表日期待核实")} · ${escapeHTML(p.basis)}</p><h2 id="detail-title">${escapeHTML(translatedTitle(p))}</h2><p class="original-title" lang="en">${escapeHTML(p.title)}</p>${a ? `<h3>研究简介</h3><p>${escapeHTML(a.summary_zh)}</p>${diagramHTML(a,p.basis)}<h3>与你的方向相关</h3><p>${escapeHTML(a.relevance)}</p>${a.limitations ? `<h3>阅读时留意</h3><p class="source-note">${escapeHTML(a.limitations)}</p>` : ""}${diagramEvidence.length ? `<details><summary class="source-note">图示依据</summary>${diagramEvidence.map(n=>`<p class="evidence" lang="en">${escapeHTML(n.evidence)}</p>`).join("")}</details>` : ""}` : `<p>${escapeHTML(p.summary_message || "仅收录题录，暂无中文简介。")}</p>`}<h3>原文与出处</h3><p class="source-note">${escapeHTML((p.authors || []).slice(0,8).join(" · "))}</p><p class="paper-links">${openFullTextHTML(p)}<a class="doi-link" href="${escapeHTML(safeURL(p.url))}" target="_blank" rel="noopener noreferrer">${escapeHTML(p.doi)} ↗</a></p><p class="source-note">首次收录：${escapeHTML(p.first_seen)} · 来源：${escapeHTML(p.sources.join(" / "))}<br>简介与示意图依据所标注来源整理，实验细节请核对原文。</p>`;
   $("detail").showModal();
 }
 document.querySelector(".nav").addEventListener("click", e => { const b=e.target.closest("button[data-view]");if(!b||!data)return;state.view=b.dataset.view;state.issue=null;render(); });

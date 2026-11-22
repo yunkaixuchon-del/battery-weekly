@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T11:10:06+08:00",
+  "updated_at": "2026-11-22T09:55:19+08:00",
   "timezone": "Asia/Shanghai",
   "topics": [
     {
@@ -203,7 +203,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://www.nature.com/articles/s41586-026-11282-0"
+      }
     },
     {
       "doi": "10.1016/j.matt.2026.102951",
@@ -521,7 +525,11 @@
       "evidence_url": "https://www.nature.com/articles/s41578-026-00971-x",
       "basis": "基于出版方简介",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "repository",
+        "url": "https://discovery.ucl.ac.uk/id/eprint/10233031/3/He_Water%20serves%20as%20a%20charge-transfer%20medium%20for%20ultrafast%20aqueous%20batteries_AAM.pdf"
+      }
     },
     {
       "doi": "10.1016/j.matt.2026.102867",
@@ -963,7 +971,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2666386426004583"
+      }
     },
     {
       "doi": "10.1016/j.xcrp.2026.103496",
@@ -1100,7 +1112,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://www.nature.com/articles/s41467-026-79025-3_reference.pdf"
+      }
     },
     {
       "doi": "10.1126/sciadv.ael0210",
@@ -1167,7 +1183,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "url": "https://www.science.org/doi/10.1126/sciadv.ael0210",
+        "source": "publisher"
+      }
     },
     {
       "doi": "10.1038/s43246-026-01405-5",
@@ -1239,7 +1259,11 @@
       "evidence_url": "https://www.nature.com/articles/s43246-026-01405-5",
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://www.nature.com/articles/s43246-026-01405-5_reference.pdf"
+      }
     },
     {
       "doi": "10.1038/s41467-026-79386-9",
@@ -1312,7 +1336,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://www.nature.com/articles/s41467-026-79386-9_reference.pdf"
+      }
     },
     {
       "doi": "10.1038/s41467-026-79429-1",
@@ -1386,7 +1414,11 @@
       "abstract_verified_at": "2026-11-18T10:43:07+08:00",
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://www.nature.com/articles/s41467-026-79429-1_reference.pdf"
+      }
     },
     {
       "doi": "10.1038/s41467-026-79156-7",
@@ -1447,7 +1479,11 @@
       "abstract_verified_at": "2026-11-18T10:43:17+08:00",
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://www.nature.com/articles/s41467-026-79156-7_reference.pdf"
+      }
     },
     {
       "doi": "10.1038/s41467-026-79413-9",
@@ -1520,7 +1556,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://www.nature.com/articles/s41467-026-79413-9_reference.pdf"
+      }
     },
     {
       "doi": "10.1038/s43246-026-01425-1",
@@ -1583,7 +1623,11 @@
       "abstract_verified_at": "2026-11-18T10:43:21+08:00",
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://www.nature.com/articles/s43246-026-01425-1_reference.pdf"
+      }
     },
     {
       "doi": "10.1038/s41467-026-79420-w",
@@ -1650,7 +1694,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://www.nature.com/articles/s41467-026-79420-w_reference.pdf"
+      }
     },
     {
       "doi": "10.1002/aenm.71795",
@@ -3497,7 +3545,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.202506154"
+      }
     },
     {
       "doi": "10.1002/aenm.202504683",
@@ -4688,7 +4740,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://pubs.acs.org/aelccp/article/doi/10.1021/acsenergylett.6c02036/5467373/Operando-Time-of-Flight-Secondary-Ion-Mass"
+      }
     },
     {
       "doi": "10.1002/aenm.71806",
@@ -4945,7 +5001,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.78722"
+      }
     },
     {
       "doi": "10.1002/aenm.71044",
@@ -5008,7 +5068,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.71044"
+      }
     },
     {
       "doi": "10.1002/aenm.202505343",
@@ -5144,7 +5208,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.202505657"
+      }
     },
     {
       "doi": "10.1002/aenm.202504756",
@@ -5200,7 +5268,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.202504756"
+      }
     },
     {
       "doi": "10.1002/aenm.202504854",
@@ -5525,7 +5597,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.75698"
+      }
     },
     {
       "doi": "10.1002/aenm.71827",
@@ -5646,7 +5722,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.71841"
+      }
     },
     {
       "doi": "10.1002/adfm.79608",
@@ -6231,7 +6311,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.77385"
+      }
     },
     {
       "doi": "10.1002/aenm.202506774",
@@ -6424,7 +6508,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.202505016"
+      }
     },
     {
       "doi": "10.1002/aenm.202505344",
@@ -6485,7 +6573,11 @@
       "reason": "水系仅指电极制浆工艺，不是水系钠电池电解液。",
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.202505344"
+      }
     },
     {
       "doi": "10.1002/aenm.202504771",
@@ -6616,7 +6708,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.202503756"
+      }
     }
   ],
   "archived_papers": [
@@ -6855,7 +6951,11 @@
       "reason": "研究热传导信号追踪微结构退化，未报告寿命预测模型。",
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.77921"
+      }
     },
     {
       "doi": "10.1002/adfm.77943",
@@ -8084,7 +8184,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.78404"
+      }
     },
     {
       "doi": "10.1002/adfm.78422",
@@ -8828,7 +8932,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.78605"
+      }
     },
     {
       "doi": "10.1002/adfm.78616",
@@ -9085,7 +9193,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.78679"
+      }
     },
     {
       "doi": "10.1002/adfm.78682",
@@ -9610,7 +9722,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.78770"
+      }
     },
     {
       "doi": "10.1002/adfm.78783",
@@ -12516,7 +12632,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.79304"
+      }
     },
     {
       "doi": "10.1002/adfm.79308",
@@ -13141,7 +13261,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.79402"
+      }
     },
     {
       "doi": "10.1002/adfm.79404",
@@ -14486,7 +14610,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.74525"
+      }
     },
     {
       "doi": "10.1002/adma.74570",
@@ -14733,7 +14861,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.74635"
+      }
     },
     {
       "doi": "10.1002/adma.74640",
@@ -14980,7 +15112,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.74666"
+      }
     },
     {
       "doi": "10.1002/adma.74706",
@@ -15409,7 +15545,11 @@
       "evidence_url": "https://doi.org/10.1002/adma.74782",
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.74782"
+      }
     },
     {
       "doi": "10.1002/adma.74973",
@@ -18309,7 +18449,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.75498"
+      }
     },
     {
       "doi": "10.1002/adma.75499",
@@ -18373,7 +18517,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.75499"
+      }
     },
     {
       "doi": "10.1002/adma.75501",
@@ -18865,7 +19013,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.75548"
+      }
     },
     {
       "doi": "10.1002/adma.75561",
@@ -19115,7 +19267,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.75606"
+      }
     },
     {
       "doi": "10.1002/adma.75607",
@@ -19383,7 +19539,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.202504147"
+      }
     },
     {
       "doi": "10.1002/aenm.202504250",
@@ -19449,7 +19609,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.202504250"
+      }
     },
     {
       "doi": "10.1002/aenm.202506351",
@@ -19514,7 +19678,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.202506351"
+      }
     },
     {
       "doi": "10.1002/aenm.202506473",
@@ -19641,7 +19809,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.202506688"
+      }
     },
     {
       "doi": "10.1002/aenm.202506744",
@@ -19707,7 +19879,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.202506744"
+      }
     },
     {
       "doi": "10.1002/aenm.202506750",
@@ -19766,7 +19942,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.202506750"
+      }
     },
     {
       "doi": "10.1002/aenm.70900",
@@ -19953,7 +20133,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.71309"
+      }
     },
     {
       "doi": "10.1002/aenm.71338",
@@ -21475,7 +21659,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.71567"
+      }
     },
     {
       "doi": "10.1002/aenm.71572",
@@ -22033,7 +22221,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.71634"
+      }
     },
     {
       "doi": "10.1002/aenm.71635",
@@ -22290,7 +22482,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.71648"
+      }
     },
     {
       "doi": "10.1002/aenm.71655",
@@ -23334,7 +23530,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.71730"
+      }
     },
     {
       "doi": "10.1002/aenm.71740",
@@ -23583,7 +23783,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.71750"
+      }
     },
     {
       "doi": "10.1002/aenm.71759",
@@ -23707,7 +23911,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.71765"
+      }
     },
     {
       "doi": "10.1002/aenm.71778",
@@ -23831,7 +24039,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.71779"
+      }
     },
     {
       "doi": "10.1002/aenm.71780",
@@ -24629,7 +24841,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.71816"
+      }
     },
     {
       "doi": "10.1002/anie.1058773",
@@ -24689,7 +24905,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/anie.1058773"
+      }
     },
     {
       "doi": "10.1002/anie.1297472",
@@ -24746,7 +24966,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/anie.1297472"
+      }
     },
     {
       "doi": "10.1002/anie.1404617",
@@ -25302,7 +25526,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/anie.3588313"
+      }
     },
     {
       "doi": "10.1002/anie.3609669",
@@ -25483,7 +25711,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/anie.3893843"
+      }
     },
     {
       "doi": "10.1002/anie.3926577",
@@ -25661,7 +25893,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/anie.3951000"
+      }
     },
     {
       "doi": "10.1002/anie.3990578",
@@ -25723,7 +25959,11 @@
       "published_source": "Crossref published-online",
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/anie.3990578"
+      }
     },
     {
       "doi": "10.1002/anie.4098089",
@@ -26830,7 +27070,11 @@
       "published_source": "Crossref published-online",
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/anie.5744163"
+      }
     },
     {
       "doi": "10.1002/anie.5827213",
@@ -27175,7 +27419,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/anie.6426355"
+      }
     },
     {
       "doi": "10.1002/anie.6809424",
@@ -28943,7 +29191,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "repository",
+        "url": "https://arxiv.org/pdf/2606.28507"
+      }
     },
     {
       "doi": "10.1016/j.apenergy.2026.128359",
@@ -30187,7 +30439,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "repository",
+        "url": "https://arxiv.org/pdf/2610.05906"
+      }
     },
     {
       "doi": "10.1016/j.ensm.2026.105556",
@@ -31610,7 +31866,11 @@
       },
       "basis": "基于出版方简介",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2542435126003338"
+      }
     },
     {
       "doi": "10.1016/j.joule.2026.102680",
@@ -31961,7 +32221,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0378775326011171"
+      }
     },
     {
       "doi": "10.1016/j.jpowsour.2026.240385",
@@ -32286,7 +32550,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://www.sciencedirect.com/science/article/pii/S037877532601219X"
+      }
     },
     {
       "doi": "10.1016/j.jpowsour.2026.240487",
@@ -35251,7 +35519,11 @@
       "evidence_url": "https://doi.org/10.1016/j.jpowsour.2026.241071",
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0378775326018215"
+      }
     },
     {
       "doi": "10.1016/j.jpowsour.2026.241084",
@@ -36979,7 +37251,11 @@
       "evidence_url": "https://www.sciencedirect.com/science/article/pii/S2666386426004339",
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2666386426004339"
+      }
     },
     {
       "doi": "10.1016/j.xcrp.2026.103577",
@@ -37041,7 +37317,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2666386426004832"
+      }
     },
     {
       "doi": "10.1016/j.xcrp.2026.103598",
@@ -37160,7 +37440,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2666386426005291"
+      }
     },
     {
       "doi": "10.1021/acs.chemrev.6c00427",
@@ -38416,7 +38700,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://pubs.acs.org/acscii/article/12/9/1526/5422388/Triethyl-Phosphate-Enables-Regulated-Solvation"
+      }
     },
     {
       "doi": "10.1021/acsenergylett.6c01681",
@@ -39077,7 +39365,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://pubs.acs.org/aelccp/article/11/11/7381/5459791/Operando-Raman-Spectroscopy-Guided-24-Hour-Aging"
+      }
     },
     {
       "doi": "10.1021/acsenergylett.6c02361",
@@ -39137,7 +39429,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://pubs.acs.org/aelccp/article/11/11/7031/5449218/Addressing-the-Zinc-Corrosion-Conundrum-The-Vital"
+      }
     },
     {
       "doi": "10.1021/acsenergylett.6c02410",
@@ -39550,7 +39846,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://pubs.acs.org/aelccp/article/11/11/7597/5460075/Current-Density-as-a-Critical-Factor-Governing-the"
+      }
     },
     {
       "doi": "10.1021/acsenergylett.6c02731",
@@ -40148,7 +40448,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://pubs.acs.org/ancac3/article/20/43/29054/5453507/Enhancing-Capacitance-by-Increasing-Electric"
+      }
     },
     {
       "doi": "10.1021/acsnano.6c13032",
@@ -40625,7 +40929,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://pubs.acs.org/jacsat/article/148/37/39565/5426698/Elucidating-Sodium-Ion-Storage-Mechanisms-in-Bowl"
+      }
     },
     {
       "doi": "10.1021/jacs.6c08967",
@@ -40682,7 +40990,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://pubs.acs.org/jacsat/article/148/44/47785/5428859/Hydration-Asymmetry-and-Solvent-Mediated-Charge"
+      }
     },
     {
       "doi": "10.1021/jacs.6c10537",
@@ -42167,7 +42479,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://www.nature.com/articles/s41467-026-76513-4"
+      }
     },
     {
       "doi": "10.1038/s41467-026-76636-8",
@@ -42232,7 +42548,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://www.nature.com/articles/s41467-026-76636-8"
+      }
     },
     {
       "doi": "10.1038/s41467-026-76774-z",
@@ -42298,7 +42618,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://www.nature.com/articles/s41467-026-76774-z"
+      }
     },
     {
       "doi": "10.1038/s41467-026-76984-5",
@@ -42354,7 +42678,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://www.nature.com/articles/s41467-026-76984-5"
+      }
     },
     {
       "doi": "10.1038/s41467-026-77100-3",
@@ -42416,7 +42744,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://www.nature.com/articles/s41467-026-77100-3"
+      }
     },
     {
       "doi": "10.1038/s41467-026-77167-y",
@@ -42483,7 +42815,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://www.nature.com/articles/s41467-026-77167-y"
+      }
     },
     {
       "doi": "10.1038/s41467-026-77258-w",
@@ -42546,7 +42882,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://www.nature.com/articles/s41467-026-77258-w"
+      }
     },
     {
       "doi": "10.1038/s41467-026-77440-0",
@@ -42607,7 +42947,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://www.nature.com/articles/s41467-026-77440-0"
+      }
     },
     {
       "doi": "10.1038/s41467-026-77562-5",
@@ -42674,7 +43018,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://www.nature.com/articles/s41467-026-77562-5"
+      }
     },
     {
       "doi": "10.1038/s41467-026-77589-8",
@@ -42738,7 +43086,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://www.nature.com/articles/s41467-026-77589-8"
+      }
     },
     {
       "doi": "10.1038/s41467-026-77590-1",
@@ -42804,7 +43156,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://www.nature.com/articles/s41467-026-77590-1"
+      }
     },
     {
       "doi": "10.1038/s41467-026-77622-w",
@@ -42870,7 +43226,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://www.nature.com/articles/s41467-026-77622-w"
+      }
     },
     {
       "doi": "10.1038/s41467-026-77650-6",
@@ -42937,7 +43297,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://www.nature.com/articles/s41467-026-77650-6"
+      }
     },
     {
       "doi": "10.1038/s41467-026-77667-x",
@@ -43003,7 +43367,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://www.nature.com/articles/s41467-026-77667-x"
+      }
     },
     {
       "doi": "10.1038/s41467-026-77810-8",
@@ -43067,7 +43435,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://www.nature.com/articles/s41467-026-77810-8"
+      }
     },
     {
       "doi": "10.1038/s41467-026-78038-2",
@@ -43130,7 +43502,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://www.nature.com/articles/s41467-026-78038-2"
+      }
     },
     {
       "doi": "10.1038/s41467-026-78040-8",
@@ -43192,7 +43568,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://www.nature.com/articles/s41467-026-78040-8"
+      }
     },
     {
       "doi": "10.1038/s41467-026-78042-6",
@@ -43258,7 +43638,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://www.nature.com/articles/s41467-026-78042-6"
+      }
     },
     {
       "doi": "10.1038/s41467-026-78048-0",
@@ -43319,7 +43703,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://www.nature.com/articles/s41467-026-78048-0"
+      }
     },
     {
       "doi": "10.1038/s41467-026-78129-0",
@@ -43385,7 +43773,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://www.nature.com/articles/s41467-026-78129-0"
+      }
     },
     {
       "doi": "10.1038/s41467-026-78167-8",
@@ -43453,7 +43845,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://www.nature.com/articles/s41467-026-78167-8"
+      }
     },
     {
       "doi": "10.1038/s41467-026-78168-7",
@@ -43511,7 +43907,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://www.nature.com/articles/s41467-026-78168-7"
+      }
     },
     {
       "doi": "10.1038/s41467-026-78184-7",
@@ -43578,7 +43978,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://www.nature.com/articles/s41467-026-78184-7"
+      }
     },
     {
       "doi": "10.1038/s41467-026-78215-3",
@@ -43642,7 +44046,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://www.nature.com/articles/s41467-026-78215-3"
+      }
     },
     {
       "doi": "10.1038/s41467-026-78242-0",
@@ -43709,7 +44117,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://www.nature.com/articles/s41467-026-78242-0"
+      }
     },
     {
       "doi": "10.1038/s41467-026-78461-5",
@@ -43766,7 +44178,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://www.nature.com/articles/s41467-026-78461-5"
+      }
     },
     {
       "doi": "10.1038/s41467-026-78701-8",
@@ -43823,7 +44239,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://www.nature.com/articles/s41467-026-78701-8"
+      }
     },
     {
       "doi": "10.1038/s41467-026-78813-1",
@@ -43888,7 +44308,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://www.nature.com/articles/s41467-026-78813-1"
+      }
     },
     {
       "doi": "10.1038/s41467-026-79376-x",
@@ -43958,7 +44382,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://www.nature.com/articles/s41467-026-79376-x_reference.pdf"
+      }
     },
     {
       "doi": "10.1038/s41467-026-79393-w",
@@ -44031,7 +44459,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://www.nature.com/articles/s41467-026-79393-w_reference.pdf"
+      }
     },
     {
       "doi": "10.1038/s41557-026-02291-7",
@@ -44237,7 +44669,11 @@
       "metadata_verified": true,
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://www.nature.com/articles/s41560-026-02131-5"
+      }
     },
     {
       "doi": "10.1038/s41560-026-02154-y",
@@ -44791,7 +45227,11 @@
       },
       "basis": "基于出版方简介",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://www.nature.com/articles/s41586-026-11138-7"
+      }
     },
     {
       "doi": "10.1038/s41893-026-01969-7",
@@ -44904,7 +45344,11 @@
       "published_source": "Crossref published-online",
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://www.nature.com/articles/s42004-026-02210-4"
+      }
     },
     {
       "doi": "10.1038/s42004-026-02220-2",
@@ -44963,7 +45407,11 @@
       },
       "basis": "基于出版方简介",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://www.nature.com/articles/s42004-026-02220-2_reference.pdf"
+      }
     },
     {
       "doi": "10.1038/s42004-026-02232-y",
@@ -45027,7 +45475,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://www.nature.com/articles/s42004-026-02232-y"
+      }
     },
     {
       "doi": "10.1038/s43246-026-01377-6",
@@ -45089,7 +45541,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://www.nature.com/articles/s43246-026-01377-6"
+      }
     },
     {
       "doi": "10.1038/s43246-026-01395-4",
@@ -45150,7 +45606,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://www.nature.com/articles/s43246-026-01395-4_reference.pdf"
+      }
     },
     {
       "doi": "10.1038/s44286-026-00443-7",
@@ -45215,7 +45675,11 @@
       "published_source": "Crossref published-online",
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "source": "publisher",
+        "url": "https://www.nature.com/articles/s44286-026-00443-7"
+      }
     },
     {
       "doi": "10.1038/s44287-026-00337-z",
@@ -45521,7 +45985,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "url": "https://www.science.org/doi/10.1126/sciadv.aef3043",
+        "source": "publisher"
+      }
     },
     {
       "doi": "10.1126/sciadv.aeg1770",
@@ -45582,7 +46050,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "url": "https://www.science.org/doi/10.1126/sciadv.aeg1770",
+        "source": "publisher"
+      }
     },
     {
       "doi": "10.1126/sciadv.aeg8302",
@@ -45645,7 +46117,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "url": "https://www.science.org/doi/10.1126/sciadv.aeg8302",
+        "source": "publisher"
+      }
     },
     {
       "doi": "10.1126/sciadv.aeh8668",
@@ -45709,7 +46185,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "url": "https://www.science.org/doi/10.1126/sciadv.aeh8668",
+        "source": "publisher"
+      }
     },
     {
       "doi": "10.1126/sciadv.aei4749",
@@ -45768,7 +46248,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "url": "https://www.science.org/doi/10.1126/sciadv.aei4749",
+        "source": "publisher"
+      }
     },
     {
       "doi": "10.1126/sciadv.aei5080",
@@ -45826,7 +46310,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "url": "https://www.science.org/doi/10.1126/sciadv.aei5080",
+        "source": "publisher"
+      }
     },
     {
       "doi": "10.1126/sciadv.aei9538",
@@ -45888,7 +46376,11 @@
       "published_url": "https://api.crossref.org/works/10.1126/sciadv.aei9538",
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "url": "https://www.science.org/doi/10.1126/sciadv.aei9538",
+        "source": "publisher"
+      }
     },
     {
       "doi": "10.1126/sciadv.aei9659",
@@ -45951,7 +46443,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "url": "https://www.science.org/doi/10.1126/sciadv.aei9659",
+        "source": "publisher"
+      }
     },
     {
       "doi": "10.1126/sciadv.aej0175",
@@ -46014,7 +46510,11 @@
       },
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "url": "https://www.science.org/doi/10.1126/sciadv.aej0175",
+        "source": "publisher"
+      }
     },
     {
       "doi": "10.1126/sciadv.aek6073",
@@ -46073,7 +46573,11 @@
       "published_url": "https://api.crossref.org/works/10.1126/sciadv.aek6073",
       "basis": "基于摘要",
       "summary_status": "ready",
-      "summary_message": "中文简介已完成。"
+      "summary_message": "中文简介已完成。",
+      "open_full_text": {
+        "url": "https://www.science.org/doi/10.1126/sciadv.aek6073",
+        "source": "publisher"
+      }
     },
     {
       "doi": "10.1126/science.ael3782",
@@ -46925,7 +47429,8 @@
   "selection": {
     "catalog_limit": 100,
     "weekly_min": 0,
-    "weekly_max": 100
+    "weekly_max": 60,
+    "weekly_max_from": "2026-11-23"
   },
   "source_status": [
     {
